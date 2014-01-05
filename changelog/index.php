@@ -8,8 +8,8 @@
 </head>
 <body>
 <?php
-  $PATH = str_ireplace("changelog/index.php", "", $_SERVER['SCRIPT_NAME']);
-  $FOLDER = "changelog";
+  $PATH = str_ireplace("/changelog/index.php", "", $_SERVER['SCRIPT_NAME']);
+  $FOLDER = "/changelog";
   $TITLE = "Change Log";
   include("../common/header.php");
 ?>
@@ -18,10 +18,18 @@
             marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
       <p>Your browser does not support iframes.</p>
     </iframe>
-    <iframe name="tabmix-changelog-content" class="content-frame" src="./data/latest.php"
+<?php
+  $filename = "./data/$LATEST.php";
+  if(!file_exists($filename)) {
+    die ("<div class='content-frame'>File $filename not found<div>");
+  }
+  else  {
+    echo '<iframe name="tabmix-changelog-content" class="content-frame" src="'.$filename.'"
             marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
       <p>Your browser does not support iframes.</p>
-    </iframe>
+    </iframe>';
+  }
+?>
   </div>
 
 </body>

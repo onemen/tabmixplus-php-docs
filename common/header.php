@@ -5,7 +5,7 @@
           <td>
 <?php
         echo '<a href="' . $PATH . $FOLDER . '/index.php">';
-        echo '<img src="' . $PATH . 'styles/images/tabmix_logo.gif" alt="" title="" height="60" width="75"/></a>';
+        echo '<img src="' . $PATH . '/styles/images/tabmix_logo.gif" alt="" title="" height="60" width="75"/></a>';
 ?>
           </td>
           <td width="100%" align="center">
@@ -19,7 +19,7 @@
               <input type="hidden" name="cmd" value="_s-xclick"/>
               <input type="hidden" name="hosted_button_id" value="BZWMH5PS56GAW"/>
 <?php
-        echo '<input title="Donate to Tab Mix Plus" type="image" class="radio" src="' . $PATH . 'styles/images/donate.gif" name="submit" alt="PayPal - The safer, easier way to pay online!"/>';
+        echo '<input title="Donate to Tab Mix Plus" type="image" class="radio" src="' . $PATH . '/styles/images/donate.gif" name="submit" alt="PayPal - The safer, easier way to pay online!"/>';
 ?>
               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
             </form>

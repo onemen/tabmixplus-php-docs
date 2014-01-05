@@ -14,9 +14,9 @@
   // frame opened in new tab
   $inTab = strpos($ref, "data") > -1;
   if ($inTab) {
-    $PATH = str_ireplace("changelog/data/", "", $ref);
+    $PATH = str_ireplace("/changelog/data/", "", $ref);
     $PATH = str_ireplace("menu.html", "", $PATH);
-    $FOLDER = "changelog";
+    $FOLDER = "/changelog";
     $TITLE = "Change Log";
     include("../../common/header.php");
   }
