@@ -1,15 +1,14 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="description" content=""/>
   <title>Tab Mix Plus - Changes in Version 0.4.0.5</title>
-  <link rel="stylesheet" type="text/css" href="../../styles/tabmix.css">
+  <link rel="stylesheet" type="text/css" href="../../styles/tabmix.css"/>
   <script type="text/javascript" src="../../scripts/update.js"></script>
 </head>
 <body class="innerFrame">
-  <iframe id="top-frame" src="../../common/top.html" width="100%" height="100%"
-          marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
-  </iframe>
+  <?php include("../../common/header.php"); ?>
   <div id="center">
     <iframe name="tabmix-changelog-menu" class="menu-frame" src="menu.html"
             marginheight="0" marginwidth="0" scrolling="no" frameborder="0">

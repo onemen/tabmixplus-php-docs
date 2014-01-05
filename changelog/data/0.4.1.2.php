@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="description" content=""/>
   <title>Tab Mix Plus - Changes in Version 0.4.1.2</title>
   <link rel="stylesheet" type="text/css" href="../../styles/tabmix.css">
   <script type="text/javascript" src="../../scripts/update.js"></script>
