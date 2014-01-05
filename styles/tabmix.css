@@ -49,6 +49,12 @@ body.innerFrame .menu-frame {
   width: 20%;
 }
 
+@media all and (max-width:896px) {
+#wrapright {
+  display: none;
+}
+}
+
 .download-box {
   overflow-y: auto;
   max-height: 249px;
@@ -66,6 +72,15 @@ body:not([class="innerFrame"]) #center {
   left: 25px;
   bottom: 15px;
   width: calc(80% - 76px);
+}
+
+@media all and (max-width:896px) {
+  #wrapright {
+    display: none;
+  }
+  body:not([class="innerFrame"]) #center {
+    width: calc(100% - 50px);
+  }
 }
 
 .menu-frame {
