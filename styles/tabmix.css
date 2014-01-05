@@ -41,15 +41,17 @@ body.innerFrame .menu-frame {
   padding: 0 5px;
 }
 
-#top-tables {
+#wrapright {
   margin: 10px 25px 0px 25px;
-}
-
-#right-table {
   background-color: #ECECEC;
   border: 2px solid #A9B8C2;
   float: right;
   width: 20%;
+}
+
+.download-box {
+  overflow-y: auto;
+  max-height: 249px;
 }
 
 #top-frame {
