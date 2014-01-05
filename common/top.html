@@ -25,12 +25,6 @@
 
     function onload(aEvent) {
       var win = aEvent.currentTarget;
-/*
-console.log("aEvent.currentTarget == window " + (aEvent.currentTarget== window)
-+ "        aEvent.originalTarget == window " + (aEvent.originalTarget == window)
-+ "        aEvent.target == window " + (aEvent.target == window)
-);
-*/
       win.removeEventListener("DOMContentLoaded", onload, false);
       try {
         var oReq = new XMLHttpRequest();
@@ -45,14 +39,6 @@ console.log("aEvent.currentTarget == window " + (aEvent.currentTarget== window)
        else if (location.indexOf("troubleshooting") > -1)
          title = "Troubleshooting";
        document.getElementById("subtitle").textContent = title;
-/*
-console.log("href " + win.location.href);
-console.log("location.search " + win.location.search);
-      var title = location.search.split("&")[1];
-      if (title) {
-        document.getElementById("subtitle").textContent = decodeURI(title.split("=")[1]);
-      }
-*/
     }
     window.addEventListener("DOMContentLoaded", onload, false);
 

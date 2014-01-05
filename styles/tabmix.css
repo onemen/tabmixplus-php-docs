@@ -66,17 +66,6 @@ body:not([class="innerFrame"]) #center {
   width: calc(80% - 76px);
 }
 
-/*#left-table th:not(:last-child),*/
-/*.menu-frame,
-.menu-frame,
-.menu-frame .header,
-.menu-body{
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: #A9B8C2;
-}
-*/
-
 .menu-frame {
   border-right: 1px solid #A9B8C2;
   position: absolute;
@@ -87,37 +76,18 @@ body:not([class="innerFrame"]) #center {
 }
 
 body:not([class="innerFrame"]) .content-frame {
-/*  overflow: auto;*/
   position: absolute;
   top: 0;
   left: 25%;
   height: 100%;
-  /* we hiding 1px from the vertical scroll bar */
-  /*width: calc(80% + 1px);*/
   width: 75%;
 }
 
-/*
-XXX - look like i don't use it
-#menu-box {
-  margin: 0px 25px 15px 25px;
-  background-color: #ECECEC;
-  border: 2px solid #A9B8C2;
-  height: auto !important;
-}
-*/
-
-/*
-.menu-body {
-  margin: 10px 10px 10px 20px;
-}
-*/
 .changeset, .inner-box {
   padding: 5px 20px 5px 30px;
 }
 
 .menu-body, .content-body {
-/*  border-right: 1px solid #A9B8C2;*/
   overflow: auto;
   position: absolute;
   top: 29.5px;
@@ -238,4 +208,3 @@ a:active {
   color: #005784;
   text-decoration: none;
 }
-
