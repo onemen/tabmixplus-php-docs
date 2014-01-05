@@ -122,7 +122,7 @@ body:not([class="innerFrame"]) .content-frame {
   margin-bottom: 10px;
 }
 
-.header {
+.th {
   border-bottom: 2px solid #A9B8C2;
 }
 
@@ -185,7 +185,7 @@ h1 {
 
 /* :::: Tables :::: */
 
-.header,
+.th,
 th {
   color: #FFA34F;
   font-size: 1.1em;
