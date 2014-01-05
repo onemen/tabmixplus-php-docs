@@ -1,0 +1,241 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+  color: #323D4F;
+  font-size: 62.5%; /* This sets the default font size to be equivalent to 10px */
+  margin: 0;
+}
+
+body.innerFrame #top-frame,
+body.innerFrame .menu-frame {
+  display: none;
+}
+
+#wrapheader {
+  height: auto !important;
+  padding: 0;
+}
+
+#logodesc {
+  background-color: #C1CAD2;
+  background-image: url('./images/background.gif');
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  padding: 0 25px 15px 25px;
+}
+
+#menubar {
+  height: 20px;
+}
+
+.top-menu > * {
+  padding: 0 5px;
+}
+
+#top-tables {
+  margin: 10px 25px 0px 25px;
+}
+
+#right-table {
+  background-color: #ECECEC;
+  border: 2px solid #A9B8C2;
+  float: right;
+  width: 20%;
+}
+
+#top-frame {
+  position: fixed;
+}
+
+body:not([class="innerFrame"]) #center {
+  background-color: #ECECEC;
+  border: 2px solid #A9B8C2;
+  position: fixed;
+  top: 109px;
+  left: 25px;
+  bottom: 15px;
+  width: calc(80% - 76px);
+}
+
+/*#left-table th:not(:last-child),*/
+/*.menu-frame,
+.menu-frame,
+.menu-frame .header,
+.menu-body{
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #A9B8C2;
+}
+*/
+
+.menu-frame {
+  border-right: 1px solid #A9B8C2;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  width: calc(25% - 1px);
+}
+
+body:not([class="innerFrame"]) .content-frame {
+/*  overflow: auto;*/
+  position: absolute;
+  top: 0;
+  left: 25%;
+  height: 100%;
+  /* we hiding 1px from the vertical scroll bar */
+  /*width: calc(80% + 1px);*/
+  width: 75%;
+}
+
+/*
+XXX - look like i don't use it
+#menu-box {
+  margin: 0px 25px 15px 25px;
+  background-color: #ECECEC;
+  border: 2px solid #A9B8C2;
+  height: auto !important;
+}
+*/
+
+/*
+.menu-body {
+  margin: 10px 10px 10px 20px;
+}
+*/
+.changeset, .inner-box {
+  padding: 5px 20px 5px 30px;
+}
+
+.menu-body, .content-body {
+/*  border-right: 1px solid #A9B8C2;*/
+  overflow: auto;
+  position: absolute;
+  top: 29.5px;
+  height: calc(100% - 29.5px);
+  width: 100%;
+}
+
+.menu-body > *:first-Child,
+.content-body > *:first-Child {
+  padding-top: 10px;
+}
+
+.menu-body > *:last-Child,
+.content-body > *:last-Child {
+  margin-bottom: 10px;
+}
+
+.header {
+  border-bottom: 2px solid #A9B8C2;
+}
+
+/* :::: Text :::: */
+
+h1 {
+  color: black;
+  font-family: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+.changeset:nth-child(even) {
+  background-color: #DCE1E5;
+}
+
+.changeset {
+  border-right: 1px solid #A9B8C2;
+  border-bottom: 1px solid #A9B8C2;
+}
+
+.changeset, .inner-box {
+  font-size: 1.3em;
+  line-height: 1.4em;
+  font-family: "Lucida Grande", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+.changeset > *,
+.inner-box > * {
+  max-width: 60em;
+}
+
+
+.inner-box ol,
+.inner-box ul,
+.inner-box p  {
+  margin-bottom: 0.6em;
+}
+
+.changeset li, ol, ul,
+.inner-box li, ol, ul {
+  margin: 0 0 0 1.5em;
+}
+
+.gen {
+  margin: 1px 1px;
+  font-size: 1.2em;
+}
+
+/* need to fix this */
+.menu-body p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.menu-body h4 {
+  margin-bottom: 0px;
+}
+
+/* :::: Tables :::: */
+
+.header,
+th {
+  color: #FFA34F;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #006699;
+  background-image: url('./images/cellpic3.gif');
+  white-space: nowrap;
+  padding: 7px 5px;
+}
+
+td {
+  padding: 2px;
+}
+
+td.profile {
+  padding: 4px;
+}
+
+/* :::: Links :::: */
+
+a:link {
+  color: #006597;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #005784;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D46400;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #005784;
+  text-decoration: none;
+}
+
