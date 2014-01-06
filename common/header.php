@@ -4,7 +4,7 @@
         <tbody><tr>
           <td>
 <?php
-        echo '<a href="' . $PATH . "/" .$FOLDER . '/index.php">';
+        echo '<a href="' . $PATH . $FOLDER . '/index.php">';
         echo '<img src="' . $PATH . '/styles/images/tabmix_logo.gif" alt="" title="" height="60" width="75"/></a>';
 ?>
           </td>
@@ -31,7 +31,7 @@
     <div id="menubar">
       <table width="100%" cellspacing="0">
       <tr><td class="gen top-menu" align="center">
-        <?php include("menu.php"); ?>
+        <?php include("top-menu.php"); ?>
       </td></tr>
       </table>
     </div>
