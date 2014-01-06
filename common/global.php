@@ -14,8 +14,8 @@
   $PATH = substr($_self, 0, strpos($_self, $FOLDER));
   include("header.php");
 
-  $data = strpos($_self, "data") > -1 ? "" : "data/";
+  $data = strpos($_self, "data") > -1 ? "." : "data";
   echo '  <div id="center">
 ';
-  include($data."menu.php");
+  include("$data/menu.php");
 ?>

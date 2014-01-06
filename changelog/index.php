@@ -14,10 +14,13 @@
     die ("<div class='content-frame'>File $filename not found<div>");
   }
   else  {
-    echo '<iframe name="tabmix-changelog-content" class="content-frame" src="'.$filename.'"
-            marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
+echo <<<html
+    <iframe name="tabmix-changelog-content" class="content-frame" src="$filename"
+          marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
       <p>Your browser does not support iframes.</p>
-    </iframe>';
+    </iframe>
+
+html;
   }
 ?>
   </div>
