@@ -8,29 +8,12 @@
   <script type="text/javascript" src="../../scripts/update.js"></script>
 </head>
 <body class="innerFrame">
-  <div id="top-frame">
-<?php
-  $ref = $_SERVER['HTTP_REFERER'];
-  // frame opened in new tab
-  $inTab = strpos($ref, "data") > -1;
-  if ($inTab) {
-    $PATH = str_ireplace("/changelog/data/", "", $ref);
-    $PATH = str_ireplace("menu.html", "", $PATH);
-    $FOLDER = "/changelog";
-    $TITLE = "Change Log";
-    include("../../common/header.php");
-  }
-?>
-  </div>
+  <?php include("../../common/global.php"); ?>
   <div id="center">
-<?php
-  if ($inTab) {
-    echo '<iframe name="tabmix-changelog-menu" class="menu-frame" src="menu.html"
+    <iframe name="tabmix-changelog-menu" class="menu-frame" src="menu.html"
             marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
       <p>Your browser does not support iframes.</p>
-    </iframe>';
-  }
-?>
+    </iframe>
     <div class="content-frame">
       <div class="th" align="center">Changes in Version 0.4.1.3</div>
       <div class="content-body">

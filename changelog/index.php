@@ -7,13 +7,8 @@
   <link rel="stylesheet" href="../styles/tabmix.css" type="text/css"/>
 </head>
 <body>
-<?php
-  $PATH = str_ireplace("/changelog/index.php", "", $_SERVER['SCRIPT_NAME']);
-  $FOLDER = "/changelog";
-  $TITLE = "Change Log";
-  include("../common/header.php");
-?>
-  <div id="center">
+  <?php include("../common/global.php"); ?>
+    <div id="center">
     <iframe name="tabmix-changelog-menu" class="menu-frame" src="./data/menu.html"
             marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
       <p>Your browser does not support iframes.</p>

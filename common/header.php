@@ -1,3 +1,9 @@
+<?php
+echo "header.php<br>";
+echo "PATH: $PATH<br>";
+echo "FOLDER: $FOLDER<br>";
+echo "TITLE: $TITLE<br>";
+?>
   <div id="wrapheader">
     <div id="logodesc">
       <table cellspacing="0" width="100%">
