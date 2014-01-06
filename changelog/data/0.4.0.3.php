@@ -9,11 +9,6 @@
 </head>
 <body class="innerFrame">
   <?php include("../../common/global.php"); ?>
-  <div id="center">
-    <iframe name="tabmix-changelog-menu" class="menu-frame" src="menu.html"
-            marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
-      <p>Your browser does not support iframes.</p>
-    </iframe>
     <div class="content-frame">
       <div class="th" align="center">Changes in Version 0.4.0.3</div>
       <div class="content-body">

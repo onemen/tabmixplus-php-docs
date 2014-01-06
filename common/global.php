@@ -1,39 +1,24 @@
 <?php
-/*
-///XXX call getPath also from  ondex.php - move it to common and rename it and make it also add the propper menu
-improve it to detect automaticly the call path
-*/
-/*
-$self = $_SERVER["PHP_SELF"];
-echo "PHP_SELF: " .$_SERVER["PHP_SELF"]. "<br>";
-
- $pos = strpos($self, "/changelog");
-echo "strpos $pos<br>";
-echo "substr ". substr($self, 0, $pos) . "<br>";
-*/
-  function getPath($name) {
-/*
-    $PATH = str_ireplace("/changelog/data/$name.php", "", $_SERVER['SCRIPT_NAME']);
-    $FOLDER = "/changelog";
+  $_self = $_SERVER["PHP_SELF"];
+  if (strpos($_self, "changelog") > 0) {
+    $FOLDER = "changelog";
     $TITLE = "Change Log";
-    include("../../common/header.php");
-*/
   }
-///  global $PATH, $FOLDER, $TITLE;
-  $FOLDER = "/changelog";
-  $TITLE = "Change Log";
-  $self = $_SERVER["PHP_SELF"];
-  $PATH = substr($self, 0, strpos($self, $FOLDER));
-/*
-echo "PATH: $PATH<br>";
-echo "FOLDER: $FOLDER<br>";
-echo "TITLE: $TITLE<br>";
-*/
-  $root = strpos($self, "data") > 0 ? "../.." : "..";
-
-///  include("../../common/header.php");
+  else if (strpos($_self, "troubleshooting") > 0) {
+    $FOLDER = "troubleshooting";
+    $TITLE = "Troubleshooting";
+  }
+  else {
+    echo "Error: Unknown path $_self, can't find images<br>";
+  }
+  $PATH = substr($_self, 0, strpos($_self, $FOLDER) - 1);
   include("header.php");
 
-echo "LATEST: $LATEST<br>";
-
+  $data = strpos($_self, "data") > -1 ? "" : "data/";
+  echo
+  '<div id="center">
+    <iframe name="tabmix-'.$FOLDER.'-menu" class="menu-frame" src="'.$data.'menu.html"
+            marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
+      <p>Your browser does not support iframes.</p>
+    </iframe>'
 ?>

@@ -7,13 +7,8 @@
   <link rel="stylesheet" href="../styles/tabmix.css" type="text/css"/>
 </head>
 <body>
-  <?php include("../common/global.php"); ?>
-    <div id="center">
-    <iframe name="tabmix-changelog-menu" class="menu-frame" src="./data/menu.html"
-            marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
-      <p>Your browser does not support iframes.</p>
-    </iframe>
 <?php
+  include("../common/global.php");
   $filename = "./data/$LATEST.php";
   if(!file_exists($filename)) {
     die ("<div class='content-frame'>File $filename not found<div>");
