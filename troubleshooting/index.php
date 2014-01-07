@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php
-  include("../common/global.php");
+  include("../common/header.php");
   include("../common/content_frame.php");
 ?>
 </body>

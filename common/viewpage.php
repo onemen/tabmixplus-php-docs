@@ -8,7 +8,7 @@
   <script type="text/javascript" src="../scripts/update.js"></script>
 </head>
 <body class="innerFrame">
-<?php include("global.php"); ?>
+<?php include("header.php"); ?>
   <div id="center">
 <?php
   include("../$FOLDER/data/menu.php");
