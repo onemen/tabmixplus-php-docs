@@ -1,15 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title>Tab Mix Plus - Troubleshooting - Problem after update</title>
-  <link rel="stylesheet" href="../../styles/tabmix.css" type="text/css"/>
-  <script type="text/javascript" src="../../scripts/update.js"></script>
-</head>
-<body class="innerFrame">
-  <?php include("../../common/global.php"); ?>
     <div class="content-frame">
-      <div class="th" align="center">Problem after update</div>
+      <div id="title" class="th" align="center">Problem after update</div>
       <div class="content-body">
         <div class="inner-box">
           <p>
@@ -31,7 +21,7 @@
           combination. Installing old version will not fix the problem.
           </p>
           <p>
-          If you haven't read <a href="how-to-post.php" target="tabmix-troubleshooting-content">How to post
+          If you haven't read <a href="viewpage.php?page=how-to-post" target="tabmix-troubleshooting-content">How to post
           about a problem</a>, read it now.
           </p><br/>
 
@@ -52,5 +42,3 @@
       </div>
     </div>
   </div>
-</body>
-</html>

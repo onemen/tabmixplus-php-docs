@@ -3,12 +3,14 @@
       <div class="menu-body">
         <div class="inner-box">
 <?php
+  $page = "$data/viewpage.php?page";
+  $target = 'target="tabmix-troubleshooting-content"';
 echo <<<html
-          <p><a href="$data/tabmix-does-not-work.php" target="tabmix-troubleshooting-content">Tab Mix Plus does not work properly</a></p>
-          <p><a href="$data/how-to-post.php" target="tabmix-troubleshooting-content">How to post about a problem</a></p>
-          <p><a href="$data/problem-after-update.php" target="tabmix-troubleshooting-content">Problem after update</a></p>
-          <p><a href="$data/preferences-wont-save.php" target="tabmix-troubleshooting-content">Preferences won't save</a></p>
-          <p><a href="$data/conflict-with-other-extension.php" target="tabmix-troubleshooting-content">Conflict with other extension</a></p>
+          <p><a href="$page=tabmix-does-not-work" $target>Tab Mix Plus does not work properly</a></p>
+          <p><a href="$page=how-to-post" $target>How to post about a problem</a></p>
+          <p><a href="$page=problem-after-update" $target>Problem after update</a></p>
+          <p><a href="$page=preferences-wont-save" $target>Preferences won't save</a></p>
+          <p><a href="$page=conflict-with-other-extension" $target>Conflict with other extension</a></p>
 
 html;
 ?>

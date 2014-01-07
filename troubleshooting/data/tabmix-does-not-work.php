@@ -1,15 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-  <title>Tab Mix Plus - Troubleshooting - Tab Mix Plus does not work properly</title>
-  <link rel="stylesheet" href="../../styles/tabmix.css" type="text/css"/>
-  <script type="text/javascript" src="../../scripts/update.js"></script>
-</head>
-<body class="innerFrame">
-  <?php include("../../common/global.php"); ?>
     <div class="content-frame">
-      <div class="th" align="center">Tab Mix Plus does not work properly</div>
+      <div id="title" class="th" align="center">Tab Mix Plus does not work properly</div>
       <div class="content-body">
         <div class="inner-box">
           <p>
@@ -84,7 +74,7 @@
           When you finish your testing, we encourage you to report about your findings,
           whether you find the culprit or not, to our forum, so other users can benefit
           from your findings and to help Tab Mix Plus developers to solve the issue you have.
-          (Read <a href="how-to-post.php" target="tabmix-troubleshooting-content">How to post about a problem</a>).
+          (Read <a href="viewpage.php?page=how-to-post" target="tabmix-troubleshooting-content">How to post about a problem</a>).
           In the case the conflict is another extension or theme, please report
           about it to the developer of the conflicting extension or theme also so
           that they can work it out as well.
@@ -93,5 +83,3 @@
       </div>
     </div>
   </div>
-</body>
-</html>
