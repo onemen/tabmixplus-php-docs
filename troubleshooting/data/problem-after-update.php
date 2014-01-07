@@ -21,7 +21,7 @@
           combination. Installing old version will not fix the problem.
           </p>
           <p>
-          If you haven't read <a href="viewpage.php?page=how-to-post" target="tabmix-troubleshooting-content">How to post
+          If you haven't read <a href="viewpage.php?t=2&p=how-to-post" target="tabmix-troubleshooting-content">How to post
           about a problem</a>, read it now.
           </p><br/>
 

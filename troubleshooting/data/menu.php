@@ -3,7 +3,7 @@
       <div class="menu-body">
         <div class="inner-box">
 <?php
-  $href = "$data/viewpage.php?page";
+  $href = "../common/viewpage.php?t=2&p";
   $target = 'target="tabmix-troubleshooting-content"';
 echo <<<html
           <p><a href="$href=tabmix-does-not-work" $target>Tab Mix Plus does not work properly</a></p>

@@ -4,7 +4,7 @@
         <div class="inner-box">
           <h4>Versions 0.4.0.0+</h4>
 <?php
-  $href = "$data/viewpage.php?page";
+  $href = "../common/viewpage.php?t=1&p";
   $target = 'target="tabmix-changelog-content"';
 echo <<<html
           <p><a href="$href=0.4.1.3" $target>0.4.1.3</a></p>

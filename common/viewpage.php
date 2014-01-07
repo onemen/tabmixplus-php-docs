@@ -3,14 +3,14 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
   <meta name="description" content=""/>
-  <title>Tab Mix Plus - Change Log</title>
-  <link rel="stylesheet" href="../../styles/tabmix.css" type="text/css"/>
-  <script type="text/javascript" src="../../scripts/update.js"></script>
+  <title>Tab Mix Plus</title>
+  <link rel="stylesheet" href="../styles/tabmix.css" type="text/css"/>
+  <script type="text/javascript" src="../scripts/update.js"></script>
 </head>
 <body class="innerFrame">
 <?php
-  include("../../common/global.php");
-  include("../../common/center.php");
+  include("global.php");
+  include("center.php");
 ?>
 </body>
 </html>

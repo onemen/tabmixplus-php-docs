@@ -74,7 +74,7 @@
           When you finish your testing, we encourage you to report about your findings,
           whether you find the culprit or not, to our forum, so other users can benefit
           from your findings and to help Tab Mix Plus developers to solve the issue you have.
-          (Read <a href="viewpage.php?page=how-to-post" target="tabmix-troubleshooting-content">How to post about a problem</a>).
+          (Read <a href="viewpage.php?t=2&p=how-to-post" target="tabmix-troubleshooting-content">How to post about a problem</a>).
           In the case the conflict is another extension or theme, please report
           about it to the developer of the conflicting extension or theme also so
           that they can work it out as well.

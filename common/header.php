@@ -5,7 +5,7 @@
           <td>
 <?php
 echo <<<html
-            <a href="$PATH$FOLDER/index.php">
+            <a href="$PATH/$FOLDER/index.php">
             <img src="$PATH/styles/images/tabmix_logo.gif" alt="" title="" height="60" width="75"/></a>
 
 html;
