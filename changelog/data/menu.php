@@ -4,17 +4,19 @@
         <div class="inner-box">
           <h4>Versions 0.4.0.0+</h4>
 <?php
+  $page = "$data/viewpage.php?page";
+  $target = 'target="tabmix-changelog-content"';
 echo <<<html
-          <p><a href="$data/0.4.1.3.php" target="tabmix-changelog-content">0.4.1.3</a></p>
-          <p><a href="$data/0.4.1.2.php" target="tabmix-changelog-content">0.4.1.2</a></p>
-          <p><a href="$data/0.4.1.1.php" target="tabmix-changelog-content">0.4.1.1</a></p>
-          <p><a href="$data/0.4.1.0.php" target="tabmix-changelog-content">0.4.1.0</a></p>
-          <p><a href="$data/0.4.0.5.php" target="tabmix-changelog-content">0.4.0.5</a></p>
-          <p><a href="$data/0.4.0.4.php" target="tabmix-changelog-content">0.4.0.4</a></p>
-          <p><a href="$data/0.4.0.3.php" target="tabmix-changelog-content">0.4.0.3</a></p>
-          <p><a href="$data/0.4.0.2.php" target="tabmix-changelog-content">0.4.0.2</a></p>
-          <p><a href="$data/0.4.0.1.php" target="tabmix-changelog-content">0.4.0.1</a></p>
-          <p><a href="$data/0.4.0.0.php" target="tabmix-changelog-content">0.4.0.0</a></p>
+          <p><a href="$page=0.4.1.3" $target>0.4.1.3</a></p>
+          <p><a href="$page=0.4.1.2" $target>0.4.1.2</a></p>
+          <p><a href="$page=0.4.1.1" $target>0.4.1.1</a></p>
+          <p><a href="$page=0.4.1.0" $target>0.4.1.0</a></p>
+          <p><a href="$page=0.4.0.5" $target>0.4.0.5</a></p>
+          <p><a href="$page=0.4.0.4" $target>0.4.0.4</a></p>
+          <p><a href="$page=0.4.0.3" $target>0.4.0.3</a></p>
+          <p><a href="$page=0.4.0.2" $target>0.4.0.2</a></p>
+          <p><a href="$page=0.4.0.1" $target>0.4.0.1</a></p>
+          <p><a href="$page=0.4.0.0" $target>0.4.0.0</a></p>
 
 html;
 ?>

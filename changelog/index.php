@@ -10,17 +10,17 @@
 <?php
   include("../common/global.php");
   $filename = "./data/$LATEST.php";
-  if(!file_exists($filename)) {
-    die ("<div class='content-frame'>File $filename not found<div>");
-  }
-  else  {
+  if (file_exists($filename)) {
 echo <<<html
-    <iframe name="tabmix-changelog-content" class="content-frame" src="$filename"
+    <iframe name="tabmix-changelog-content" class="content-frame" src="./data/viewpage.php?page=$LATEST"
           marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
       <p>Your browser does not support iframes.</p>
     </iframe>
 
 html;
+  }
+  else {
+    die ("<div class='content-frame'>File $filename not found<div>");
   }
 ?>
   </div>

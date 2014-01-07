@@ -1,16 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-  <meta name="description" content=""/>
-  <title>Tab Mix Plus - Changes in Version 0.4.0.4</title>
-  <link rel="stylesheet" href="../../styles/tabmix.css" type="text/css"/>
-  <script type="text/javascript" src="../../scripts/update.js"></script>
-</head>
-<body class="innerFrame">
-  <?php include("../../common/global.php"); ?>
     <div class="content-frame">
-      <div class="th" align="center">Changes in Version 0.4.0.4</div>
+      <div id="title" class="th" align="center">Changes in Version 0.4.0.4</div>
       <div class="content-body">
         <div class="changeset">
           <h4>0.4.0.4pre.121231a</h4>
@@ -63,5 +52,3 @@
       </div>
     </div>
   </div>
-</body>
-</html>

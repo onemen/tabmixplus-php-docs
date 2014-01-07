@@ -5,8 +5,8 @@
     // frame opened in new tab
     if (href.indexOf("/data") > -1)
       window.document.body.classList.remove("innerFrame")
-    else
-      window.parent.document.title = window.document.title;
+
+    window.parent.document.title = "Tab Mix Plus - " + document.getElementById("title").textContent;
   }
 
   window.addEventListener("DOMContentLoaded", contentLoaded, false);
