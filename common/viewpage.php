@@ -11,6 +11,7 @@
 <?php include("header.php"); ?>
   <div id="center">
 <?php
+  $root = "..";
   include("../$FOLDER/data/menu.php");
   $filename = "../$FOLDER/data/$_GET[p].php";
   if (file_exists($filename))

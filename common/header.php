@@ -1,14 +1,7 @@
 <?php
   include("version_data.php");
-  $topic;
-  $_self = $_SERVER["PHP_SELF"];
-  if (isset($_GET[t]))
-    $topic = $_GET[t];
-  else if (strpos($_self, "changelog") > 0)
-    $topic = 1;
-  else if (strpos($_self, "troubleshooting") > 0)
-    $topic = 2;
 
+  $topic = $_GET[t];
   switch ($topic) {
   case 1:
     $FOLDER = "changelog";
@@ -25,7 +18,8 @@
   default:
     $uri = $_SERVER["REQUEST_URI"];
     die ("Error: Unknown topic $uri, can't load this page<br>");
-  } 
+  }
+  $_self = $_SERVER["PHP_SELF"];
   $PATH = substr($_self, 0, strpos($_self, "support"))."support";
 ?>
   <div id="wrapheader">
@@ -35,7 +29,7 @@
           <td>
 <?php
 echo <<<html
-            <a href="$PATH/$FOLDER/index.php">
+            <a href="$PATH/viewtopic.php?t=$topic">
             <img src="$PATH/styles/images/tabmix_logo.gif" alt="" title="" height="60" width="75"/></a>
 
 html;
