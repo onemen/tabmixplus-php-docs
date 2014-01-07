@@ -48,7 +48,6 @@ html;
       <div class="download-box">
         <div class="inner-box">
 <?php
-    include("version_data.php");
 echo <<<html
           <p><a href='https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/'>Current Version $VERSION</a></p>
           <p><a href='https://addons.mozilla.org/en-us/firefox/addon/tab-mix-plus/versions/'>Latest Development Build $DEVBUILD</a></p>

@@ -10,17 +10,7 @@
 <body class="innerFrame">
 <?php
   include("../../common/global.php");
-
-  $page = $_GET[page];
-  $filename = "$page.php";
-  if (file_exists($filename)) {
-    include($filename);
-  }
-  else  {
-    die ("<div class='content-frame'>File $filename not found<div>");
-  }
+  include("../../common/center.php");
 ?>
-  </div>
-
 </body>
 </html>

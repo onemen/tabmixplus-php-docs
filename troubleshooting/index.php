@@ -9,16 +9,7 @@
 <body>
 <?php
   include("../common/global.php");
-  $LATEST = "tabmix-does-not-work";
-echo <<<html
-    <iframe name="tabmix-troubleshooting-content" class="content-frame" src="./data/viewpage.php?page=$LATEST"
-          marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
-      <p>Your browser does not support iframes.</p>
-    </iframe>
-
-html;
+  include("../common/center.php");
 ?>
-  </div>
-
 </body>
 </html>
