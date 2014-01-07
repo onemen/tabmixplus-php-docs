@@ -8,9 +8,16 @@
   <script type="text/javascript" src="../scripts/update.js"></script>
 </head>
 <body class="innerFrame">
+<?php include("global.php"); ?>
+  <div id="center">
 <?php
-  include("global.php");
-  include("center.php");
+  include("../$FOLDER/data/menu.php");
+  $filename = "../$FOLDER/data/$_GET[p].php";
+  if (file_exists($filename))
+    include($filename);
+  else
+    echo "<div class='content-frame'>File $filename not found<div>";
 ?>
+  </div>
 </body>
 </html>

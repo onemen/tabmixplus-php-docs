@@ -9,7 +9,7 @@
 <body>
 <?php
   include("../common/global.php");
-  include("../common/center.php");
+  include("../common/content_frame.php");
 ?>
 </body>
 </html>

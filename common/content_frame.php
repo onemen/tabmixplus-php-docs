@@ -10,16 +10,6 @@ echo <<<html
 
 html;
   }
-  else if (strpos($_self, "viewpage.php") > -1) {
-    include("../$FOLDER/data/menu.php");
-    $filename = "../$FOLDER/data/$_GET[p].php";
-    if (file_exists($filename)) {
-      include($filename);
-    }
-    else  {
-      echo "<div class='content-frame'>File $filename not found<div>";
-    }
-  }
   else {
     die ("Error: Unknown file $uri, can't load this page<br>");
   }
