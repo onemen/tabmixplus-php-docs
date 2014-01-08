@@ -10,10 +10,9 @@
 <?php include("common/header.php"); ?>
   <div id="center">
 <?php
-  $root = ".";
   include("$FOLDER/data/menu.php");
 echo <<<html
-    <iframe name="$name" class="content-frame" src="common/viewpage.php?t=$topic&p=$page"
+    <iframe name="$name" class="content-frame" src="viewpage.php?t=$topic&p=$page"
           marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
       <p>Your browser does not support iframes.</p>
     </iframe>

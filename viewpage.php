@@ -4,16 +4,15 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
   <meta name="description" content=""/>
   <title>Tab Mix Plus</title>
-  <link rel="stylesheet" href="../styles/tabmix.css" type="text/css"/>
-  <script type="text/javascript" src="../scripts/update.js"></script>
+  <link rel="stylesheet" href="styles/tabmix.css" type="text/css"/>
+  <script type="text/javascript" src="scripts/update.js"></script>
 </head>
 <body class="innerFrame">
-<?php include("header.php"); ?>
+<?php include("common/header.php"); ?>
   <div id="center">
 <?php
-  $root = "..";
-  include("../$FOLDER/data/menu.php");
-  $filename = "../$FOLDER/data/$_GET[p].php";
+  include("$FOLDER/data/menu.php");
+  $filename = "$FOLDER/data/$_GET[p].php";
   if (file_exists($filename))
     include($filename);
   else
