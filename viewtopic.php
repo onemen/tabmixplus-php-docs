@@ -10,7 +10,7 @@
 <?php include("common/header.php"); ?>
   <div id="center">
 <?php
-  include("$FOLDER/data/menu.php");
+  include("$FOLDER/menu.php");
 echo <<<html
     <iframe name="$name" class="content-frame" src="viewpage.php?t=$topic&p=$page"
           marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
