@@ -1,0 +1,48 @@
+
+body:not([class="innerFrame"]) #wrapcontent {
+  width: calc(80% - 40px);
+}
+
+.content-body img {
+  float: right;
+  border-radius: 6px;
+  margin-left: 10px;
+  width: 40%
+}
+
+.topic > * {
+  max-width: 100%;
+}
+
+.topic {
+  padding-right: 10px;
+}
+
+ul.topic > li,
+.topic > ul,
+.topic > ul > li {
+  margin-left: 12px;
+}
+
+ul.topic {
+  margin-left: 0px;
+}
+
+.container {
+  clear: both;
+}
+
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* DRAFT */
+.comment {
+  border: 1px solid rgba(36, 30, 30, 0.2);
+  width: 55%;
+  margin: 0 10px 6px;
+  padding: 10px;
+  background-color: rgb(200, 222, 234);
+}
