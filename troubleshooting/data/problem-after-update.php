@@ -1,4 +1,3 @@
-    <div class="content-frame">
       <div id="title" class="th" align="center">Problem after update</div>
       <div class="content-body">
         <div class="topic">
@@ -40,4 +39,3 @@
           </p>
         </div>
       </div>
-    </div>

@@ -1,4 +1,3 @@
-    <div class="content-frame">
       <div id="title" class="th" align="center">How to post about a problem</div>
       <div class="content-body">
         <div class="topic">
@@ -85,4 +84,3 @@
           Thank you for your cooperation and Good Luck!
         </div>
       </div>
-    </div>

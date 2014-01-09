@@ -1,4 +1,3 @@
-    <div class="content-frame">
       <div id="title" class="th" align="center">Conflict with other extension</div>
       <div class="content-body">
         <div class="topic">
@@ -36,4 +35,3 @@
           </p><br/>
         </div>
       </div>
-    </div>

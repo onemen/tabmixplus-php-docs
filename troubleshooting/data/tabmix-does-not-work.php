@@ -1,4 +1,3 @@
-    <div class="content-frame">
       <div id="title" class="th" align="center">Tab Mix Plus does not work properly</div>
       <div class="content-body">
         <div class="topic">
@@ -81,4 +80,3 @@
           </p><br/>
         </div>
       </div>
-    </div>

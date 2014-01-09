@@ -1,4 +1,3 @@
-    <div class="content-frame">
       <div id="title" class="th" align="center">Changes in Version 0.4.0.4</div>
       <div class="content-body evenbg">
         <div class="topic">
@@ -50,4 +49,3 @@
         </div>
 
       </div>
-    </div>
