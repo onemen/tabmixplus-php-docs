@@ -1,14 +1,14 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Changes in Version 0.4.0</div>
-      <div class="content-body">
-        <div class="changeset">
+      <div class="content-body evenbg">
+        <div class="topic">
           <h4>0.4.0pre.120207a</h4>
           <ul>
             <li>Fixed: Incompatibility with Custom Buttons extension.</li>
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.120204a</h4>
           <ul>
             <li>Fixed: Disable drag tab feature on tab close button as in default Firefox.</li>
@@ -17,7 +17,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.120130a</h4>
           <ul>
             <li>Fixed: Links radio is always selected when Tabmix options opened, event when different panel is visible.</li>
@@ -27,7 +27,7 @@
            </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.120118a</h4>
           <ul>
             <li>Fixed: Can't update Boolean radiogroups in the option window (Drop indicator, Merge only current window with last focused).</li>
@@ -35,7 +35,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.120114a</h4>
           <ul>
             <li>Fixed: Unable to detach tab when tab bar on bottom of the screen and I drop a tab to the content above the tab bar.</li>
@@ -44,7 +44,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.120102a</h4>
           <ul>
             <li>Fixed: Incompatibility with FoxTab, new tabs always open at the end, even when the preference is to "open new tab next to current one".</li>
@@ -52,7 +52,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.111223a</h4>
           <ul>
             <li>Fixed: Don't set max-height on list all tabs popup.</li>
@@ -61,7 +61,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.111220a</h4>
           <ul>
             <li>Fixed: Issue with Google Calendar, Tabmix.contentAreaClick.GoogleComLink don't identify http://www.google.com/calendar/render.</li>
@@ -73,7 +73,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.111215a</h4>
           <ul>
             <li>Fixed: Tools > Session Manager doesn't work in Ubuntu 11.10 when global menu is on.</li>
@@ -84,7 +84,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.111209a</h4>
           <ul>
             <li>Fixed: Multi Row malfunction in Linux.</li>
@@ -93,7 +93,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.111208a</h4>
           <ul>
             <li>Fixed: Ctrl-tab don't work properly after tabs opened in the background.</li>
@@ -103,7 +103,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.111206b</h4>
           <ul>
             <li>Added: New option to turn smooth scroll on and off Options > Display > TabBar (form about:config: toolkit.scrollbox.smoothScroll).</li>
@@ -117,7 +117,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.111129a</h4>
           <ul>
             <li>Fixed: Update locals from http://www.babelzilla.org (preference without translation are in English).</li>
@@ -126,7 +126,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.111128a</h4>
           <ul>
             <li>Fixed: Empty row or missing row when toggling Tabs on Top status.</li>
@@ -140,7 +140,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.111127a</h4>
           <ul>
             <li>Fixed: Session manager mishandle Unicode characters in URLs.</li>
@@ -152,7 +152,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0pre.111126a</h4>
           <ul>
             <li>New: Implement smooth scroll.</li>

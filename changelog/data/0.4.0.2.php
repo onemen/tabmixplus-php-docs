@@ -1,7 +1,7 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Changes in Version 0.4.0.2</div>
-      <div class="content-body">
-        <div class="changeset">
+      <div class="content-body evenbg">
+        <div class="topic">
           <h4>0.4.0.2pre.120507a</h4>
           <ul>
             <li>Added: New style for unloaded tabs.</li>
@@ -15,7 +15,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.2pre.120417a</h4>
           <ul>
             <li>Fixed: Fix regression from 120416a build that broke Linux and OS X, "gfx.direct2d.disabled" exist only in windows.</li>
@@ -24,7 +24,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.2pre.120416a <span style="color:red">Not working on Linux and OS X</span></h4>
           <ul>
             <li>Fixed: Incompatibility with treeStyleTab extension, scroll on tabs doesn't work.</li>
@@ -34,7 +34,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.2pre.120407b</h4>
           <ul>
             <li>Fixed: Tab-bar height (in multi-row) don't reduced after all tabs in a row were closed, empty row left opened.</li>
@@ -44,7 +44,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.2pre.120330a</h4>
           <ul>
             <li>Changed: Rename tab panel have a new look.</li>

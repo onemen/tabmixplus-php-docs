@@ -1,7 +1,7 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Changes in Version 0.4.1.2</div>
-      <div class="content-body">
-        <div class="changeset">
+      <div class="content-body evenbg">
+        <div class="topic">
           <h4>0.4.1.2pre.131019a2</h4>
           <ul>
             <li>Fixed: <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=900910>Bug 900910</a> broke Tabmix on Firefox 25.0b9. [Firefox 25]</li>
@@ -12,7 +12,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.2pre.131013a1</h4>
           <ul>
             <li>Fixed: Session restore not always working when restoring to existing window.</li>
@@ -23,7 +23,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.2pre.131006a2</h4>
           <ul>
             <li>Fixed: Don't open new tab when the link protocol is not http, https or about.</li>
@@ -39,7 +39,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.2pre.130929a</h4>
           <ul>
             <li>Fixed: Replace "Close Right Tabs" to "Close Tabs to the Right" in tab context menu.</li>
@@ -51,7 +51,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.2pre.130918a</h4>
           <ul>
             <li>Fixed: Incompatibility with OmniSideBar extension.</li>
@@ -60,7 +60,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.2pre.130914a</h4>
           <ul>
             <li>Fixed: Other extensions can cause delay to some of the events Tabmix uses for initialization.</li>

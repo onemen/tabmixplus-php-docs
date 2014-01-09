@@ -96,7 +96,7 @@ body:not([class="innerFrame"]) .content-frame {
   width: 75%;
 }
 
-.changeset, .inner-box {
+.topic {
   padding: 5px 20px 5px 30px;
 }
 
@@ -132,34 +132,35 @@ h1 {
   text-decoration: none;
 }
 
-.changeset:nth-child(even) {
+.evenbg > .topic:nth-child(even) {
   background-color: #DCE1E5;
 }
 
-.changeset {
+.evenbg > .topic {
   border-bottom: 1px solid #A9B8C2;
 }
 
-.changeset, .inner-box {
+.topic {
   font-size: 1.3em;
   line-height: 1.4em;
   font-family: "Lucida Grande", "Trebuchet MS", Helvetica, Arial, sans-serif;
 }
 
-.changeset > *,
-.inner-box > * {
+.topic > * {
   max-width: 60em;
 }
 
-
-.inner-box ol,
-.inner-box ul,
-.inner-box p  {
+.topic ol,
+.topic ul,
+.topic p  {
   margin-bottom: 0.6em;
 }
 
-.changeset li, ol, ul,
-.inner-box li, ol, ul {
+.evenbg > .topic ul {
+  margin-bottom: 0;
+}
+
+.topic li, ol, ul {
   margin: 0 0 0 1.5em;
 }
 

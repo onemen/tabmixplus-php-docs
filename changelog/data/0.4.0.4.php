@@ -1,7 +1,7 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Changes in Version 0.4.0.4</div>
-      <div class="content-body">
-        <div class="changeset">
+      <div class="content-body evenbg">
+        <div class="topic">
           <h4>0.4.0.4pre.121231a</h4>
           <ul>
             <li>Fixed: Don't break Firefox when other extension change build-in function before us.</li>
@@ -12,7 +12,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.4pre.121222b</h4>
           <ul>
             <li>Fixed: Open tab from bookmarks can stay in the background <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=768442>Bug 768442.</a> [Firefox 18+]</li>
@@ -28,7 +28,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.4pre.121214a</h4>
           <ul>
             <li>Fixed: Update compatibility with TreesStyleTabs and TabGroups manager.</li>
@@ -41,7 +41,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.4pre.120724a</h4>
           <ul>
             <li>Fixed:  Follow up <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=761723>bug 761723</a> implement toString of function objects by saving source. [Firefox 17+]</li>

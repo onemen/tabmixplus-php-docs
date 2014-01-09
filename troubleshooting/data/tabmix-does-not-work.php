@@ -1,7 +1,7 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Tab Mix Plus does not work properly</div>
       <div class="content-body">
-        <div class="inner-box">
+        <div class="topic">
           <p>
           If you are reading this page, you have probably encountered a problem with
           Tab Mix Plus. While it can be some unknown bug, most issues reported in the

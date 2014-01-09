@@ -1,7 +1,7 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Problem after update</div>
       <div class="content-body">
-        <div class="inner-box">
+        <div class="topic">
           <p>
           Sometimes people complain about a Tab Mix Plus development version (or a release) being
           incompatible. You are welcome to try other,

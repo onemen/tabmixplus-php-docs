@@ -1,7 +1,7 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">How to post about a problem</div>
       <div class="content-body">
-        <div class="inner-box">
+        <div class="topic">
           <p>
           Most issues reported in Tab Mix Plus forum usually end up to be extensions or theme conflicts.
           </p>

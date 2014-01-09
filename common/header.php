@@ -70,7 +70,7 @@ html;
     <div id="wrapright">
       <div class="th" align="center">Downloads</div>
       <div class="download-box">
-        <div class="inner-box">
+        <div class="topic">
 <?php
 echo <<<html
           <p><a href='https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/'>Current Version $VERSION</a></p>

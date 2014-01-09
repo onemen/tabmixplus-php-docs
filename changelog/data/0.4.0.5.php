@@ -1,7 +1,7 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Changes in Version 0.4.0.5</div>
-      <div class="content-body">
-        <div class="changeset">
+      <div class="content-body evenbg">
+        <div class="topic">
           <h4>0.4.0.5pre.130223a</h4>
           <ul>
             <li>Fixed: Fix compatibility with TGM, regression from build 130210a.</li>
@@ -10,7 +10,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.5pre.130217a</h4>
           <ul>
             <li>Fixed: Incompatibility with Organize Search Engines.
@@ -18,7 +18,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.5pre.130210a</h4>
           <ul>
             <li>Fixed: Many Tabmix functions doesn't work with Nightly build 2013-02-09. (Firefox 21.0a1).</li>
@@ -30,7 +30,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.5pre.130201b</h4>
           <ul>
             <li>Added: New UI to control keyboard shortcuts. Tabmix Options > Menu > <a href=http://tmp.garyr.net/help/#Menu_-_Shortcuts>Shortcuts</a>.</li>
@@ -42,7 +42,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.5pre.130120a</h4>
           <ul>
             <li>Added: New option to use the old dragging style with the drop indicator, or press alt when beginning the drag to temporarily use the drop indicator (for moving tab in or out of pinned tabs).[Firefox 17+]</li>
@@ -52,7 +52,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.5pre.130114a</h4>
           <ul>
             <li>Fixed: Enable tab move (part 1 for single row). When dragging a tab within the tab strip, move it directly instead of displaying a drop indicator. (<a href=https://bugzilla.mozilla.org/show_bug.cgi?id=783282>Bug 783282</a>) Firefox 17.0+</li>

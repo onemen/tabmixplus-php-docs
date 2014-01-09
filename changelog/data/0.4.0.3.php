@@ -1,14 +1,14 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Changes in Version 0.4.0.3</div>
-      <div class="content-body">
-        <div class="changeset">
+      <div class="content-body evenbg">
+        <div class="topic">
           <h4>0.4.0.3pre.120719a</h4>
           <ul>
             <li>Fixed: Dbl-click on the tabbar after closing tab with the button was blocked.</li>
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.3pre.120707a</h4>
           <ul>
             <li>Fixed: Override position relative for selected tab when the tabbar is on the bottom. relative position causing corrupted look.</li>
@@ -22,7 +22,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.3pre.120627a</h4>
           <ul>
             <li>Fixed: Change in Firefox 14+ (<a href=https://bugzilla.mozilla.org/show_bug.cgi?id=730629>bug 730629</a>) broke Tabmix option to open new tab for "links to other sites".</li>
@@ -31,7 +31,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.3pre.120622a</h4>
           <ul>
             <li>Fixed: Incompatibility with classic compact theme & extension. (0.4.0.3pre.120620a)</li>
@@ -40,7 +40,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.3pre.120620a</h4>
           <ul>
             <li>Fixed: Prevents window flicker at start-up when layers.acceleration.disabled is false.</li>
@@ -48,7 +48,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.3pre.120618a</h4>
           <ul>
             <li>Fixed: Update our start-up function to work after changes from <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=731926>bug 731926</a> - Refactor init/shutdown functions in browser.js. Firefox 16+</li>
@@ -63,7 +63,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.3pre.120518a</h4>
           <ul>
             <li>Fixed: "Rename this tab regardless of its address" doesn't work unless you reset it while the panel is open.</li>

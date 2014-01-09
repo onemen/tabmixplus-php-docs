@@ -1,7 +1,7 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Changes in Version 0.4.1.3</div>
-      <div class="content-body">
-        <div class="changeset">
+      <div class="content-body evenbg">
+        <div class="topic">
           <h4>0.4.1.3pre.131218a2</h4>
           <ul>
             <li>Added: New option to set gradient color on tabs by applying different color to top and bottom, new option to hide RGB fields.
@@ -11,7 +11,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.3pre.131209a1</h4>
           <ul>
             <li>Fixed: [Australis] Update our styles for tabs background color to work with Australis on Mac OS X and Linux. [Firefox 28+]</li>
@@ -29,7 +29,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.3pre.131204a1</h4>
           <ul>
             <li>Fixed: [Australis] Update our styles for tabs background color to work with Australis on Windows. [Firefox 28+]</li>
@@ -44,7 +44,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.3pre.131123a1</h4>
           <ul>
             <li>Fixed: Selected tab messed-up after bug 940262 landed on Nightly (Australis). [Firefox 28]</li>
@@ -54,7 +54,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.3pre.131116a1</h4>
           <ul>
             <li>Fixed: Focus urlbar when Firefox starts with a blank tab, by Tabmix Session manager.</li>
@@ -68,7 +68,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.3pre.131110a1</h4>
           <ul>
             <li>Fixed: New tab button disappeared after tab closed when tabs are in multi-row.</li>
@@ -79,7 +79,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.3pre.131027a3</h4>
           <ul>
             <li>Fixed: Firefox closed when session restore starts with pinned tabs [Firefox 25].</li>

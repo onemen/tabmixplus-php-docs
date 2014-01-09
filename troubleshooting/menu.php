@@ -1,7 +1,7 @@
     <div class="menu-frame">
       <div class="th" align="center">Table of Contents</div>
       <div class="menu-body">
-        <div class="inner-box">
+        <div class="topic">
 <?php
   $href = "viewpage.php?t=2&p";
   $target = 'target="tabmix-troubleshooting-content"';

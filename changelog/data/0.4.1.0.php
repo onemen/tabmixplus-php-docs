@@ -1,7 +1,7 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Changes in Version 0.4.1.0</div>
-      <div class="content-body">
-        <div class="changeset">
+      <div class="content-body evenbg">
+        <div class="topic">
           <h4>0.4.1.0pre.130408a</h4>
           <ul>
             <li>Fixed: Session manager failed to restore after crash.</li>
@@ -12,7 +12,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.6pre.130316a</h4>
           <ul>
             <li>Removed: Support for Firefox 4.0 - 10.0.</li>

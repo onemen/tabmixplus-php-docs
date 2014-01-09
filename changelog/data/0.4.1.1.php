@@ -1,7 +1,7 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Changes in Version 0.4.1.1</div>
-      <div class="content-body">
-        <div class="changeset">
+      <div class="content-body evenbg">
+        <div class="topic">
           <h4>0.4.1.1pre.130821b</h4>
           <ul>
             <li>Added: New preference Tabmix Options > Events > Tab Opening > Focus/Select tabs that open from: Other applications.<br\>
@@ -12,7 +12,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.1pre.130817a</h4>
           <ul>
             <li>Fixed: Remove closed windows and tabs from the current session when user apply Clear Recent History > browsing history.</li>
@@ -22,14 +22,14 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.1pre.130809a</h4>
           <ul>
             <li>Fixed: 'Illegal value' when calling method: [nsISessionStore::getClosedTabCount] on Firefox 23-24 with version 0.4.1.1pre.130731a.</li>
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.1pre.130731a</h4>
           <ul>
             <li>Fixed: Tabmix (Session Manager) fails after <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=897253>bug 897253</a> landed. (Firefox 25+)</li>
@@ -38,7 +38,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.1pre.130722a</h4>
           <ul>
             <li>Fixed: Update Tabmix code after <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=887515>bug 887515</a> - add ability to restore multiple tabs, Ctrl+Shift+T undo last closing operation.(Firefox 25+).</li>
@@ -55,7 +55,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.1pre.130625a</h4>
           <ul>
             <li>Fixed: Update Tabmix code after <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=866880>bug 866880</a> - Implement "Close Tabs to the Right" as a built-in feature. (Firefox 24+)</li>
@@ -63,7 +63,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.1pre.130522a</h4>
           <ul>
             <li>Fixed: Session restore overwriting TMP update information tab.</li>
@@ -71,7 +71,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.1.1pre.130504b</h4>
           <ul>
             <li>Fixed: Startup session does not restored (assignment to undeclared variable i).</li>

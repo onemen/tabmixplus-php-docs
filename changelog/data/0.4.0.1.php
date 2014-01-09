@@ -1,21 +1,21 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Changes in Version 0.4.0.1</div>
-      <div class="content-body">
-        <div class="changeset">
+      <div class="content-body evenbg">
+        <div class="topic">
           <h4>0.4.0.1pre.120313a</h4>
           <ul>
             <li>Fixed: Ctrl-Tab show the tab list popup on other screen on dual monitor.</li>
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.1pre.120308a</h4>
           <ul>
             <li>Fixed: Multi-row tab bar in full-screen mode, the bottom of the tab bar become visible when the number of rows increase, the top of the page will be cut off when when the number of rows decrease</li>
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.1pre.120302a</h4>
           <ul>
             <li>Fixed: Tabmix.getSingleWindowMode is not a function, in sidebar, Library and other non browser windows.</li>
@@ -24,7 +24,7 @@
           </ul>
         </div>
 
-        <div class="changeset">
+        <div class="topic">
           <h4>0.4.0.1pre.120227a</h4>
           <ul>
             <li>Fixed: Update multi-row background when tabs on top in Mac.</li>

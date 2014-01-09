@@ -1,7 +1,7 @@
     <div class="menu-frame">
       <div class="th" align="center">Versions List</div>
       <div class="menu-body">
-        <div class="inner-box">
+        <div class="topic">
           <h4>Versions 0.4.0.0+</h4>
 <?php
   $href = "viewpage.php?t=1&p";

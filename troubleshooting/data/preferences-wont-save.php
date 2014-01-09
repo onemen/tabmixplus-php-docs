@@ -1,7 +1,7 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Preferences won't save</div>
       <div class="content-body">
-        <div class="inner-box">
+        <div class="topic">
           <p>
           Sometimes your Tab Mix Plus options fail to be saved after you change them. For
           example, you may change a setting in the Tab Mix Plus Options window only to have it set

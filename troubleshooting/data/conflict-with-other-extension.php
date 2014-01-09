@@ -1,7 +1,7 @@
     <div class="content-frame">
       <div id="title" class="th" align="center">Conflict with other extension</div>
       <div class="content-body">
-        <div class="inner-box">
+        <div class="topic">
           <p>
           If the Error button in the Tab Mix Plus Options is visible, some of your
           extensions are incompatible with Tab Mix Plus. It is recommended you
