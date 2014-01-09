@@ -140,6 +140,10 @@ h1 {
   border-bottom: 1px solid #A9B8C2;
 }
 
+.evenbg > .topic:nth-child(odd):last-child {
+  border-bottom: none;
+}
+
 .topic {
   font-size: 1.3em;
   line-height: 1.4em;
