@@ -16,7 +16,7 @@ body {
 }
 
 body.innerFrame #wrapheader,
-body.innerFrame .menu-frame {
+body.innerFrame #wrapleft {
   display: none;
 }
 
@@ -46,13 +46,7 @@ body.innerFrame .menu-frame {
   background-color: #ECECEC;
   border: 2px solid #A9B8C2;
   float: right;
-  width: 20%;
-}
-
-@media all and (max-width:896px) {
-#wrapright {
-  display: none;
-}
+  width: calc(20% - 10px);
 }
 
 .download-box {
@@ -60,40 +54,40 @@ body.innerFrame .menu-frame {
   max-height: 249px;
 }
 
-body:not([class="innerFrame"]) #center {
+body:not([class="innerFrame"]) #wrapcontent {
   background-color: #ECECEC;
   border: 2px solid #A9B8C2;
-  position: fixed;
+  border-left-width: 1px;
+  position: absolute;
   top: 109px;
-  left: 25px;
+  left: calc(19% + 25px);
   bottom: 15px;
-  width: calc(80% - 76px);
+  width: calc(61% - 75px);
 }
 
 @media all and (max-width:896px) {
   #wrapright {
     display: none;
   }
-  body:not([class="innerFrame"]) #center {
-    width: calc(100% - 50px);
+  body:not([class="innerFrame"]) #wrapcontent {
+    width: calc(80% - 40px);
   }
 }
 
-.menu-frame {
-  border-right: 1px solid #A9B8C2;
+#wrapleft {
+  background-color: #ECECEC;
+  border: 2px solid #A9B8C2;
   position: absolute;
-  top: 0;
-  left: 0px;
-  height: 100%;
-  width: calc(25% - 1px);
+  top: 109px;
+  left: 25px;
+  bottom: 15px;
+  width: calc(19% - 1px);
 }
 
 body:not([class="innerFrame"]) .content-frame {
-  position: absolute;
-  top: 0;
-  left: 25%;
+  border-left-width: 0px;
   height: 100%;
-  width: 75%;
+  width: 100%;
 }
 
 .topic {

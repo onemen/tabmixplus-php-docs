@@ -7,19 +7,21 @@
   <link rel="stylesheet" href="styles/tabmix.css" type="text/css"/>
 </head>
 <body>
-<?php include("common/header.php"); ?>
-  <div id="center">
-<?php
+<?php 
+  include("common/header.php");
   include("$FOLDER/menu.php");
+
 echo <<<html
+
+  <div id="wrapcontent">
     <iframe name="$name" class="content-frame" src="viewpage.php?t=$topic&p=$page"
           marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
       <p>Your browser does not support iframes.</p>
     </iframe>
+  </div>
 
 html;
 ?>
-  </div>
 
 </body>
 </html>
