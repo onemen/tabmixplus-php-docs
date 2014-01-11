@@ -17,7 +17,7 @@
         versions = versions.split(",");
         // when we have a version data, replace link to the history version with
         // the link of the latest dev-build xpi file
-        var innerHTML = '<a href="https://addons.cdn.mozilla.net/storage/public-staging/1122/tab_mix_plus-#ver-fx.xpi">Latest Development Build<\/a> #ver';
+        var innerHTML = '<a href="https://addons.cdn.mozilla.net/storage/public-staging/1122/tab_mix_plus-#ver-fx.xpi" target="_top">Latest Development Build<\/a> #ver';
         var devbuild = document.getElementById("devbuild");
         document.getElementById("devbuild").innerHTML = innerHTML.replace(/#ver/g, versions[0]);
         document.getElementById("current").innerHTML += " " + versions[1];
@@ -44,6 +44,7 @@
     window.addEventListener("DOMContentLoaded", onload, false);
 
   </script>
+  <base target="_blank"/>
 </head>
 <body class="top">
   <div id="wrapheader">
@@ -76,8 +77,8 @@
       <td class="gen top-menu" align="center">
         <a href="http://tmp.garyr.net/forum/index.php">Forum</a>
         <a href="http://tmp.garyr.net/help/index.html">Help</a>
-        <a href="http://tmp.garyr.net/support/troubleshooting/index.html">Troubleshooting</a>
-        <a href="http://tmp.garyr.net/support/changelog/index.html">Change Log</a>
+        <a href="http://tmp.garyr.net/support/troubleshooting/index.html" target="_top">Troubleshooting</a>
+        <a href="http://tmp.garyr.net/support/changelog/index.html" target="_top">Change Log</a>
         <a href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/">Download</a>
       </td>
     </tr>
