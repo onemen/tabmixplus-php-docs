@@ -17,7 +17,7 @@
         versions = versions.split(",");
         // when we have a version data, replace link to the history version with
         // the link of the latest dev-build xpi file
-        var innerHTML = '<a href="https://addons.cdn.mozilla.net/storage/public-staging/1122/tab_mix_plus-#version-fx.xpi">Latest Development Build<\/a> #ver';
+        var innerHTML = '<a href="https://addons.cdn.mozilla.net/storage/public-staging/1122/tab_mix_plus-#ver-fx.xpi">Latest Development Build<\/a> #ver';
         var devbuild = document.getElementById("devbuild");
         document.getElementById("devbuild").innerHTML = innerHTML.replace(/#ver/g, versions[0]);
         document.getElementById("current").innerHTML += " " + versions[1];
