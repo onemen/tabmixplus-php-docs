@@ -6,7 +6,7 @@
     if (href.indexOf("viewpage.php") > -1)
       window.document.body.classList.remove("innerFrame")
 
-    window.parent.document.title = "Tab Mix Plus - " + document.getElementById("title").textContent;
+    window.parent.document.title = document.getElementById("title").textContent;
   }
 
   window.addEventListener("DOMContentLoaded", contentLoaded, false);
