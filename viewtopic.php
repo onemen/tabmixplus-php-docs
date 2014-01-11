@@ -15,6 +15,7 @@ echo <<<html
 
   <div id="wrapcontent">
     <iframe name="$name" class="content-frame" src="viewpage.php?t=$topic&p=$page"
+          width="100%" height="100%"
           marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
       <p>Your browser does not support iframes.</p>
     </iframe>

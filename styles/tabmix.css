@@ -84,12 +84,6 @@ body:not([class="innerFrame"]) #wrapcontent {
   width: calc(19% - 1px);
 }
 
-body:not([class="innerFrame"]) .content-frame {
-  border-left-width: 0px;
-  height: 100%;
-  width: 100%;
-}
-
 .topic {
   padding: 5px 20px 5px 30px;
 }
