@@ -16,7 +16,8 @@ body {
 }
 
 body.innerFrame #wrapheader,
-body.innerFrame #wrapleft {
+body.innerFrame #wrapleft,
+body.innerFrame #wrapright {
   display: none;
 }
 

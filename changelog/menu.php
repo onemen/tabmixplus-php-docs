@@ -1,5 +1,3 @@
-
-  <div id="wrapleft">
     <div class="th" align="center">Versions List</div>
     <div class="menu-body">
       <div class="topic">
@@ -28,4 +26,3 @@ html;
         <p>versions <a href="http://tmp.garyr.net/forum/viewtopic.php?f=3&t=9178">0.3.6.1 - 0.3.7</a></p>
       </div>
     </div>
-  </div>

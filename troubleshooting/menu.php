@@ -1,5 +1,3 @@
-
-  <div id="wrapleft">
     <div class="th" align="center">Table of Contents</div>
     <div class="menu-body">
       <div class="topic">
@@ -17,4 +15,3 @@ html;
 ?>
       </div>
     </div>
-  </div>

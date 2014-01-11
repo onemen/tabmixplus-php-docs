@@ -1,0 +1,92 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"/>
+  <meta name="description" content=""/>
+  <title>Tab Mix Plus</title>
+  <link rel="stylesheet" href="styles/tabmix.css" type="text/css"/>
+<?php if ($topic == 3): ?>
+  <link rel="stylesheet" href="help/help.css" type="text/css"/>
+<?php endif; ?>
+<?php if ($viewPage): ?>
+  <script type="text/javascript" src="scripts/update.js"></script>
+<?php endif; ?>
+</head>
+<body class="<?=$innerFrame?>">
+  <div id="wrapheader">
+    <div id="logodesc">
+      <table cellspacing="0" width="100%">
+        <tbody><tr>
+          <td>
+            <a href="<?=$PATH?>/viewtopic.php?t=<?=$topic?>">
+            <img src="<?=$PATH?>/styles/images/tabmix_logo.gif" alt="" title="" height="60" width="75"/></a>
+          </td>
+          <td width="100%" align="center">
+            <h1>Tab Mix Plus</h1>
+            <span class='gen'><?=$TITLE?></span>
+          </td>
+          <td>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-top: 31px;" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick"/>
+              <input type="hidden" name="hosted_button_id" value="BZWMH5PS56GAW"/>
+              <input title="Donate to Tab Mix Plus" type="image" class="radio" src="<?=$PATH?>/styles/images/donate.gif" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+            </form>
+          </td>
+        </tr></tbody>
+      </table>
+    </div>
+
+    <div id="menubar">
+      <table width="100%" cellspacing="0">
+      <tr><td class="gen top-menu" align="center">
+        <a href="http://tmp.garyr.net/forum/index.php">Forum</a>
+        <a href="http://tmp.garyr.net/help/index.html">Help</a>
+        <a href="<?=$PATH?>/viewtopic.php?t=2">Troubleshooting</a>
+        <a href="<?=$PATH?>/viewtopic.php?t=1">Change Log</a>
+        <a href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/">Download</a>
+      </td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div id="wrapleft">
+<?php include("$FOLDER/menu.php"); ?>
+  </div>
+
+  <div id="wrapcontent">
+<?php if (!$viewPage): ?>
+    <iframe name="<?=$name?>" class="content-frame" src="viewpage.php?t=<?=$topic?>&p=<?=$page?>"
+          width="100%" height="100%"
+          marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
+      <p>Your browser does not support iframes.</p>
+    </iframe>
+<?php endif; ?>
+<?php
+  if ($viewPage) {
+    if ($filename && file_exists($filename))
+      include($filename);
+    else
+      echo "<div class='content-frame'>File $filename not found<div>";
+  }
+?>
+  </div>
+
+<?php if ($topic != 3): ?>
+  <div id="wrapright">
+    <div class="th" align="center">Downloads</div>
+    <div class="download-box">
+      <div class="topic">
+        <p><a href='https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/'>Current Version <?=$VERSION?></a></p>
+        <p><a href='https://addons.mozilla.org/en-us/firefox/addon/tab-mix-plus/versions/'>Latest Development Build <?=$DEVBUILD?></a></p>
+        <p><a href="http://tmp.garyr.net/dev-builds/">Older Development Builds</a></p>
+        <p>You can download
+          <a href="https://bitbucket.org/onemen/tabmixplus" style="color:blue">source code</a> or
+          <a href="https://bitbucket.org/onemen/tabmixplus/downloads" style="color:blue">latest</a> working version at any time.
+        </p>
+      </div>
+    </div>
+  </div>
+<?php endif; ?>
+
+</body>
+</html>
