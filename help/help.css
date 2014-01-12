@@ -9,19 +9,25 @@ body:not([class="innerFrame"]) #wrapcontent {
   margin-left: 10px;
   width: 40%
 }
-
+/*
 .topic > * {
   max-width: 100%;
 }
-
+*/
 .topic {
   padding-right: 10px;
 }
 
+
+.topic *.caption,
 ul.topic > li,
-.topic > ul,
-.topic > ul > li {
+/*.topic > ul > ul,*/
+.topic ul > li {
   margin-left: 12px;
+}
+
+.topic > ul {
+  margin: 0px;
 }
 
 ul.topic {
@@ -38,11 +44,25 @@ ul.topic {
   clear: both;
 }
 
+.container img {
+  margin-top: 15px;
+}
+
 /* DRAFT */
 .comment {
   border: 1px solid rgba(36, 30, 30, 0.2);
   width: 55%;
-  margin: 0 10px 6px;
-  padding: 10px;
+  margin: 6px 10px 6px 0px;
+  padding: 6px 10px;
   background-color: rgb(200, 222, 234);
+}
+
+.indent {
+  margin-left: 10px;
+  font-size: 0.9em;
+}
+
+.default {
+  font-weight: bold;
+  font-style: italic;
 }

@@ -7,20 +7,16 @@
 echo <<<html
           <p><a href="$href=preferences" $target>Preferences - <span style="font-size: 0.9em;">Restore, Import & Export</span></a></p>
           <p><a href="$href=links" $target>Links</a></p>
-          <p><a href="$href=new_tabs" $target>Events - New Tabs</a></p>
+          <p><a href="$href=events-new-tabs" $target>Events - New Tabs</a></p>
+          <p class="indent"><a href="$href=frozen_tabs" $target>Protected Locked and Frozen Tabs</a></p>
+          <p><a href="$href=events-tab-opening" $target>Events - Tab Opening</a></p>
+          <p><a href="$href=events-tab-closing" $target>Events - Tab Closing</a></p>
+          <p><a href="$href=events-tab-merging" $target>Events - Tab Merging</a></p>
+          <p><a href="$href=events-tab-features" $target>Events - Tab Features</a></p>
+          <p style="margin-top: 10px;"><a href="$href=display-tab-bar" $target>Display - Tab Bar</a></p>
 
 html;
 /*
-<a href="#TMP_Settings_-_Restore_Import__Export">TMP Settings - Restore, Defaults, Import &amp; Export Settings</a><br>
-<br>
-<a href="#Links">Links</a><br>
-<div style="margin-left: 40px;"><a href="#Events_-_links_edit">Links - Edit</a><br></div>
-<a href="#Events_-_New_Tabs">Events - New Tabs</a><br>
-<div style="margin-left: 40px;"><a href="#Protected__Locked_and_Frozen_Tabs">Protected, Locked and Frozen Tabs</a><br></div>
-<a href="#Events_-_tab_opening">Events - Tab Opening</a><br>
-<a href="#Events_-_Tab_Closing">Events - Tab Closing</a><br>
-<a href="#Events_-_Tab_Merging">Events - Tab Merging</a><br>
-<a href="#Events_-_Tab_Features">Events - Tab Features</a><br>
 <br>
 <a href="#Display_-_Tab_bar">Display - Tab Bar</a><br>
 <a href="#Display_-_Tab">Display - Tab</a><br>

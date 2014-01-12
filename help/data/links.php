@@ -53,20 +53,26 @@
         </ul>
 
         <ul class="topic container">
-          <img style="margin-top: 15px;" src="help/images/TMPLinksEdit1a.gif" alt="image">
+          <img src="help/images/TMPLinksEdit1a.gif" alt="image">
           <li>
             <b><i>Prevent blank tabs when downloading files</i></b>
-            - When enabled this option prevent blank tab opening from link
+            <p>
+            When enabled this option prevent blank tab opening from link
             that contain one of the file types in this list, and automatically
             close most blank tabs that open for other file types. (There are
             some exceptions, links from Goggle Drive for example). This option doesn't
-            change the way Firefox download file and the place the file saves.<br>
+            change the way Firefox download file and the place the file saves.
+            </p>
+            <p>
             Click on the "Edit" button to open "File Type Editor".
             In the editor you can view the file extensions list, add, delete and modify the list.<br>
-            "Restore Defaults" button restore only the file type preference (extensions.tabmix.filetype).<br>
+            "Restore Defaults" button restore only the file type preference (extensions.tabmix.filetype).
+            </p>
+            <p>
             File type can be simple file extensions or
-            <a href="http://en.wikipedia.org/wiki/Regular_expression">regular expression</a>
+            <a href="http://en.wikipedia.org/wiki/Regular_expression">regular expression</a>.<br>
             Add question in the forum if you need help regarding special file type or download link.
+            </p>
           </li>
         </ul>
 
