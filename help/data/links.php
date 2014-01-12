@@ -37,9 +37,8 @@
           <li>JavaScript popups (select one):
             <a href="http://kb.mozillazine.org/Browser.link.open_newwindow.restriction"><b>browser.link.open_newwindow.restriction</b></a>
             <ul>
-              <li></b><i>Allow
-                resized popups</span> - this option may allow the browser window to be
-                resized to the popup size</li>
+              <li><span class="default">Allow resized popups</span> -
+              this option allow only sized window to be open as popup</li>
               <li>Allow all popups</li>
               <li>Open all popups in tabs</li>
             </ul>
@@ -52,9 +51,9 @@
             tab contents will be replaced with the link contents</li>
         </ul>
 
-        <ul class="topic container">
+        <div class="topic container">
           <img src="help/images/TMPLinksEdit1a.gif" alt="image">
-          <li>
+          <ul><li>
             <span class="default">Prevent blank tabs when downloading files</span>
             <p>
             When enabled this option prevent blank tab opening from link
@@ -68,13 +67,13 @@
             In the editor you can view the file extensions list, add, delete and modify the list.<br>
             "Restore Defaults" button restore only the file type preference (extensions.tabmix.filetype).
             </p>
-            <p>
+            <p class="comment">
             File type can be simple file extensions or
             <a href="http://en.wikipedia.org/wiki/Regular_expression">regular expression</a>.<br>
             Add question in the forum if you need help regarding special file type or download link.
             </p>
-          </li>
-        </ul>
+          </li></ul>
+        </div>
 
         <ul class="topic">
           <li>Force to open in new tab (select one):
