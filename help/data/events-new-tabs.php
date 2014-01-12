@@ -10,7 +10,7 @@
         <li>Load on new tabs (select one):
           <ul>
             <li>
-              <b><i>New Tab Page</i></b> - see more details on
+              <span class="default">New Tab Page</span> - see more details on
               <a href="http://support.mozilla.org/en-US/kb/new-tab-page-show-hide-and-customize-top-sites">Firefox Help</a>
             </li>
             <li>Blank Page</li>
@@ -40,9 +40,7 @@
       </ul>
 
       <ul class="topic">
-        <li>
-        <b><i>Open duplicated tabs next to original</i></b>
-        </li>
+        <li class="default">Open duplicated tabs next to original</li>
       </ul>
 
       <div class="topic">

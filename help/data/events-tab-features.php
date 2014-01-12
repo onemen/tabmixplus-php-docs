@@ -4,12 +4,12 @@
           <img src="help/images/TMPEventsTabFeatures.jpg" alt="image">
           Controls Undo Closed Tabs and Open Tabs List
           <ul>
-            <li><b><i>Enable undo close tabs</i></b>
+            <li><span class="default">Enable undo close tabs</span>
             (previously closed tabs may be reopened and the following conditions
             will be applied)
             <ul>
-              <li>Max number of closed tabs to remember (specify a quantity) <b><i>default: 10</i></b></li>
-              <li><b><i>Restore the tab's original position</i></b>
+              <li>Max number of closed tabs to remember (specify a quantity) <span class="default">default: 10</span></li>
+              <li><span class="default">Restore the tab's original position</span>
               (tabs are restored to their position when closed)</li>
               <li>Make the toolbar button display only a list (when checked,
               the toolbar button will display a list of recently opened tabs)</li>

@@ -11,7 +11,7 @@
             <a href="http://kb.mozillazine.org/Browser.link.open_newwindow"><b>browser.link.open_newwindow</b></a>
             <ul>
               <li>New window - opens a new browser window</li>
-              <li><b><i>New tab</i></b>
+              <li><span class="default">New tab</span>
               - creates a new tab in the current browser window</li>
               <li>Current tab - replaces existing URL page in the current
               browser tab with the link contents</li>
@@ -25,7 +25,7 @@
             This preference overrides browser.link.open_newwindow for external links. Set it only if you need different destination for external links.
             <ul>
               <li>New window - opens a new browser window</li>
-              <li><b><i>New tab</i></b>
+              <li><span class="default">New tab</span>
                 - creates a new tab in the current browser window</li>
               <li>Current tab - replaces existing URL page in the current
                 browser tab with the link contents</li>
@@ -38,7 +38,7 @@
             <a href="http://kb.mozillazine.org/Browser.link.open_newwindow.restriction"><b>browser.link.open_newwindow.restriction</b></a>
             <ul>
               <li></b><i>Allow
-                resized popups</i></b> - this option may allow the browser window to be
+                resized popups</span> - this option may allow the browser window to be
                 resized to the popup size</li>
               <li>Allow all popups</li>
               <li>Open all popups in tabs</li>
@@ -55,7 +55,7 @@
         <ul class="topic container">
           <img src="help/images/TMPLinksEdit1a.gif" alt="image">
           <li>
-            <b><i>Prevent blank tabs when downloading files</i></b>
+            <span class="default">Prevent blank tabs when downloading files</span>
             <p>
             When enabled this option prevent blank tab opening from link
             that contain one of the file types in this list, and automatically
@@ -79,7 +79,7 @@
         <ul class="topic">
           <li>Force to open in new tab (select one):
             <ul>
-              <li><b><i>Nothing</i></b></li>
+              <li class="default">Nothing</li>
               <li>All Links</li>
               <li>Links to other sites</li>
             </ul>

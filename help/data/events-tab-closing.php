@@ -8,9 +8,9 @@
         <div class="topic">
           Warning:
           <ul>
-            <li><b><i>Warn me when closing multiple tabs</i></b></li>
-            <li><b><i>Warn me when closing window with multiple tabs</i></b></li>
-            <li><b><i>Warn me when closing window with protected tabs</i></b></li>
+            <li class="default">Warn me when closing multiple tabs</li>
+            <li class="default">Warn me when closing window with multiple tabs</li>
+            <li class="default">Warn me when closing window with protected tabs</li>
           </ul>
         </div>
 
@@ -26,7 +26,7 @@
           <ul>
             <li>When I close the last tab replace it with (select one):</li>
             <ul>
-              <li><b><i>New Tab Page</i></b> - see more details on
+              <li><span class="default">New Tab Page</span> - see more details on
               <a href="http://support.mozilla.org/en-US/kb/new-tab-page-show-hide-and-customize-top-sites">Firefox Help</a>
               <li>Blank Page</li>
               <li>Home Page (to select your Home Page you must specify a Home Page in the Tools/Options Main for the browser)</li>
@@ -45,7 +45,7 @@
             <li>Right tab</li>
             <li>Last tab</li>
             <li>Last selected tab</li>
-            <li><b><i>Opener/Right tab</i></b>
+            <li><span class="default">Opener/Right tab</span>
             (the tab containing the link that opened this tab or the tab to the right)</li>
             <li>Last opened tab</li>
           </ul>
