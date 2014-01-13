@@ -1,4 +1,4 @@
-    <div class="th" align="center">Versions List</div>
+    <div class="th">Versions List</div>
     <div class="menu-body">
       <div class="topic">
         <h4>Versions 0.4.0.0+</h4>

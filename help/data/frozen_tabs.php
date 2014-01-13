@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Protected Locked and Frozen Tabs</div>
+      <div id="title" class="th">Protected Locked and Frozen Tabs</div>
       <div class="content-body evenbg">
         <div class="topic">
           <u><b>Protected tab</b></u>

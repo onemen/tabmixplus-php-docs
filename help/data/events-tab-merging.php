@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Events - Tab Merging</div>
+      <div id="title" class="th">Events - Tab Merging</div>
       <div class="content-body evenbg">
         <div class="topic">
           <img src="help/images/TMPEventsTabMerging.jpg" alt="image">

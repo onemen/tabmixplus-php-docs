@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Links</div>
+      <div id="title" class="th">Links</div>
       <div class="content-body evenbg">
         <div class="topic">
           <img src="help/images/TMPLinks.jpg" alt="image">

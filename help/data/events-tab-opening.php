@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Events - Tab Opening</div>
+      <div id="title" class="th">Events - Tab Opening</div>
       <div class="content-body evenbg">
         <div class="topic">
           <img src="help/images/TMPEventsTabOpening.jpg" alt="image">

@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Preferences - Restore, Import & Export</div>
+      <div id="title" class="th">Preferences - Restore, Import & Export</div>
       <div class="content-body evenbg">
         <div class="topic">
           <img src="help/images/TMPSettingsRestoreImportExport.jpg" alt="image">

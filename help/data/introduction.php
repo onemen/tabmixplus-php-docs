@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Introduction</div>
+      <div id="title" class="th">Introduction</div>
       <div class="content-body evenbg">
         <div class="topic justify" style="padding-bottom: 20px;">
           <p>

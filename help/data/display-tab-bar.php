@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Display - Tab Bar</div>
+      <div id="title" class="th">Display - Tab Bar</div>
       <div class="content-body evenbg">
         <div class="topic">
           <img src="help/images/TMPDisplayTabBar.jpg" alt="image">

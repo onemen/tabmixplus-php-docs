@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Events - Tab Features</div>
+      <div id="title" class="th">Events - Tab Features</div>
       <div class="content-body evenbg">
         <div class="topic">
           <img src="help/images/TMPEventsTabFeatures.jpg" alt="image">

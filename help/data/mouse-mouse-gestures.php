@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Mouse - Mouse Gestures</div>
+      <div id="title" class="th">Mouse - Mouse Gestures</div>
       <div class="content-body evenbg">
         <div class="topic">
           <img src="help/images/TMPMouseMouseGestures.jpg" alt="image">

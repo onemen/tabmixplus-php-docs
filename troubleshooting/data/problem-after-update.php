@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Problem after update</div>
+      <div id="title" class="th">Problem after update</div>
       <div class="content-body">
         <div class="topic">
           <p>

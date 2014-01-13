@@ -175,6 +175,7 @@ h1 {
 
 .th,
 th {
+  text-align: center;
   color: #FFA34F;
   font-size: 1.1em;
   font-weight: bold;

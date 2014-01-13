@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Events - Tab Closing</div>
+      <div id="title" class="th">Events - Tab Closing</div>
       <div class="content-body evenbg">
         <div class="topic">
           <img src="help/images/TMPEventsTabClosing.jpg" alt="image">

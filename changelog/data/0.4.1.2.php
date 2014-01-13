@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Changes in Version 0.4.1.2</div>
+      <div id="title" class="th">Changes in Version 0.4.1.2</div>
       <div class="content-body evenbg">
         <div class="topic">
           <h4>0.4.1.2pre.131019a2</h4>

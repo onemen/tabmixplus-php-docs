@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Preferences won't save</div>
+      <div id="title" class="th">Preferences won't save</div>
       <div class="content-body">
         <div class="topic">
           <p>

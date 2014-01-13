@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Session - Start/Exit</div>
+      <div id="title" class="th">Session - Start/Exit</div>
       <div class="content-body evenbg">
         <div class="topic">
           <img src="help/images/TMPSessionStartExit.jpg" alt="image">

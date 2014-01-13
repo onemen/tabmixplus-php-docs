@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Conflict with other extension</div>
+      <div id="title" class="th">Conflict with other extension</div>
       <div class="content-body">
         <div class="topic">
           <p>

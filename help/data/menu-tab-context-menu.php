@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Menu - Tab Context Menu</div>
+      <div id="title" class="th">Menu - Tab Context Menu</div>
       <div class="content-body evenbg">
         <div class="topic">
           <img src="help/images/TMPMenuTabContextMenu.jpg" alt="image">

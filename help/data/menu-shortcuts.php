@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Menu - Shortcuts</div>
+      <div id="title" class="th">Menu - Shortcuts</div>
       <div class="content-body evenbg">
         <div class="topic">
           <img src="help/images/TMPMenuShortcuts.jpg" alt="image">

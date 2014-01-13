@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Menu - Tools Menu</div>
+      <div id="title" class="th">Menu - Tools Menu</div>
       <div class="content-body evenbg">
         <div class="topic">
           <img src="help/images/TMPMenuToolsMenu.jpg" alt="image">

@@ -1,5 +1,5 @@
 
-    <div id="title" class="th" align="center">Events - New Tabs</div>
+    <div id="title" class="th">Events - New Tabs</div>
     <div class="content-body evenbg">
       <div class="topic">
         <img src="help/images/TMPEventsNewTabs.jpg" alt="image">

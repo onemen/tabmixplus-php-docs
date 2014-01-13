@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">Display - ToolBar</div>
+      <div id="title" class="th">Display - ToolBar</div>
       <div class="content-body evenbg">
         <div class="topic">
           <img src="help/images/TMPDisplayToolbarButtons.jpg" alt="image">

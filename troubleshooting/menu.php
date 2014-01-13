@@ -1,4 +1,4 @@
-    <div class="th" align="center">Table of Contents</div>
+    <div class="th">Table of Contents</div>
     <div class="menu-body">
       <div class="topic">
 <?php

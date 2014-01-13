@@ -1,4 +1,4 @@
-      <div id="title" class="th" align="center">How to post about a problem</div>
+      <div id="title" class="th">How to post about a problem</div>
       <div class="content-body">
         <div class="topic">
           <p>
