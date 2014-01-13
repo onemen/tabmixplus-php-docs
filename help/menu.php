@@ -29,10 +29,6 @@ echo <<<html
           <p><a href="$href=session-startexit#preserve" $target>Session - Preserve</a></p>
 
 html;
-/*
-<br>
-<a href="#Get_Additional_Help">Get additional Help</a><br>
-*/
 ?>
         </div>
       </div>
