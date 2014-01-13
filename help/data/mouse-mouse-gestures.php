@@ -35,7 +35,7 @@
 
         <div class="topic">
           When scrolling over the tab-bar:
-          <ul class="comment">
+          <ul class="comment" style="margin-left: 0px;">
             <li>Hold Shift while scrolling to switch between these options</li>
             <li>Inverse scroll direction - change the direction in which tabs are selected or tab-bar is moved</li>
           </ul>

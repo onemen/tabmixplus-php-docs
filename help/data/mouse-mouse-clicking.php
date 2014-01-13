@@ -7,7 +7,7 @@
           tabbar<br>
           Select which action is to be applied for each of the
           five mouse click events
-          <ul style="margin-left: 25px;">
+          <ul>
             <li>Double-click</li>
             <li>Middle-click</li>
             <li>Ctrl-click</li>

@@ -76,19 +76,18 @@
           </ul>
         </div>
 
-        <div class="topic">
-          <ul>
-            <li>Max number of rows to display - default 3 - for Multi-row option</li>
+        <ul class="topic">
+          <li>Max number of rows to display - default 3 - for Multi-row option
             <p class="comment">
                 The number controls the max number of rows to display -
                 When tabs are spread on more rows then the max number
                 of rows to display, scroll arrows will appear on the right side of the tabs.
             </p>
-            <li>When scrolling show part of next out-of-sight tab - for single row options</li>
-            <li>Enable smooth scroll -  scroll the tab-bar smoothly</li>
-            <li>Scroll Delay (time between scroll repetition <span class="default">150 milliseconds is default</span>)<br>
-            specify the delay time in milliseconds to scroll when smooth scroll disabled</li>
-          </ul>
-        </div>
+          </li>
+          <li>When scrolling show part of next out-of-sight tab - for single row options</li>
+          <li>Enable smooth scroll -  scroll the tab-bar smoothly</li>
+          <li>Scroll Delay (time between scroll repetition <span class="default">150 milliseconds is default</span>)<br>
+          specify the delay time in milliseconds to scroll when smooth scroll disabled</li>
+        </ul>
 
       </div>

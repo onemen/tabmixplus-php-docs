@@ -9,29 +9,22 @@ body:not([class="innerFrame"]) #wrapcontent {
   margin-left: 10px;
   width: 40%
 }
-/*
-.topic > * {
-  max-width: 100%;
-}
-*/
+
 .topic {
   padding-right: 10px;
 }
 
-
 .topic *.caption,
+.topic ul,
 ul.topic > li,
-/*.topic > ul > ul,*/
 .topic ul > li {
   margin-left: 12px;
 }
 
-.topic > ul {
-  margin: 0px;
-}
-
 ul.topic {
   margin-left: 0px;
+  /* default topic left padding is 30px */
+  padding-left: 42px;
 }
 
 .container {
@@ -45,7 +38,7 @@ ul.topic {
 }
 
 .container img {
-  margin-top: 15px;
+  margin: 10px 0 10px 10px;
 }
 
 /* DRAFT */
@@ -58,7 +51,10 @@ ul.topic {
 }
 
 .indent {
-  margin-left: 10px;
+  margin-left: 12px;
+}
+
+.small {
   font-size: 0.9em;
 }
 
