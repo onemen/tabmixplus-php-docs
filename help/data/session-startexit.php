@@ -13,7 +13,7 @@
             <li class="default">Enable Session Manager</li>
             <li class="default">Enable Crash Recovery</li>
           </ul>
-          <p class="comment indent">
+          <p class="comment indent justify">
             <b><u>Note</u></b>:<br> Sessions are stored in the <b>session.rdf</b> file
             in your profile folder. A backup of this file is stored in the
             <b>sessionbackups</b> folder in your profile folder. If your session becomes
@@ -21,7 +21,7 @@
             the backup files (tabmix_sessions-yyyy-mm-dd.rdf) from the backup
             folder to your profile folder, rename the file to <b>session. rdf</b>.
           </p>
-          <p class="comment indent">
+          <p class="comment indent justify">
             For a full range of sessions managing features, you can use
             <a href="https://addons.mozilla.org/en-US/firefox/addon/session-manager/">
             Session Manager extension</a> which is created specifically for that

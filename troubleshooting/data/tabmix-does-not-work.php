@@ -1,6 +1,6 @@
       <div id="title" class="th">Tab Mix Plus does not work properly</div>
       <div class="content-body">
-        <div class="topic">
+        <div class="topic justify">
           <p>
           If you are reading this page, you have probably encountered a problem with
           Tab Mix Plus. While it can be some unknown bug, most issues reported in the

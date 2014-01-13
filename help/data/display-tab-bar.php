@@ -13,7 +13,7 @@
             <li>Right side</li>
             <li class="default">After last tab</li>
             </ul>
-            <p class="comment">
+            <p class="comment justify">
               The New Tab button can be dragged out of the Customize 
               Toolbar window and placed on any toolbar. But in order to be able to use its 
               placement option in Tab Mix Plus (left/right/after last tab), it needs to be placed on 
@@ -78,7 +78,7 @@
 
         <ul class="topic">
           <li>Max number of rows to display - default 3 - for Multi-row option
-            <p class="comment">
+            <p class="comment justify">
                 The number controls the max number of rows to display -
                 When tabs are spread on more rows then the max number
                 of rows to display, scroll arrows will appear on the right side of the tabs.

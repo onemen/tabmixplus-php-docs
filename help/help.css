@@ -6,7 +6,7 @@ body:not([class="innerFrame"]) #wrapcontent {
 .content-body img {
   float: right;
   border-radius: 6px;
-  margin-left: 10px;
+  margin-left: 20px;
   width: 40%
 }
 
@@ -38,7 +38,7 @@ ul.topic {
 }
 
 .container img {
-  margin: 10px 0 10px 10px;
+  margin: 10px 0 10px 20px;
 }
 
 /* DRAFT */
@@ -61,8 +61,4 @@ ul.topic {
 .default {
   font-weight: bold;
   font-style: italic;
-}
-
-.justify {
-  text-align: justify;
 }

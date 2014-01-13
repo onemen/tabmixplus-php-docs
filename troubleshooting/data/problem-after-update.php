@@ -1,6 +1,6 @@
       <div id="title" class="th">Problem after update</div>
       <div class="content-body">
-        <div class="topic">
+        <div class="topic justify">
           <p>
           Sometimes people complain about a Tab Mix Plus development version (or a release) being
           incompatible. You are welcome to try other,

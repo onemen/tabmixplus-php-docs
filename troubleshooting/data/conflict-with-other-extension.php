@@ -1,6 +1,6 @@
       <div id="title" class="th">Conflict with other extension</div>
       <div class="content-body">
-        <div class="topic">
+        <div class="topic justify">
           <p>
           If the Error button in the Tab Mix Plus Options is visible, some of your
           extensions are incompatible with Tab Mix Plus. It is recommended you

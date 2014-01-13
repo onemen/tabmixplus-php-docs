@@ -51,7 +51,7 @@
             tab contents will be replaced with the link contents</li>
         </ul>
 
-        <div class="topic container">
+        <div class="topic container justify">
           <img src="help/images/TMPLinksEdit1a.gif" alt="image">
           <ul><li>
             <span class="default">Prevent blank tabs when downloading files</span>
@@ -65,7 +65,7 @@
             <p>
             Click on the "Edit" button to open "File Type Editor".
             In the editor you can view the file extensions list, add, delete and modify the list.<br>
-            "Restore Defaults" button restore only the file type preference (extensions.tabmix.filetype).
+            "Restore Defaults" button restore only the file type preference<br>(extensions.tabmix.filetype).
             </p>
             <p class="comment">
             File type can be simple file extensions or

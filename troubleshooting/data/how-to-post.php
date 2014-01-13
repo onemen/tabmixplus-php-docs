@@ -1,6 +1,6 @@
       <div id="title" class="th">How to post about a problem</div>
       <div class="content-body">
-        <div class="topic">
+        <div class="topic justify">
           <p>
           Most issues reported in Tab Mix Plus forum usually end up to be extensions or theme conflicts.
           </p>

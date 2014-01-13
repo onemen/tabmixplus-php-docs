@@ -83,19 +83,19 @@
             <li>Background Color: select color specify opacity[100%]</li>
             <li>Restore Defaults (resets spesific style to default)</li>
           </ul>
-          <div class="comment">
-          <p>
-          You can controls tab title bold, italic and underline style as well as the
-          title color and opacity. For the tab background you can control color and
-          opacity, set different colors and opacity on tab bottom and top get nice
-          gradient effect of the color.<br>
-          </p>
-          Each color control has five parts:
-          <ul>
-          <li>button with predefined colors</li>
-          <li>three fields for user-defined color (color range 0-255)</li>  
-          <li>opacity field for defined the opacity level of the color (range 0%-100%)</li>
-          </ul>
+          <div class="comment justify">
+            <p>
+              You can controls tab title bold, italic and underline style as well as the
+              title color and opacity. For the tab background you can control color and
+              opacity, set different colors and opacity on tab bottom and top get nice
+              gradient effect of the color.<br>
+            </p>
+            Each color control has five parts:
+            <ul>
+              <li>button with predefined colors</li>
+              <li>three fields for user-defined color (color range 0-255)</li>  
+              <li>opacity field for defined the opacity level of the color (range 0%-100%)</li>
+            </ul>
           </div>
         </div>
 

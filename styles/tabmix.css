@@ -171,6 +171,10 @@ h1 {
   margin-bottom: 0px;
 }
 
+.justify {
+  text-align: justify;
+}
+
 /* :::: Tables :::: */
 
 .th,

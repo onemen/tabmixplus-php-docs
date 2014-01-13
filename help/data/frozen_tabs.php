@@ -1,5 +1,5 @@
       <div id="title" class="th">Protected Locked and Frozen Tabs</div>
-      <div class="content-body evenbg">
+      <div class="content-body evenbg justify">
         <div class="topic">
           <u><b>Protected tab</b></u>
           <p>
