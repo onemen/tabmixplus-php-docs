@@ -34,7 +34,7 @@
   if (strpos($_SERVER["REQUEST_URI"], "viewpage") > -1) {
     $innerFrame = "innerFrame";
     $viewPage = true;
-    $filename = "$FOLDER/data/$_GET[p].php";
+    $filename = "$FOLDER/data/$_GET[p].html";
   }
 
   include("main.html");
