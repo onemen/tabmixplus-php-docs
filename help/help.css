@@ -62,3 +62,7 @@ ul.topic {
   font-weight: bold;
   font-style: italic;
 }
+
+.justify {
+  text-align: justify;
+}

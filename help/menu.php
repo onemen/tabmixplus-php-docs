@@ -5,6 +5,7 @@
   $href = "viewpage.php?t=3&p";
   $target = 'target="tabmix-help-content"';
 echo <<<html
+          <p><a href="$href=introduction" $target>Introduction</a></p>
           <p><a href="$href=preferences" $target>Preferences - <span style="font-size: 0.9em;">Restore, Import & Export</span></a></p>
           <p><a href="$href=links" $target>Links</a></p>
           <p><a href="$href=events-new-tabs" $target>Events - New Tabs</a></p>
