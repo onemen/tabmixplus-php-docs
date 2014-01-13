@@ -42,7 +42,7 @@
           <div class="comment" style="float: right; width: 30%; margin-left: 30px;">
             <p><a href='https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/'>Current Version</a> <?=$VERSION?></p>
             <p><a href='https://addons.cdn.mozilla.net/storage/public-staging/1122/tab_mix_plus-<?=$DEVBUILD?>-fx.xpi' target="_top">Latest Development Build</a> <?=$DEVBUILD?></p>
-            <p><a href="http://tmp.garyr.net/dev-builds/">Older Development Builds</a></p>
+            <p><a href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/versions/">Version History</a></p>
             <p>You can download
               <a href="https://bitbucket.org/onemen/tabmixplus" style="color:blue">source code</a> or
               <a href="https://bitbucket.org/onemen/tabmixplus/downloads" style="color:blue">latest</a> working version at any time.
