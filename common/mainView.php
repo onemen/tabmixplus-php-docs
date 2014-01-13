@@ -37,5 +37,5 @@
     $filename = "$FOLDER/data/$_GET[p].php";
   }
 
-  include("template.html");
+  include("main.html");
 ?>
