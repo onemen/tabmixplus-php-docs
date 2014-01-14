@@ -6,7 +6,7 @@
   $target = 'target="tabmix-help-content"';
 echo <<<html
           <p><a href="$href=introduction" $target>Introduction</a></p>
-          <p><a href="$href=preferences" $target>Preferences - <span style="font-size: 0.9em;">Restore, Import & Export</span></a></p>
+          <p><a href="$href=preferences-button" $target>Preferences - <span style="font-size: 0.9em;">Restore, Import & Export</span></a></p>
           <p><a href="$href=links" $target>Links</a></p>
           <p><a href="$href=events-new-tabs" $target>Events - New Tabs</a></p>
           <p class="indent small"><a href="$href=frozen_tabs" $target>Protected Locked and Frozen Tabs</a></p>
@@ -18,8 +18,8 @@ echo <<<html
           <p><a href="$href=display-tab" $target>Display - Tab</a></p>
           <p class="indent small"><a href="$href=display-tab#customize_styles" $target>Customizing Tabs Styles</a></p>
           <p><a href="$href=display-toolbar" $target>Display - ToolBar</a></p>
-          <p style="margin-top: 10px;"><a href="$href=mouse-mouse-gestures" $target>Mouse - Mouse Gestures</a></p>
-          <p><a href="$href=mouse-mouse-clicking" $target>Mouse - Mouse Clicking</a></p>
+          <p style="margin-top: 10px;"><a href="$href=mouse-gestures" $target>Mouse - Mouse Gestures</a></p>
+          <p><a href="$href=mouse-clicking" $target>Mouse - Mouse Clicking</a></p>
           <p style="margin-top: 10px;"><a href="$href=menu-tab-context-menu" $target>Menu - Tab Context Menu</a></p>
           <p><a href="$href=menu-main-context-menu" $target>Menu - Main Context Menu</a></p>
           <p><a href="$href=menu-tools-menu" $target>Menu - Tools Menu</a></p>
