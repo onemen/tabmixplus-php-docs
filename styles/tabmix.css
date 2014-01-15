@@ -15,8 +15,9 @@ body {
   margin: 0;
 }
 
-body.innerFrame #top-frame,
-body.innerFrame .menu-frame {
+body.innerFrame #wrapheader,
+body.innerFrame #wrapleft,
+body.innerFrame #wrapright {
   display: none;
 }
 
@@ -46,13 +47,7 @@ body.innerFrame .menu-frame {
   background-color: #ECECEC;
   border: 2px solid #A9B8C2;
   float: right;
-  width: 20%;
-}
-
-@media all and (max-width:896px) {
-#wrapright {
-  display: none;
-}
+  width: calc(20% - 10px);
 }
 
 .download-box {
@@ -60,47 +55,37 @@ body.innerFrame .menu-frame {
   max-height: 249px;
 }
 
-#top-frame {
-  position: fixed;
-}
-
-body:not([class="innerFrame"]) #center {
+body:not([class="innerFrame"]) #wrapcontent {
   background-color: #ECECEC;
   border: 2px solid #A9B8C2;
-  position: fixed;
+  border-left-width: 1px;
+  position: absolute;
   top: 109px;
-  left: 25px;
+  left: calc(19% + 25px);
   bottom: 15px;
-  width: calc(80% - 76px);
+  width: calc(61% - 75px);
 }
 
 @media all and (max-width:896px) {
   #wrapright {
     display: none;
   }
-  body:not([class="innerFrame"]) #center {
-    width: calc(100% - 50px);
+  body:not([class="innerFrame"]) #wrapcontent {
+    width: calc(80% - 40px);
   }
 }
 
-.menu-frame {
-  border-right: 1px solid #A9B8C2;
+#wrapleft {
+  background-color: #ECECEC;
+  border: 2px solid #A9B8C2;
   position: absolute;
-  top: 0;
-  left: 0px;
-  height: 100%;
-  width: calc(25% - 1px);
+  top: 109px;
+  left: 25px;
+  bottom: 15px;
+  width: calc(19% - 1px);
 }
 
-body:not([class="innerFrame"]) .content-frame {
-  position: absolute;
-  top: 0;
-  left: 25%;
-  height: 100%;
-  width: 75%;
-}
-
-.changeset, .inner-box {
+.topic {
   padding: 5px 20px 5px 30px;
 }
 
@@ -122,7 +107,7 @@ body:not([class="innerFrame"]) .content-frame {
   margin-bottom: 10px;
 }
 
-.header {
+.th {
   border-bottom: 2px solid #A9B8C2;
 }
 
@@ -136,34 +121,39 @@ h1 {
   text-decoration: none;
 }
 
-.changeset:nth-child(even) {
+.evenbg > .topic:nth-child(even) {
   background-color: #DCE1E5;
 }
 
-.changeset {
+.evenbg > .topic {
   border-bottom: 1px solid #A9B8C2;
 }
 
-.changeset, .inner-box {
+.evenbg > .topic:nth-child(odd):last-child {
+  border-bottom: none;
+}
+
+.topic {
   font-size: 1.3em;
   line-height: 1.4em;
   font-family: "Lucida Grande", "Trebuchet MS", Helvetica, Arial, sans-serif;
 }
 
-.changeset > *,
-.inner-box > * {
+.topic > * {
   max-width: 60em;
 }
 
-
-.inner-box ol,
-.inner-box ul,
-.inner-box p  {
+.topic ol,
+.topic ul,
+.topic p  {
   margin-bottom: 0.6em;
 }
 
-.changeset li, ol, ul,
-.inner-box li, ol, ul {
+.evenbg > .topic ul {
+  margin-bottom: 0;
+}
+
+.topic li, ol, ul {
   margin: 0 0 0 1.5em;
 }
 
@@ -172,7 +162,6 @@ h1 {
   font-size: 1.2em;
 }
 
-/* need to fix this */
 .menu-body p {
   margin-top: 0px;
   margin-bottom: 5px;
@@ -182,10 +171,15 @@ h1 {
   margin-bottom: 0px;
 }
 
+.justify {
+  text-align: justify;
+}
+
 /* :::: Tables :::: */
 
-.header,
+.th,
 th {
+  text-align: center;
   color: #FFA34F;
   font-size: 1.1em;
   font-weight: bold;

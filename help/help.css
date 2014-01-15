@@ -1,0 +1,64 @@
+
+body:not([class="innerFrame"]) #wrapcontent {
+  width: calc(80% - 40px);
+}
+
+.content-body img {
+  float: right;
+  border-radius: 6px;
+  margin-left: 20px;
+  width: 40%
+}
+
+.topic {
+  padding-right: 10px;
+}
+
+.topic *.caption,
+.topic ul,
+ul.topic > li,
+.topic ul > li {
+  margin-left: 12px;
+}
+
+ul.topic {
+  margin-left: 0px;
+  /* default topic left padding is 30px */
+  padding-left: 42px;
+}
+
+.container {
+  clear: both;
+}
+
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container img {
+  margin: 10px 0 10px 20px;
+}
+
+/* DRAFT */
+.comment {
+  border: 1px solid rgba(36, 30, 30, 0.2);
+  width: 55%;
+  margin: 6px 10px 6px 0px;
+  padding: 6px 10px;
+  background-color: rgb(200, 222, 234);
+}
+
+.indent {
+  margin-left: 12px;
+}
+
+.small {
+  font-size: 0.9em;
+}
+
+.default {
+  font-weight: bold;
+  font-style: italic;
+}
