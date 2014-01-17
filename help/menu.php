@@ -6,8 +6,9 @@
   $target = 'target="tabmix-help-content"';
 echo <<<html
           <p><a href="$href=introduction" $target>Introduction</a></p>
-          <p><a href="$href=preferences-button" $target>Preferences - <span style="font-size: 0.9em;">Restore, Import & Export</span></a></p>
+          <p><a href="$href=preferences-button" $target>Preferences - <span style="font-size: 0.9em;">Restore, Import &amp Export</span></a></p>
           <p><a href="$href=links" $target>Links</a></p>
+          <p class="indent small"><a href="$href=links#file_type_editor" $target>Links - file type editor</a></p>
           <p><a href="$href=events-new-tabs" $target>Events - New Tabs</a></p>
           <p class="indent small"><a href="$href=frozen_tabs" $target>Protected Locked and Frozen Tabs</a></p>
           <p><a href="$href=events-tab-opening" $target>Events - Tab Opening</a></p>
