@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"/>
+  <meta name="description" content="Tab Mix Plus Help Manual"/>
+  <title>Tab Mix Plus Help Manual</title>
+  <link rel="stylesheet" href="../support/styles/tabmix.css" type="text/css"/>
+  <link rel="stylesheet" href="../support/help/help.css" type="text/css"/>
+  <base target="_blank"/>
+  <script type="text/javascript">
+    function getPage(hash) {
+      var page = "introduction";
+      switch(hash) {
+        case "#TMP_Settings_-_Restore_Import__Export": page = "preferences-button"; break;
+        case "#Links": page = "links"; break;
+        case "#Events_-_links_edit": page = "links#file_type_editor"; break;
+        case "#Events_-_New_Tabs": page = "events-new-tabs"; break;
+        case "#Protected__Locked_and_Frozen_Tabs": page = "frozen_tabs"; break;
+        case "#Events_-_tab_opening": page = "events-tab-opening"; break;
+        case "#Events_-_Tab_Closing": page = "events-tab-closing"; break;
+        case "#Events_-_Tab_Merging": page = "events-tab-merging"; break;
+        case "#Events_-_Tab_Features": page = "events-tab-features"; break;
+        case "#Display_-_Tab_bar": page = "display-tab-bar"; break;
+        case "#Display_-_Tab": page = "display-tab"; break;
+        case "#Customize_Styles_-_Current_Tab": page = "display-tab#customize_styles"; break;
+        case "#Customize_Styles_-_Unloaded_tabs": page = "display-tab#customize_styles"; break;
+        case "#Customize_Styles_-_Unread_tabs": page = "display-tab#customize_styles"; break;
+        case "#Customize_Styles_-_Other_Tabs": page = "display-tab#customize_styles"; break;
+        case "#Customize_Styles_-_Progress_meter_on_tabs": page = "display-tab#customize_styles"; break;
+        case "#Display_-_ToolBar": page = "display-toolbar"
+        case "#Mouse_-_Mouse_Gestures": page = "mouse-gestures"; break;
+        case "#Mouse_-_Mouse_Clicking": page = "mouse-clicking"; break;
+        case "#Menu_-_Tab_Context_Menu": page = "menu-tab-context-menu"; break;
+        case "#Menu_-_Main_Context_Menu": page = "menu-main-context-menu"; break;
+        case "#Menu_-_Tools_Menu": page = "menu-tools-menu"; break;
+        case "#Menu_-_Shortcuts": page = "menu-shortcuts"; break;
+        case "#Session_-_StartExit": page = "session-startexit"; break;
+        case "#Session_-_Restore": page = "session-startexit#restore"; break;
+        case "#Session_-_Preserve": page = "session-startexit#preserve"; break;
+      }
+      return page;
+    }
+
+    var frame;
+    var blockOnhashchange = false;
+    function setIframeSrc() {
+      var page = location.hash ? getPage(location.hash) : "introduction";
+      updateHash(page);
+      frame.src="../support/viewpage.php?t=3&p=" + page;
+    }
+
+    function updateHash(hash) {
+      var newHash = "#" + hash.replace("#", "__");
+      if (newHash != location.hash) {
+        blockOnhashchange = true;
+///        setTimeout(function() {blockOnhashchange = false;}, 50);
+        location.hash = newHash;
+      }
+    }
+
+    function contentLoaded() {
+      window.removeEventListener("DOMContentLoaded", contentLoaded, false);
+      frame = document.getElementById("content-frame");
+      frame.onload = function() {
+        var doc = this.contentDocument || this.contentWindow.document;
+        var page = doc.location.search.split("&")[1];
+        if (page)
+          updateHash(page.substr(page.indexOf("=") + 1) + doc.location.hash);
+      }
+      setIframeSrc();
+      window.onhashchange = function() {
+        if (!blockOnhashchange)
+          setIframeSrc();
+        else
+          blockOnhashchange = false;
+      }
+    }
+
+    window.addEventListener("DOMContentLoaded", contentLoaded, false);
+
+  </script>
+</head>
+<body class="">
+  <div id="wrapheader">
+    <div id="logodesc">
+      <table cellspacing="0" width="100%">
+        <tbody><tr>
+          <td>
+            <a href="../support/viewtopic.php?t=3">
+            <img src="../support/styles/images/tabmix_logo.gif" alt="" title="" height="60" width="75"/></a>
+          </td>
+          <td width="100%" align="center">
+            <h1>Tab Mix Plus</h1>
+            <span class='gen'>Help</span>
+          </td>
+          <td>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-top: 31px;" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick"/>
+              <input type="hidden" name="hosted_button_id" value="BZWMH5PS56GAW"/>
+              <input title="Donate to Tab Mix Plus" type="image" class="radio" src="../support/styles/images/donate.gif" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+            </form>
+          </td>
+        </tr></tbody>
+      </table>
+    </div>
+
+    <div id="menubar">
+      <table width="100%" cellspacing="0">
+      <tr><td class="gen top-menu" align="center">
+        <a href="http://tmp.garyr.net/forum/index.php">Forum</a>
+        <a href="../support/viewtopic.php?t=3">Help</a>
+        <a href="../support/viewtopic.php?t=2">Troubleshooting</a>
+        <a href="../support/viewtopic.php?t=1">Change Log</a>
+        <a href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/">Download</a>
+      </td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div id="wrapleft">
+      <div class="th">Table of Contents</div>
+      <div class="menu-body">
+        <div class="topic">
+          <p><a href="../support/viewpage.php?t=3&p=introduction" target="tabmix-help-content">Introduction</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=preferences-button" target="tabmix-help-content">Preferences - <span style="font-size: 0.9em;">Restore, Import &amp Export</span></a></p>
+          <p><a href="../support/viewpage.php?t=3&p=links" target="tabmix-help-content">Links</a></p>
+          <p class="indent small"><a href="../support/viewpage.php?t=3&p=links#file_type_editor" target="tabmix-help-content">Links - file type editor</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=events-new-tabs" target="tabmix-help-content">Events - New Tabs</a></p>
+          <p class="indent small"><a href="../support/viewpage.php?t=3&p=frozen_tabs" target="tabmix-help-content">Protected Locked and Frozen Tabs</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=events-tab-opening" target="tabmix-help-content">Events - Tab Opening</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=events-tab-closing" target="tabmix-help-content">Events - Tab Closing</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=events-tab-merging" target="tabmix-help-content">Events - Tab Merging</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=events-tab-features" target="tabmix-help-content">Events - Tab Features</a></p>
+          <p style="margin-top: 10px;"><a href="../support/viewpage.php?t=3&p=display-tab-bar" target="tabmix-help-content">Display - Tab Bar</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=display-tab" target="tabmix-help-content">Display - Tab</a></p>
+          <p class="indent small"><a href="../support/viewpage.php?t=3&p=display-tab#customize_styles" target="tabmix-help-content">Customizing Tabs Styles</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=display-toolbar" target="tabmix-help-content">Display - ToolBar</a></p>
+          <p style="margin-top: 10px;"><a href="../support/viewpage.php?t=3&p=mouse-gestures" target="tabmix-help-content">Mouse - Mouse Gestures</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=mouse-clicking" target="tabmix-help-content">Mouse - Mouse Clicking</a></p>
+          <p style="margin-top: 10px;"><a href="../support/viewpage.php?t=3&p=menu-tab-context-menu" target="tabmix-help-content">Menu - Tab Context Menu</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=menu-main-context-menu" target="tabmix-help-content">Menu - Main Context Menu</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=menu-tools-menu" target="tabmix-help-content">Menu - Tools Menu</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=menu-shortcuts" target="tabmix-help-content">Menu - Shortcuts</a></p>
+          <p style="margin-top: 10px;"><a href="../support/viewpage.php?t=3&p=session-startexit" target="tabmix-help-content">Session - Start/Exit</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=session-startexit#restore" target="tabmix-help-content">Session - Restore</a></p>
+          <p><a href="../support/viewpage.php?t=3&p=session-startexit#preserve" target="tabmix-help-content">Session - Preserve</a></p>
+        </div>
+      </div>
+  </div>
+
+  <div id="wrapcontent">
+    <iframe id="content-frame" name="tabmix-help-content" class="content-frame" src=""
+          width="100%" height="100%"
+          marginheight="0" marginwidth="0" scrolling="no" frameborder="0">
+      <p>Your browser does not support iframes.</p>
+    </iframe>
+  </div>
+
+
+</body>
+</html>
