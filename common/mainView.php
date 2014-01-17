@@ -1,25 +1,27 @@
 <?php
   include("version_data.php");
 
+  $FOLDER = $TITLE = $name = $page = "";
+  function setVars($_folder = "", $_page = "") {
+    global $FOLDER, $name, $page;
+    $FOLDER = $_folder;
+    $name = "tabmix-$_folder-content";
+    $page = $_GET[p] ? $_GET[p] : $_page;
+  }
+  
   $topic = $_GET[t];
   switch ($topic) {
   case 1:
-    $FOLDER = "changelog";
     $TITLE = "Change Log";
-    $name = "tabmix-changelog-content";
-    $page = $LATEST;
+    setVars("changelog", $LATEST);
     break;
   case 2:
-    $FOLDER = "troubleshooting";
     $TITLE = "Troubleshooting";
-    $name = "tabmix-troubleshooting-content";
-    $page = "tabmix-does-not-work";
+    setVars("troubleshooting", "tabmix-does-not-work");
     break;
   case 3:
-    $FOLDER = "help";
     $TITLE = "Help";
-    $name = "tabmix-help-content";
-    $page = "links";
+    setVars("help", "links");
     break;
   default:
     $uri = $_SERVER["REQUEST_URI"];
@@ -34,7 +36,7 @@
   if (strpos($_SERVER["REQUEST_URI"], "viewpage") > -1) {
     $innerFrame = "innerFrame";
     $viewPage = true;
-    $filename = "$FOLDER/data/$_GET[p].html";
+    $filename = "$FOLDER/data/$page.html";
   }
 
   include("main.html");
