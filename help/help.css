@@ -27,6 +27,14 @@ ul.topic {
   padding-left: 42px;
 }
 
+ul:not(.circle) > li {
+ list-style-type: square;
+}
+
+li > ul:not(.square) > li {
+ list-style-type: circle;
+}
+
 .container {
   clear: both;
 }
