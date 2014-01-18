@@ -34,11 +34,11 @@
             <li><span class="default">Remove Tab Mix Plus menu list entries using middle-click</span>
               <div class="comment">
                 applies to:
-                <ul>
-                  <li>tabs in menus opened from Tab Mix Plus Opened Tabs list button or context menu</li>
-                  <li>Sessions in Tab Mix Plus sessions menu</li>
-                  <li>Closed tabs in Closed tabs list</li>
-                  <li>Closed windows in Closed windows list</li>
+                <ul class="circle justify">
+                  <li>Tabs in menus opened from Tab Mix Plus Opened Tabs list button or context menu: middle-click on tab entry in the list removes the tab itself, not just the entry in the list.</li>
+                  <li>Sessions in Tab Mix Plus sessions menu: middle-click on session entry in the list removes the session.</li>
+                  <li>Closed tabs in Closed tabs list: middle-click on tab entry in the list removes the tab from the closed tabs list, the removed tab cannot be restore anymore.</li>
+                  <li>Closed windows in Closed windows list: middle-click on window entry in the list removes the window from the closed windows list, the removed window cannot be restore anymore.</li>
                 </ul>
               </div>
             </li>
@@ -49,30 +49,36 @@
           <ul>
             <li><span class="default">When closing a tab, other tabs should not resize until cursor leaves toolbar region</span>
               <p class="comment">
-                applies only if tabs closed with the tab Close button
+                applies only if tabs closed with the tab Close button. This option allows user to close more than one tab without moving the mouse.
               </p>
             </li>
           </ul>
         </div>
 
         <div class="topic">
-          <span class="default">When dragging a tab move it directly</span> -
-          this option is available only when tabs are in single row.<br>
-          Drop indicator (select one):
-          <ul class="circle">
-            <li class="default">Native Style (single down arrow)</li>
-            <li>Built-in style (left and right arrows)</li>
+          <ul style="margin-bottom: 10px;">
+            <li><span class="default">When dragging a tab move it directly</span> -
+            this option is available only when tabs are in single row.</li>
+          </ul>
+          <ul>
+            <li>Drop indicator (select one):
+              <ul>
+                <li class="default">Native Style (single down arrow)</li>
+                <li>Built-in style (left and right arrows)</li>
+              </ul>
+            </li>
           </ul>
         </div>
 
-        <div class="topic">
-          When scrolling over the tab-bar:
-          <ul class="circle">
-            <p class="comment" style="margin-bottom: 0px;">Hold Shift while scrolling to switch between these options</p>
-            <li>Scroll to change selected tab - scrolling down selects the next tab</li>
-            <li><span class="default">Scroll all tabs</span> - scrolling moves visible tabs on the tab-bar (when scroll buttons are visible)</li>
-            <li style="margin-top: 10px; list-style-type:square;">Inverse scroll direction - change the direction in which tabs are selected or tab-bar is moved</li>
-          </ul>
-        </div>
+        <ul class="topic">
+          <li>When scrolling over the tab-bar:<br>
+            <p class="comment">Hold Shift while scrolling to switch between these options</p>
+            <ul>
+              <li>Scroll to change selected tab - scrolling down selects the next tab</li>
+              <li><span class="default">Scroll all tabs</span> - scrolling moves visible tabs on the tab-bar (when scroll buttons are visible)</li>
+              <li style="margin-top: 10px; list-style-type:square;">Inverse scroll direction - change the direction in which tabs are selected or tab-bar is moved</li>
+            </ul>
+          </li>
+        </ul>
 
       </div>
