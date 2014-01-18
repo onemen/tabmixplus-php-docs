@@ -21,6 +21,10 @@ ul.topic > li,
   margin-left: 12px;
 }
 
+.topic li ul {
+  margin-left: 0px;
+}
+
 ul.topic {
   margin-left: 0px;
   /* default topic left padding is 30px */
@@ -56,6 +60,11 @@ li > ul:not(.square) > li {
   margin: 3px 10px 6px 0px;
   padding: 3px 10px;
   background-color: rgb(200, 222, 234);
+}
+
+.comment.condense {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .indent {
