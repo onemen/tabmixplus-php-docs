@@ -25,7 +25,7 @@
             <li>Fixed: [e10s] Update Tabmix.BrowserOpenTab to work with remote tab by calling gBrowser.loadOneTab.</li>
             <li>Fixed: Click from history menu button not open in new tab. Handle click on menu items in PanelUI-history button.</li>
             <li>Fixed: Close tab icon on tabbar is messed-up (On PaleMoon and Linux versions before Firefox 28).</li>
-            <li>Added: 'Don’t load tabs until selected' preference to Tab Mix Options > Session > Restore[/list].</li>
+            <li>Added: 'Donâ€™t load tabs until selected' preference to Tab Mix Options > Session > Restore[/list].</li>
           </ul>
         </div>
 
@@ -73,8 +73,8 @@
             <li>Fixed: Some special links don't respect Tab Mix preferences to open new tab and open in the current tab instead. (Handle non-link element with onclick that change location.href).</li>
             <li>Fixed: When user show new tab button after last tab, the button is not placed after the scroll arrows when there is hidden rows.</li>
             <li>Fixed: Middle click in forward/backward history menu open new tab next to the current tab according to "Open duplicated tabs next to original" preference instead of "Open other tabs next to current one".</li>
-            <li>Fixed: Error – re-declaration of var Cc. (Source: chrome://tabmixplus/content/content.js).</li>
-            <li>Fixed: When restoring session with the preference 'Don’t load tabs until selected' set unloaded tab-styling on tabs updates slowly.</li>
+            <li>Fixed: Error â€“ re-declaration of var Cc. (Source: chrome://tabmixplus/content/content.js).</li>
+            <li>Fixed: When restoring session with the preference 'Donâ€™t load tabs until selected' set unloaded tab-styling on tabs updates slowly.</li>
             <li>Fixed: Remove 'download.asp' from 'Prevent blank tabs when downloading files' file types. Don't prevent opening new tab from link when 'Prevent blank tabs when downloading files' is off, even if the link matches an entry in the list.</li>
             <li>Fixed: Multi-row mode: Sometimes the new tab button gets placed into a new row on its own. Hopefully!?</li>
             <li>Fixed: Multi-row mode: there's a shadow shown on the right hand side of the tabbar, which won't disappear until a second row is shown.</li>
@@ -86,7 +86,7 @@
         <div class="topic">
           <h4>0.4.1.5pre.140824a1</h4>
           <ul>
-            <li>Fixed: <b>Don’t load tabs until selected</b> not working with Tab Mix session manager.</li>
+            <li>Fixed: <b>Donâ€™t load tabs until selected</b> not working with Tab Mix session manager.</li>
             <li>Fixed: Some link open new tab (according to user preference) and also change the current tab location. (link with onclick='window.location=NEW-ADDRESS').</li>
             <li>Fixed: Click options on tabbar doesn't working when browser.tabs.drawInTitlebar is true. [Firefox 25+.]</li>
             <li>Fixed: Split the options <b>Prevent clicking on Tab-bar from dragging the window.</b> and <b>Prevent double click on Tab-bar from changing window size.</b> Tab Mix Options > Mouse Gestures.</li>
