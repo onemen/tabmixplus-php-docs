@@ -11,6 +11,7 @@ echo <<<html
         <p><a href="$href=problem-after-update" $target>Problem after update</a></p>
         <p><a href="$href=preferences-wont-save" $target>Preferences won't save</a></p>
         <p><a href="$href=conflict-with-other-extension" $target>Conflict with other extension</a></p>
+        <p><a href="$href=session-manager-backup" $target>Sessions Manager</a></p>
 
 html;
 ?>
