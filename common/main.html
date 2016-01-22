@@ -10,6 +10,7 @@
 <?php if ($viewPage): ?>
   <script type="text/javascript" src="scripts/update.js"></script>
 <?php endif; ?>
+  <script type="text/javascript" src="scripts/scripts.js"></script>
   <base target="_blank"/>
 </head>
 <body class="<?=$innerFrame?>">
@@ -78,10 +79,6 @@
     <div class="download-box">
       <div class="topic">
         <p><a href='https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/'>Current Version</a> <?=$VERSION?></p>
-<!--
-        <p><a href='https://addons.cdn.mozilla.net/storage/public-staging/1122/tab_mix_plus-<?=$DEVBUILD?>-fx.xpi' target="_top">Latest Development Build</a> <?=$DEVBUILD?></p>
-        <p><a href='https://addons.mozilla.org/firefox/downloads/file/272994/tab_mix_plus-<?=$DEVBUILD?>-fx.xpi' target="_top">Latest Development Build</a> <?=$DEVBUILD?></p>
--->
         <p><a href='<?=$DEVBUILDPATH?>' target="_top">Latest Development Build</a> <?=$DEVBUILD?></p>
         <p><a href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/versions/">Version History</a></p>
         <p>You can download

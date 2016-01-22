@@ -1,22 +1,50 @@
-<div id="title" class="th">Changes in Version 0.4.1.7</div>
-<div class="content-body evenbg">
+      <div id="title" class="th">Changes in Version 0.4.1.7</div>
+      <div class="content-body evenbg">
 
-  <div class="topic">
-    <h4>0.4.1.7pre.150112a1</h4>
-    <ul>
+        <div class="topic">
+          <h4>0.4.1.7pre.150212a1</h4>
+          <ul>
+            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/a881b08218d1>a881b08</a> Follow up <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1047603>bug 1047603</a> - Fix passing xul:tab in the initialization of a new e10s window.</li>
+            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/eb2a7844bec2>eb2a784</a> Blank tabs opened from download remain hidden and not deleted. Typo in changeset <a href=https://bitbucket.org/onemen/tabmixplus/commits/0230ba00d9b5>0230ba0</a> Hinting chrome/content/* folders.</li>
+            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/c99f4ccc7457>c99f4cc</a> Update locals from http://www.babelzilla.org.</li>
+            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/6e8621308685>6e86213</a> Follow up <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1112304>bug 1112304</a>, update tabbrowser-tab binding.</li>
+            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/9fde38dafcf2>9fde38d</a> When 'Ctrl-Tab navigates tabs in the most recently used order' is off we may call gBrowser.mTabBox.handleEvent from keydown.</li>
+            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/a20b2a23512c>a20b2a2</a> Add lasttabTabList events to the xul menupoup.</li>
+            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/5574ab59b1c5>5574ab5</a> Update for changeset <a href=https://bitbucket.org/onemen/tabmixplus/commits/6a46101dcb85>6a46101</a> for the case getBoundingClientRect bottom return fraction value.</li>
+            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/e909097a67cf>e909097</a> Update TMP_tabDNDObserver.onDragStart follow up bugs: 674373, 698371, 783282, 786406, 790168, 1059032.</li>
+          </ul>
+        </div>
+
+        <div class="topic">
+          <h4>0.4.1.7pre.150126a1</h4>
+          <ul>
+            <li>Fixed: <b>When dragging a tab move it directly</b> options is disabled when multi-row mode is on.</li>
+            <li>Fixed: Calling gBrowser.tabContextMenu too soon broke s3menuwizard from initialize tab context menu.</li>
+            <li>Fixed: Close button is not on the left side when Classic theme restorer extension installed. Classic theme restorer control close tab button only when the default theme is in use.</li>
+            <li>Fixed: Address bur not always focused after replacing last tab.</li>
+            <li>Fixed: Pinned tabs overlapping other tabs after scrolling multi-row. [With build 0.4.1.7pre.150112a1].</li>
+            <li>Fixed: Allow to open new window if user are not in single window mode or there are no opened windows or there are no other windows with the same privacy type.</li>
+            <li>Fixed: Some local strings are missing.</li>
+            <li>Fixed: Change tab-close-button image on Linux when user set background color on tabs.</li>
+          </ul>
+        </div>
+
+        <div class="topic">
+          <h4>0.4.1.7pre.150112a1</h4>
+          <ul>
             <li>Fixed: Tooltip for Drag & Drop over tabs is not visible when the window is maximized.</li>
             <li>Fixed: Wrong redirection on Google+ page: Apps, when preferences are to open links in new tab.</li>
-            <li>Fixed: Issue in combination with [url=https://github.com/darrinhenein/VerticalTabs/]Vertical Tabs[/url] Add-on.</li>
+            <li>Fixed: Issue in combination with <a href=https://github.com/darrinhenein/VerticalTabs/>Vertical Tabs</a> Add-on.</li>
             <li>Fixed: Incompatibility with Secure Login extension.</li>
             <li>Fixed: Any clicking options on tab to 'Activate/Deactivate tab auto reload' reload the tab non-stop (the interval is zero).</li>
             <li>Added: New shortcut 'Switch to last active tab'. to set the new shortcut opent Tab mix preferences window and go to Menu > Shortcut.</li>
             <li>Backed out: changeset from 141229a1, Session manager doesn't save scroll position from remote tabs. It prevents session manage from saving a session when quitting Firefox on Mac OS.</li>
-    </ul>
-  </div>
+          </ul>
+        </div>
 
-  <div class="topic"><h4>
-    <a href="viewpage.php?t=1&p=0.4.1.6" target="tabmix-changelog-content">Previous version</a>
-    </h4></div>
+        <div class="topic"><h4>
+          <a href="viewpage.php?t=1&p=0.4.1.6" target="tabmix-changelog-content">Previous version</a>
+        </h4></div>
 
-</div>
-</div>
+      </div>
+      </div>

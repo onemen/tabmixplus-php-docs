@@ -1,0 +1,85 @@
+<div id="title" class="th">Changes in Version 0.4.2.0</div>
+<div class="content-body evenbg">
+
+  <div class="topic">
+    <h4>0.4.2.0pre.151212a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/f85921a82b1e">f85921a</a> When 'browser.newtab.url' or 'extensions.tabmix.replaceLastTabWith.newtab.url' value is empty string show 'about:blank' in the corresponding text box in the option windows.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/d2c6dc998990">d2c6dc9</a> Can't customize tab bar at the bottom.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/f28b4782c03b">f28b478</a> Incompatibility with Pale Moon Tab Groups extnesion, TabView.prepareUndoCloseTab and TabView.afterUndoCloseTab are not exist.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/df1a2b9851b5">df1a2b9</a> Pending tab shrink for a moment when restoring starts, SessionStore change the title to 'Connectingן... Don't remove tab width when widthFitTitle is true and the tab is restoring.</li>
+    </ul>
+  </div>
+
+  <div class="topic">
+    <h4>0.4.2.0pre.151127a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/e1e7cd1c5c02">e1e7cd1</a> Style issues with PaleMoon on Mac OS: tab background colors not working, drop indicator is not in place when tabs are in multi-row, and close button on background tabs is invisible.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/d507b1757108">d507b17</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1217586">bug 1217586</a> - fix modifier click / enter on SVG links by passing node principal.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/78129ed2f8fd">78129ed</a> Incompatibility with Google Redirects Fixer &amp; Tracking Remover, when google tab is locked link open two tabs - one blank tab and the other with the linked page.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/0fd84740a890">0fd8474</a> Follow up changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/8f7534dea438">8f7534d</a>, duplicated tab not opened next to original when openDuplicateNext is true if openTabNext is false.</li>
+    </ul>
+  </div>
+
+  <div class="topic">
+    <h4>0.4.2.0pre.151113a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/ece6087ed72e">ece6087</a> When a browser window has pinned tabs open, dragging a tab from another window to the right of the last pinned tab pins it automatically. changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/776d43f5b832">776d43f</a>.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/7121d53fb71d">7121d53</a> Incompatibility with TreeStyleTab extension, TreeStyleTab 0.16.2015111001 wrap openURI in nsBrowserAccess.prototype.__treestyletab__openURI.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/8f7534dea438">8f7534d</a> Replace eval of window.duplicateTabIn with wrapped function to prevent incompatibility with TreeStyleTab extension.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/3c2932a9ffa1">3c2932a</a> Replace eval of FullScreen.showNavToolbox (former FullScreen_mouseoverToggle) with wrapped function to prevent incompatibility with TreeStyleTab extension.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/e4776f5136f1">e4776f5</a> Calling window.duplicateTabIn, to duplicate tab to window, break Tabmix.delayedStartup.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/643e50237700">643e502</a> Update the area that uses to hide the tabbar on full screen when Tabmix changes the tabbar height or when the tabbar is below content.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/811fe6fe89a6">811fe6f</a> When maximizing window with multi-row and scroll buttons, updateVerticalTabStrip need some time before it can calculate correctly the number of rows.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/a9e675a1cf08">a9e675a</a> Clicking on search arrow button (search-go-button) does nothing in Firefox 43 (TypeError: textBox._prefBranch is undefined), Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1203524">bug 1203524</a> - search.xml should use Services.jsm</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/d856048dd78a">d856048</a> Options window: Add help button near button that open sub dialog, show icon in sub dialog help button.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/4503b0f3a206">4503b0f</a> Options window: Update links to our help page to open in http://tmp.garyr.net/support/viewpage.php.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/13ad45cc66c0">13ad45c</a> Workaround for <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1157404">bug 1157404</a> - [e10s] Possible to end up with two visuallyselected="true" tabs at the same time.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/6bd751167a22">6bd7511</a> Selecting a tab before moving it to a different position can unnecessarily scroll the tabbar (selecting a tab trigger ensureElementIsVisible).</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/00897b9b01a2">00897b9</a> Use media queries instead of attribute to apply different css rule, fix background color for tabs below content in Windows.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/12fc79a35b9f">12fc79a</a> Don't change default behavior for link with spaces, support.hp.com uses special link format internally.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/5d030e80f724">5d030e8</a> Add content script to use bookmark name as tab title in about:newtab.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/7d9513f57a64">7d9513f</a> ContentClick.jsm is not included in some Firefox forks (Cyberfox before version 42).</li>
+    </ul>
+  </div>
+
+  <div class="topic">
+    <h4>0.4.2.0pre.151031a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/30b239afd915">30b239a</a> [e10s] Add content script to handle drop event, open new tab when url dropped on locked tab content.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/bc9c5836e991">bc9c583</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1207594">bug 1207594</a> - Drop a link on tab bar doesn't work (link from external application).</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/ee420945e5ee">ee42094</a> New preference in Options &gt; Display &gt; Tab &gt; Styles - 'Apply background color for squared tabs', Allow users to set custom background colors when Tree Style Tab extension installed.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/3c6e77658fa5">3c6e776</a> New preference in Options &gt; Display &gt; Tab &gt; Styles - 'Disable custom background colors'.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/0df7a83be371">0df7a83</a> Change Options &gt; Display &gt; Tab - Highlight to Styles.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/9d8bc83d41a1">9d8bc83</a> Incompatibility with Tree Style Tab extension, Tab mix loses the ability to color tab texts (regressed by changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/19e6cddedc19">19e6cdd</a>).</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/80345705764c">8034570</a> New options in Options &gt; Links &gt; Open links with target to existing frame in the current tab, default true.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/19ceb98c88ce">19ceb98</a> When the tabs are vertical (Tree Style Tab, Vertical Tabs) and the "New tab button" setting is on "After last tab" two new tab buttons are displayed, one after the last tab and one at the bottom.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/1032fe7d97b8">1032fe7</a> Dragging tabs between windows broken in 0.4.1.9, it only open blank tab on the target window. TypeError: gBrowser.updateBrowserRemotenessByURL is not a function (Palemoon 25-26, Firefox before 33), changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/849c5f93b65e">849c5f9</a>.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/ab4683eaeb97">ab4683e</a> Incompatibility with BackTrack Tab History extension, Apply our changeCode function earlier on functions that are modified by BackTrack Tab History.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/95b5f7b35ce5">95b5f7b</a> Replace eval of ContentClick.contentAreaClick with wrapped function to prevent incompatibility with BackTrack Tab History extension. Change whereToOpenLink function to return fixed 'where' when called from ContentClick.contentAreaClick.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/f894050f4ff3">f894050</a> Tabbar background color in multi-row doesn't match the background color in single-row on Mac OS X.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/41f9556990e3">41f9556</a> Can't disable conflicted extensions, typo in changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/0fa626adc544">0fa626a</a>.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/13a74aa0efe2">13a74aa</a> Hide the option to 'Mute Tab/Unmute Tab' in all Firefox version before Firefox 43.</li>
+    </ul>
+  </div>
+
+  <div class="topic">
+    <h4>0.4.2.0pre.151021a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/53d7ea1ec0c6">53d7ea1</a> Incompatibility with RequestPolicy Continued extension https://requestpolicycontinued.github.io, "Open other tabs next to current one" doesn't work.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/f8a3ff50f233">f8a3ff5</a> Selected tab doesn't show custom background color in the middle.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/d6dfeddfa99d">d6dfedd</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1165973">bug 1165973</a> - use outline instead of border for focus ring, remove border from text link button.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/2cf1f0a7b2bd">2cf1f0a</a> Fix compatibility with Cyberfox 41, NewTabURL.jsm not exist.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/49793f1962f9">49793f1</a> Add new preference to show/hide the new Mute Tab/Unmute Tab menu item in tab context menu.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/789e44c23c13">789e44c</a> Don't style visited tab as unloaded.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/5620260bc8df">5620260</a> Add shortcut to 'Clear Closed Tabs List'.</li>
+    </ul>
+  </div>
+
+
+  <div class="topic"><h4>
+    <a href="viewpage.php?t=1&p=0.4.1.9" target="tabmix-changelog-content">Previous version</a>
+    </h4></div>
+
+</div>
+</div>

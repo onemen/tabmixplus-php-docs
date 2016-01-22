@@ -1,0 +1,20 @@
+<div id="title" class="th">Changes in Version 0.4.2.1</div>
+<div class="content-body evenbg">
+
+  <div class="topic">
+    <h4>0.4.2.1pre.151226a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/d181198ffe55">d181198</a> Incompatibility with new TabGroup extension that replaced Firefox build-in panorama.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/804be828e06c">804be82</a> Our session manager causing SessionStore to send 'SSWindowStateReady' event after each restored tab, regressed after bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1067648">1067648</a>  - Introduce restoreTab() and use it from restoreTabs().</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/28860e78c160">28860e7</a> Incompatibility with Tab Deque extension, other tabs can't be selected and will quickly revert to the current one.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/39c8a2803cdc">39c8a28</a> Always check if the link is an xpi link, don't open new tab for left click on xpi links.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/cc4c7716084d">cc4c771</a> Incompatibility problem with Stay-Open Menu, Undo closed tab from undo closed button list always open last closed tab. when the menu is closed before we do our restoreCommand aEvent.originalTarget.value is null.</li>
+    </ul>
+  </div>
+
+  <div class="topic"><h4>
+    <a href="viewpage.php?t=1&p=0.4.2.0" target="tabmix-changelog-content">Previous version</a>
+    </h4></div>
+
+</div>
+</div>

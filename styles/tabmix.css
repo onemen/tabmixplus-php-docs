@@ -149,6 +149,11 @@ h1 {
   margin-bottom: 0.6em;
 }
 
+.topic ul > li {
+  padding-left: 40px;
+  text-indent: -40px;
+}
+
 .evenbg > .topic ul {
   margin-bottom: 0;
 }
@@ -165,6 +170,10 @@ h1 {
 .menu-body p {
   margin-top: 0px;
   margin-bottom: 5px;
+}
+
+.menu-body > .changelog p {
+  margin-bottom: 2px;
 }
 
 .menu-body h4 {
@@ -217,4 +226,20 @@ a:hover {
 a:active {
   color: #005784;
   text-decoration: none;
+}
+
+.text-link {
+  color: #006597;
+}
+
+.text-link:hover {
+  color: #D46400;
+}
+
+.text-link:active {
+  color: #005784;
+}
+
+[collapsed="true"] {
+  display: none;
 }
