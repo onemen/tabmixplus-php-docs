@@ -6,10 +6,10 @@
     global $FOLDER, $name, $page;
     $FOLDER = $_folder;
     $name = "tabmix-$_folder-content";
-    $page = $_GET[p] ? $_GET[p] : $_page;
+    $page = isset($_GET["p"]) ? $_GET["p"] : $_page;
   }
-  
-  $topic = $_GET[t];
+
+  $topic = $_GET["t"];
   switch ($topic) {
   case 1:
     $TITLE = "Change Log";
