@@ -28,7 +28,6 @@
     die ("Error: Unknown topic $uri, can't load this page<br>");
   }
   $_self = $_SERVER["PHP_SELF"];
-  $PATH = substr($_self, 0, strpos($_self, "support"))."support";
 
   $innerFrame = "";
   $viewPage = false;
