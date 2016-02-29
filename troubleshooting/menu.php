@@ -12,6 +12,7 @@ echo <<<html
         <p><a href="$href=preferences-wont-save" $target>Preferences won't save</a></p>
         <p><a href="$href=conflict-with-other-extension" $target>Conflict with other extension</a></p>
         <p><a href="$href=session-manager-backup" $target>Sessions Manager</a></p>
+        <p><a href="$href=tab-groups-removal" $target>Discontinuing the Tab Groups feature</a></p>
 
 html;
 ?>
