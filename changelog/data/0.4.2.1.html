@@ -2,6 +2,53 @@
 <div class="content-body evenbg">
 
   <div class="topic">
+    <h4>0.4.2.1pre.160228a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/a8842250ebd1">a884225</a> Show background tab group restoration page.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/f28429fe7551">f28429f</a> Bookmark sessions with more than one group when user starts Firefox 45+ for the first time without Tab Groups extension.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/7b62fb27f914">7b62fb2</a> Add new function to bookmark sessions with groups.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/0c3019895406">0c30198</a> Show missing tabview notification on all windows, close all notification when user close it in one window.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/134e7ad23c6a">134e7ad</a> Backup history sessions with more than one group when user starts Firefox 45+ for the first time without Tab Groups extension.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/90deaeb2cc7a">90deaeb</a> Notify the user when TabView is missing and the restored session contains groups.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/357488dc4a88">357488d</a> Move the changes to openUILinkIn into the beginning of openLinkIn, Allow to load url to the current tab when caller is ReaderParent.toggleReaderMode.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/4d4608a5f658">4d4608a</a> Add new function TabmixSvc.getDialogStrings to get commonDialogs.properties strings. <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1219794">bug 1219794</a> removed editBookmark.cancel.label entity from browser.dtd.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/1b329faaf85b">1b329fa</a> Drag-n-drop url from location bar to a locked tab loading url in that tab.</li>
+    </ul>
+  </div>
+
+  <div class="topic">
+    <h4>0.4.2.1pre.160216a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/4cb555e75b82">4cb555e</a> Update compatibility with TreeStyleTab extension version 0.16.2016021602.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/a28e3abd1487">a28e3ab</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1246907">bug 1246907</a> - Open link in a Container Tab - in the context menu. open link in background doesn't working.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/f6cbd87fcb81">f6cbd87</a> Follow uo <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1247920">bug 1247920</a> - Remove tabs visibleLabel property and TabLabelModified event. Latest Nightly breaks tabs label</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/71660ede1517">71660ed</a> With tabs set to bottom of browser, top of browser acts like title bar when double clicked (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1248225">Bug 1248225</a>).</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/7047b3b6b602">7047b3b</a> Ctrl-Tab - tabs list responds to the mouse - not working on Mac.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/9877302ea803">9877302</a> Remove shadow from TabsToolbar when it is on the bottom.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/01545ab7cc88">01545ab</a> Unnecessary call to TMP_Places.getTabTitle when PlacesCommandHook.uniqueCurrentPages called from PlacesCommandHook.updateBookmarkAllTabsCommand, updateBookmarkAllTabsCommand only check uniqueCurrentPages.length.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/a1df6eab9f86">a1df6ea</a> Disallow mouse down on TabsToolbar to start dragging the window when one of the key modifiers is down.</li>
+    </ul>
+  </div>
+
+  <div class="topic">
+    <h4>0.4.2.1pre.160124a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/03acf56e2443">03acf56</a> Start using the new Tab mix domain 'tabmixplus.org' instead of 'tmp.garyr.net'.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/dc76bacb7cd0">dc76bac</a> Session manager is broken in Nightly build after 2016-01-21.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/44ae8a08d88c">44ae8a0</a> Don't make first restored tab visible when we restored the session into hidden group.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/35e2ac3bf294">35e2ac3</a> Update changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/d181198ffe55">d181198</a>, TabGroup extension add the changes we do in TMP_TabView._patchTabviewFrame to its code in version 1.0.2b1.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/d010ceae50de">d010cea</a> Preference window overlay does not start when nglayout.debug.disable_xul_fastload and nglayout.debug.disable_xul_cache are true. Add onload attribute to the prefwindowto workaround this issue.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/86fcfda0e2ba">86fcfda</a> Update TMP_tabDNDObserver.onDragStart, follow up bugs: 863512, 1194311, 1214428.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/dfd235bcef46">dfd235b</a> Update the code that change gBrowser.tabContainer._animateTabMove, fix incompatibility with Multiple Tab Handler extension.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/a634138d23f3">a634138</a> Replace eval of gBrowserInit._delayedStartup with wrapped function, fix incompatibility with Multiple Tab Handler extension.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/1e67ee1e9e5d">1e67ee1</a> Clean up the code that set SessionStroe last session state.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/4cca1c5b1c95">4cca1c5</a> Initialize our session manager after SessionStore.promiseInitialized resolved.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/e6aeb4c79963">e6aeb4c</a> Clean our modification to gBrowserInit._delayedStartup - move the block deal with swap tab to gBrowser.swapBrowsersAndCloseOther.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/2fa86413ba46">2fa8641</a> Remove obsolete code from Tabmix.beforeBrowserInitOnLoad (Code for Firefox/PlaeMoone versions before 25).</li>
+    </ul>
+  </div>
+
+  <div class="topic">
     <h4>0.4.2.1pre.151226a1</h4>
     <ul>
       <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/d181198ffe55">d181198</a> Incompatibility with new TabGroup extension that replaced Firefox build-in panorama.</li>
