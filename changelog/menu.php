@@ -3,12 +3,16 @@
       <div class="topic changelog">
         <h4><u>Versions 0.4.1.1+</u></h4>
 
+<!--
+<p><a href="$href=0.4.2.1" $target>0.4.2.1 - <span style="font-size: 0.9em;">Development version</span></a></p>
+-->
 <?php
   $href = "viewpage.php?t=1&p";
   $target = 'target="tabmix-changelog-content"';
 echo <<<html
-        <p><a href="$href=0.4.2.1" $target>0.4.2.1 - <span style="font-size: 0.9em;">Development version</span></a></p>
-        <p><a href="$href=0.4.2.0" $target>0.4.2.0 - <span style="font-size: 0.9em;">Current version</span></a></p>
+        <p><a href="$href=0.4.2.2" $target>0.4.2.2 - <span style="font-size: 0.9em;">Current version</span></a></p>
+        <p><a href="$href=0.4.2.1" $target>0.4.2.1</a></p>
+        <p><a href="$href=0.4.2.0" $target>0.4.2.0</a></p>
         <p><a href="$href=0.4.1.9" $target>0.4.1.9</a></p>
         <p><a href="$href=0.4.1.8" $target>0.4.1.8</a></p>
         <p><a href="$href=0.4.1.7" $target>0.4.1.7</a></p>
