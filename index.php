@@ -1,3 +1,6 @@
+<?php 
+  include("support/common/version_data.php");
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Tab Mix Plus</title>
 
@@ -27,11 +30,11 @@ color: #FFFFFF;
 <div id="dolphincontainer">
 <div id="dolphinnav">
 <ul>
-<li><a href="http://tabmixplus.org/forum/" title="Forum"><span>Forum</span></a></li>
-<li><a href="http://tabmixplus.org/support/viewtopic.php?t=2" title="Troubleshooting"><span>Troubleshooting</span></a></li>
+<li><a href="forum/" title="Forum"><span>Forum</span></a></li>
+<li><a href="support/viewtopic.php?t=2" title="Troubleshooting"><span>Troubleshooting</span></a></li>
 <li><a href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/" title="TMP @ Mozilla Update"><span>TMP @ Mozilla Update</span></a></li>
-<li><a href="http://tabmixplus.org/support/viewtopic.php?t=3" title="Help"><span>Help</span></a></li>
-<li><a href="http://tabmixplus.org/support/viewtopic.php?t=1" title="Change Log"><span>Change Log</span></a></li>
+<li><a href="support/viewtopic.php?t=3" title="Help"><span>Help</span></a></li>
+<li><a href="support/viewtopic.php?t=1" title="Change Log"><span>Change Log</span></a></li>
 </ul>
 </div>
 <div align="center">
@@ -47,17 +50,25 @@ color: #FFFFFF;
 <div class="middle">
 <p><span class="style4"><br />
 </span></p>
-<h3 align="center"> Tab Mix Plus v0.4.2.0&nbsp;<img src="images/process.png" alt="develop" height="32" width="32"/>
+<h3 align="center"> Tab Mix Plus v<?=$VERSION?>&nbsp;<img src="images/process.png" alt="develop" height="32" width="32"/>
 <br />
 </h3>
 <ul>
 </ul>
 <h4>&nbsp;</h4>
-<p>Visit our forum for <a href="http://tabmixplus.org/support/viewtopic.php?t=1">Complete List of Changes and Bugs Fixed</a>.</p><br>
-<h4 align="center"><a href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/"><img src="images/download.jpg" alt="download" height="33" width="120" /><br />
-Current Version</a> - (31.0 - Nightly) </h4>
+<p>Visit our forum for <a href="support/viewtopic.php?t=1">Complete List of Changes and Bugs Fixed</a>.</p><br>
+<h4 align="center">
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/">
+    <img src="images/download.jpg" alt="download" height="33" width="120" /><br/>
+    Current Version
+  </a> - (<?=$MINFRIEFOXVERSION?> - <?=$MAXFRIEFOXVERSION?>)
+</h4>
 <br>
-<h4 align="center"><a href="https://addons.mozilla.org/en-us/firefox/addon/tab-mix-plus/versions/" title="Change Log">Latest development build</a> - (31.0 - Nightly) </h4>
+<h4 align="center">
+  <a href="https://addons.mozilla.org/en-us/firefox/addon/tab-mix-plus/versions/">
+    Latest development build
+  </a> - (<?=$MINFRIEFOXVERSION?> - <?=$MAXFRIEFOXVERSION?>)
+</h4>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <h3> <img src="images/world_globe.png" alt="localization" height="32" width="32" />Localization<br />
@@ -80,7 +91,7 @@ tabmix.onemen@gmail.com</p>
 </div>
 <div class="right">
 <h2><img src="images/ilustrations.gif" alt="A Firefox Addon" height="90" width="90" /></h2>
-<h3><a href="http://tabmixplus.org/support/viewtopic.php?t=3">Help page
+<h3><a href="support/viewtopic.php?t=3">Help page
   <img src="images/attachment.png" alt="clip" height="32" width="32" /></a>
 </h3>
 <h5 class="style2"></h5>
