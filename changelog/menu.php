@@ -40,9 +40,9 @@ html;
           <u>Old versions changes</u>
         </h4>
         <div id="old-changes" collapsed="true">
-          <p>versions <a href="http://tabmixplus.org/forum/viewtopic.php?t=10888">0.3.8.2 - 0.3.8.7</a></p>
-          <p>version  <a href="http://tabmixplus.org/forum/viewtopic.php?f=3&t=9864">0.3.7.4</a></p>
-          <p>versions <a href="http://tabmixplus.org/forum/viewtopic.php?f=3&t=9178">0.3.6.1 - 0.3.7</a></p>
+          <p>versions <a href="../forum/viewtopic.php?t=10888">0.3.8.2 - 0.3.8.7</a></p>
+          <p>version  <a href="../forum/viewtopic.php?f=3&t=9864">0.3.7.4</a></p>
+          <p>versions <a href="../forum/viewtopic.php?f=3&t=9178">0.3.6.1 - 0.3.7</a></p>
         </div>
       </div>
     </div>
