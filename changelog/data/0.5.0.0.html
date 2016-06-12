@@ -2,6 +2,20 @@
 <div class="content-body evenbg">
 
   <div class="topic">
+    <h4>0.5.0.0pre.160522a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/81d4f08c09b7">81d4f08</a> Don't disable inverse focus preferences when 'Middle-click or Control-click opens items in current tab' is on. The inverse preferences controls not only links.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/d667fe42b66e">d667fe4</a> Disable 'Place on left side' when treeStyleTab installed, 1. treeStyleTab have similar preference. 2. TreeStyleTabBrowser.prototype.initTabContentsOrderInternal throw when last window reopen.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/56d0db2f4b2f">56d0db2</a> Don't open new tab from facebook chat and settings.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/0be9caabaca0">0be9caa</a> Dragging links between two tabs is not working. Regrresed by changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/c3edbc0d0f57">c3edbc0</a>.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/c02d0d6b3b15">c02d0d6</a> Using strict equality (===) break 'open tab next' when relatedToCurrent is undefined and referrerURI exist, make sure relatedToCurrent is not undefined.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/98cbca813a42">98cbca8</a> Update compatibility with treeStyleTab - update changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/d5cd8b3c10e1">d5cd8b3</a> - prepare the tree to open the new tab as next sibling for all calls to gBrowser.addTab, not just from openUILinkIn or from external app.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/86dd60e05632">86dd60e</a> Check for the existence of gBrowser.tabContainer._verticalTabs to identify if vertical-tabs-reloaded installed before VerticalTabsReloaded exist.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/9adf2d71fb57">9adf2d7</a> Left-over debug code, from changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/e9d819690e34">e9d8196</a>, break some functions when X-notifier installed.</li>
+    </ul>
+  </div>
+
+  <div class="topic">
     <h4>0.5.0.0pre.160515a1</h4>
     <ul>
       <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/c2cf88574488">c2cf885</a> Update install.rdf to format that addons-linter can identify.</li>
