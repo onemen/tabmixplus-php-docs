@@ -243,3 +243,8 @@ a:active {
 [collapsed="true"] {
   display: none;
 }
+
+.hightlight {
+  background-color: rgb(200, 222, 234);
+  border: 1px solid rgba(36, 30, 30, 0.2);
+}
