@@ -2,9 +2,21 @@
 <div class="content-body evenbg">
 
   <div class="topic">
-    <h4>0.5.0.1pre</h4>
+    <h4>0.5.0.1pre.160625a1</h4>
     <ul>
-      <li>Soon...</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/9a618b8773bf">9a618b8</a> Merging popup window on multi process browser throw 'Error: cross-process JS call failed'.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/9d2ca35d277e">9d2ca35</a> Update "Merge windows" swapTabs according to bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1244496">bug 1244496</a>, bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1271792">bug 1271792</a> and bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1094328">bug 1094328</a>. Webextension tab listeners don't detect tab moved by "Merge windows".</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/1291f7ed29b2">1291f7e</a> Refactor duplicateTabToWindow (follow up bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1181475">bug 1181475</a>) to avoid duplicate tab id in WebExtension when the duplicated tab is dragging back to the original window.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/0449b918713a">0449b91</a> Get new tab url form BROWSER_NEW_TAB_URL after Firefox 41, fix incompatibility with Activity Stream extension.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/1eab1f0db445">1eab1f0</a> In Single window mode we should not close windows that was probably opened by extension.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/ceff6546fa9a">ceff654</a> Follow up bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1208078">bug 1208078</a>, improve drag feedback appearance in e10s.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/2863a5323ac9">2863a53</a> Add comment about disabled 'Place on left side' close button, see changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/d667fe42b66e">d667fe4</a>.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/70be6830db4a">70be683</a> Show console warning when Tab mix failed to change getter or setter.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/28a5628e0ed4">28a5628</a> Follow up bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=446171">bug 446171</a> - Part 1: Get page titles from tab and not depend on history, we don't need to call getTabTitle now that Firefox get the title directly from the tab.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/6b6045586215">6b60455</a> Follow up bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1271516">bug 1271516</a> - Introducing nsIWebNavigation.setOriginAttributesBeforeLoading.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/d0297832d17f">d029783</a> Tab context menu "Open Links in New Tabs" does not work for about: pages and for chrome:// pages from extensions (NewsFox extension for example).</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/42a3981bc5d8">42a3981</a> Follow up bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1271792">bug 1271792</a> - Set correct usercontextid before swapping tabs.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/972b0b253aef">972b0b2</a> Incompatibility with MClickFocusTab extension.</li>
     </ul>
   </div>
 
