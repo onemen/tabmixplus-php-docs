@@ -230,6 +230,7 @@ a:active {
 
 .text-link {
   color: #006597;
+  cursor: pointer;
 }
 
 .text-link:hover {
