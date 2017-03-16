@@ -2,9 +2,25 @@
 <div class="content-body evenbg">
 
   <div class="topic">
-    <h4>0.5.0.3pre</h4>
+    <h4>0.5.0.3pre.170314a1</h4>
     <ul>
-      <li>Soon...</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/c08e7424d0ba">c08e742</a> Unable to evaluate object-shorthand functions in Firefox 54.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/5ebd2a64f873">5ebd2a6</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1190687">bug 1190687</a> - [webext] webNavigation.onCreatedNavigationTarget on new windows/tabs from context menu and user clicks on links.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/b93d127210c7">b93d127</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1338585">bug 1338585</a> - Add an eslint rule to require using .ownerGlobal instead of .ownerDocument.defaultView.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/4a7a3c229440">4a7a3c2</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1334831">bug 1334831</a> - add an eslint rule to report usage of .parentNode.removeChild when .remove() could be used instead.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/b57149e4ff22">b57149e</a> Prevent pending tab width change while restoring when 'Tab width fits to tab title' enables.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/ec6333280d2c">ec63332</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1334156">bug 1334156</a> - Replace ownerDocument.defaultView with ownerGlobal.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/d9ac9c8d9d34">d9ac9c8</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1334199">bug 1334199</a> - Omit getComputedStyle's second argument when it's falsy.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/10cb636d055d">10cb636</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1307736">bug 1307736</a> - Store triggeringPrincipal with all history entries.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/92e45db8c54d">92e45db</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1331686">bug 1331686</a> - Pass correct triggeringPrincipal for tabs openen through ctrl-click and open link in new tab.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/e588e79c62cb">e588e79</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1187014">bug 1187014</a> - Use "you" in preference strings, not "me".</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/2f404a6b676a">2f404a6</a> Foolow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1331081">bug 1331081</a> - make the no-useless-parameters eslint rule report useless addEventListener false third parameter.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/e208d644c928">e208d64</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1324895">bug 1324895</a> - Add 'Open All in Tabs' to client context menu in Synced Tabs.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/641039851b23">6410398</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1330464">bug 1330464</a> - make the no-useless-parameters eslint rule detect misuses of the Services.prefs APIs.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/eef796da5bae">eef796d</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1330147">bug 1330147</a> - removeObserver calls should not supply a third parameter.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/f15f4a92487a">f15f4a9</a> Prevent cases of Cu.import importing into variables and global scope at the same time.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/8c88085ab5ca">8c88085</a> Set Pale Moon minVersion to 27.0.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/2338139c7ffc">2338139</a> Session manager don't save\restore tree. Update compatibility with treeStyleTab version 0.18.2016090601+.</li>
     </ul>
   </div>
 
