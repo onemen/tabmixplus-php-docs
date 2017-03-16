@@ -1,4 +1,4 @@
-<?php 
+<?php
   include("support/common/version_data.php");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -65,7 +65,7 @@ color: #FFFFFF;
 </h4>
 <br>
 <h4 align="center">
-  <a href="https://addons.mozilla.org/en-us/firefox/addon/tab-mix-plus/versions/">
+  <a href="https://addons.mozilla.org/en-us/firefox/addon/tab-mix-plus/versions/beta">
     Latest development build
   </a> - (<?=$MINFRIEFOXVERSION?> - <?=$MAXFRIEFOXVERSION?>)
 </h4>
