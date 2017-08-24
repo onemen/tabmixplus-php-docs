@@ -41,7 +41,7 @@ color: #FFFFFF;
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="BZWMH5PS56GAW">
-<input title="Donate to Tab Mix Plus" type="image" src="/help/TMPHelpManualPref_files/donate.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<input title="Donate to Tab Mix Plus" type="image" src="/images/donate.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110401-1/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 </div>
