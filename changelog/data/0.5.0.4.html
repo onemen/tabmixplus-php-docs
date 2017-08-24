@@ -2,6 +2,80 @@
 <div class="content-body evenbg">
 
   <div class="topic">
+    <h4>0.5.0.4pre.170818a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/66a60a4777c2">66a60a4</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1377580">bug 1377580</a> - [geckoview] links with target _blank don't load.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/2684f828d1f3">2684f82</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1390448">bug 1390448</a> - Restore vertical margin calculation in browser-tabsintitlebar.js.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/5c6eda8c5ab8">5c6eda8</a> Refactor _sendRestoreCompletedNotifications to match SessionStore, send sessionstore-windows-restored after all windows in the session opened.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/e78da395b129">e78da39</a> Call saveSessionsData after Session manager finished to restore at startup, use window with readyState complete instead of most recent window.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/d4960840e6d6">d496084</a> Firefox 57+ uses both smooth scroll and scrollDelay (see tabstrip._startScroll).</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/a3977def9a8f">a3977de</a> Follow up changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/e8f23352d3a0">e8f2335</a> (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1356705">bug 1356705</a>) - scrollByIndex should call element.scrollIntoView with block = end when scrolling to the bottom (index &gt; 0).</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/ea1d7d5f6aa5">ea1d7d5</a> No need to collect scroll position from pending tabs content, prevents lazy browser prematurely inserted via 'messageManager' property access.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/9b38a52cd145">9b38a52</a> In multi-row mode each mousewheel click should scroll one row.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/15655d2d6967">15655d2</a> Don't scroll the tabbar in multi-row mode from scrollbox.ensureElementIsVisible when the tab is already visible.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/3c27f110b60f">3c27f11</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1388032">bug 1388032</a> - Remove BrowserCustomizeToolbar.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/b5d4098b7e06">b5d4098</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1326520">bug 1326520</a> - Rename nsIURI.path to pathQueryRef.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/1cdc1eac9043">1cdc1ea</a> Stop using menu-button type for reload-button from Firefox 55.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/63f9cf5d806d">63f9cf5</a> Add check for the case node.parentNode is missing.</li>
+    </ul>
+  </div>
+
+  <div class="topic">
+    <h4>0.5.0.4pre.170809a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/bb29ea6635e3">bb29ea6</a> Update compatibility with Multiple Tab Handler version 0.8.2017061501.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/11fae94f8eb6">11fae94</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1387117">bug 1387117</a> - Fix containers highlight for square tabs to be an underline.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/40a503d41a1f">40a503d</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1387084">bug 1387084</a> - Use instant scroll behavior when doing pixel scrolling.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/fee6777f8888">fee6777</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1387701">bug 1387701</a> - Simplify lineScrollAmount.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/e8f23352d3a0">e8f2335</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1356705">bug 1356705</a> - Use CSS smooth scroll when smooth scrolling a XUL scrollbox.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/0f7d7f18fdb0">0f7d7f1</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1349555">bug 1349555</a> - Implement most of the photon tab strips.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/cc8fd220aca2">cc8fd22</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1387009">bug 1387009</a> - Remove deprecated tabbrowser methods and properties.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/d75f898f9b60">d75f898</a> Add links in github to special pages we handle with normal click event instead of SystemEventListener.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/ffb72cce951a">ffb72cc</a> After changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/5e2312e5dcab">5e2312e</a> ctrl-click and middle-click (when 'middlecurrent' preference is true) on a link opens extra tab with the link.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/86c21b12083a">86c21b1</a> Extra comma in changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/624c110dabcc">624c110</a> break PaleMoon.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/5ee79e10bd82">5ee79e1</a> Save backup of the storage.js file to webext@tabmixplus.org folder for the case we will use it as the new extension id.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/65ae8ca99df9">65ae8ca</a> Use embedded WebExtension to save our preferences and sessions data to local storage.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/474a1a62a191">474a1a6</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1367630">bug 1367630</a> - Tab titles are pretty broken when pages don't have a &lt;title&gt; element.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/3d09188b51d2">3d09188</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1371677">bug 1371677</a> - Delay the database connection in the history service as far as possible.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/ce43484e6a4a">ce43484</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1320609">bug 1320609</a> part.1 wheel event handler of &lt;scrollbox&gt; should use |_smoothScrollByPixels| instead of |scrollByPixels| when the deltaMode is DOM_DELTA_LINE or DOM_DELTA_PAGE.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/7c0c8550ebeb">7c0c855</a> Window event listener for 'blur' blocked when current tab address starts with 'about:', Related to changesets e564d4042928, a1df6eab9f86.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/4c06b7a4370b">4c06b7a</a> Make sure gContextMenu.tabmixLinks is not null.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/624c110dabcc">624c110</a> Calculating scrolledToEnd in _updateScrollButtonsDisabledState can be not accurate when there are more than 2 rows, last tab bottom and scrollbox bottom can differ by less than a pixel.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/a45cf53fbc9e">a45cf53</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1376397">bug 1376397</a> - Disable scroll buttons if there's space between the first or last element and the scrollbox edge.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/88d6eb9c4dfe">88d6eb9</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1347791">bug 1347791</a> - part1 : rename the attribute for the tab which has blocked the autoplay audio and would show the play-tab icon.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/2522905b8fba">2522905</a> Prevents mouse events on our scroll buttons from go throw when the buttons disabled.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/b5e42cc30284">b5e42cc</a> Start using getBoundsWithoutFlushing instead of getBoundingClientRect when the information does not change between paint.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/c3de9f1de4b0">c3de9f1</a> Internal links in news.google.com should not open new tab.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/305647b5ab50">305647b</a> Pale Moon 27 have different tab margin between normal windows and maximized windows (see changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/e6f2a6e02e47">e6f2a6e</a>).</li>
+    </ul>
+  </div>
+
+  <div class="topic">
+    <h4>0.5.0.4pre.170625a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/5e2312e5dcab">5e2312e</a> Click events on links that have defaultPrevented set to true should not open the link in a new tab. using addSystemEventListener instead of addEventListener allow us to test defaultPrevented properly.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/40718a1b8b0d">40718a1</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1368208">bug 1368208</a> - Don't flush layout to determine whether scrollbox scroll buttons should be enabled/disabled.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/a6dc62f3534b">a6dc62f</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1185482">bug 1185482</a> - In maximized windows, the hover effect of the caption buttons should span the entire height of the tab strip.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/e6f2a6e02e47">e6f2a6e</a> Pale Moon 27 have different tab margin between normal windows and maximized windows.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/84912b02f2ac">84912b0</a> Check both scrollSize and tabstrip innerbox height to determine if the scrolled is at the end.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/609ff39b7d6e">609ff39</a> Update compatibility with TabGgroupManager (changeset <a href="https://bitbucket.org/onemen/tabmixplus/commits/e76538fa7d29">e76538f</a>).</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/26c4fb4ca10b">26c4fb4</a> Don't use pending attribute from xul browser, Firefox 55 - <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1370035">bug 1370035</a> remove this attribute.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/286dd6ef3e98">286dd6e</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1345473">bug 1345473</a> - Set tab as drag source.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/282024ab6061">282024a</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1358721">bug 1358721</a> - Avoid flushing layout in adjustTabstrip.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/4b09b1422931">4b09b14</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1316505">bug 1316505</a> part.1 The "wheel" event handler of &lt;scrollbox&gt; should use |.scrollByPixels()| for respecting wheel event's scroll speed and scrolling smoother.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/e39543e31b3f">e39543e</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1371604">bug 1371604</a> - Convert arrowscrollbox.scrollboxPaddingStart and arrowscrollbox._startEndProps from XBL properties to fields.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/bf9e2e7d1b10">bf9e2e7</a> No need to search for content in pending tabs, prevents lazy browser prematurely inserted via 'messageManager' property access.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/aa16881a39e8">aa16881</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1371962">bug 1371962</a> - Rename the dir attribute added in <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1357656">bug 1357656</a> to labeldirection.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/eb54d4a6c9fe">eb54d4a</a> Don't count removing tabs when checking tabs count before 'Warn you when closing window with multiple tabs' when Firefox giving up waiting for the tab closing animation to finish (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=608589">bug 608589</a>) tab count can contain removing tabs.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/f19af35eb4a4">f19af35</a> Make sure draggedTab._dragData exist.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/59343c6657b8">59343c6</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1365232">bug 1365232</a> - Have _delayedStartup() provide the correct triggeringPrincipal.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/df1301e19f3e">df1301e</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1363977">bug 1363977</a> - Have loadTabs() provide the correct triggeringPrincipal.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/2e689252b12a">2e68925</a> Backed out changeset: 9dde7bf923f8, It add extra space that if you click does nothing.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/5ed16ea2e46f">5ed16ea</a> Set LOAD_BYPASS_CACHE when loading tab progressively.</li>
+    </ul>
+  </div>
+
+  <div class="topic">
     <h4>0.5.0.4pre.170525a1</h4>
     <ul>
       <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/9dde7bf923f8">9dde7bf</a> Bottom border of top hidden row is visible in Firefox 55.</li>
