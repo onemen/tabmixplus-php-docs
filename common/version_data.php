@@ -1,8 +1,8 @@
 <?php
   $VERSION = "0.5.0.3";
-  $DEVBUILD = "tab_mix_plus-0.5.0.4pre.170818a1";
-  $DEVBUILDPATH = "https://addons.mozilla.org/firefox/downloads/file/704947/tab_mix_plus-0.5.0.4pre.170818a1-fx.xpi?src=devhub";
+  $DEVBUILD = "0.5.0.5pre.170827a1";
+  $DEVBUILDPATH = "https://addons.mozilla.org/firefox/downloads/file/710569/tab_mix_plus-0.5.0.5pre.170827a1-fx.xpi";
   $LATEST = "0.5.0.4";
-  $MINFRIEFOXVERSION = "31.0";
+  $MINFRIEFOXVERSION = "38.0";
   $MAXFRIEFOXVERSION = "Nightly";
 ?>
