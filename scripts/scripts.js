@@ -1,11 +1,22 @@
-/* exported toggleMenu */
 
-function toggleMenu(id) {
+function accordionMenu() {
   "use strict";
-  var elm = document.getElementById(id);
-  if (elm.hasAttribute("collapsed")) {
-    elm.removeAttribute("collapsed");
-  } else {
-    elm.setAttribute("collapsed", true);
+  var accordions = document.getElementsByClassName("has-submenu");
+
+  for (var i = 0; i < accordions.length; i++) {
+    accordions[i].onclick = function() {
+      this.classList.toggle('is-open');
+
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight) {
+        // accordion is currently open, so close it
+        content.style.maxHeight = null;
+      } else {
+        // accordion is currently closed, so open it
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    }
   }
 }
+
+accordionMenu();

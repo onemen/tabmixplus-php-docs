@@ -13,10 +13,10 @@ echo <<<html
         <p><a href="$href=0.5.0.2" $target>0.5.0.2</a></p>
         <p><a href="$href=0.5.0.1" $target>0.5.0.1</a></p>
         <p><a href="$href=0.5.0.0" $target>0.5.0.0</a></p>
-        <h4 class="text-link" onclick="toggleMenu('version0.4');" style="margin-top:5px;">
+        <h4 class="has-submenu text-link" style="margin-top:5px;">
           <u>Versions 0.4.0.0 - 0.4.2.2</u>
         </h4>
-        <div id="version0.4" collapsed="true">
+        <div class="submenu">
           <p><a href="$href=0.4.2.2" $target>0.4.2.2</a></p>
           <p><a href="$href=0.4.2.1" $target>0.4.2.1</a></p>
           <p><a href="$href=0.4.2.0" $target>0.4.2.0</a></p>
@@ -41,10 +41,10 @@ echo <<<html
 html;
 ?>
 
-        <h4 class="text-link" onclick="toggleMenu('old-changes');">
+        <h4 class="has-submenu text-link">
           <u>Old versions changes</u>
         </h4>
-        <div id="old-changes" collapsed="true">
+        <div class="submenu">
           <p>versions <a href="../forum/viewtopic.php?t=10888">0.3.8.2 - 0.3.8.7</a></p>
           <p>version  <a href="../forum/viewtopic.php?f=3&t=9864">0.3.7.4</a></p>
           <p>versions <a href="../forum/viewtopic.php?f=3&t=9178">0.3.6.1 - 0.3.7</a></p>

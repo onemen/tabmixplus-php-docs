@@ -107,6 +107,20 @@ body:not([class="innerFrame"]) #wrapcontent {
   margin-bottom: 10px;
 }
 
+.has-submenu u{
+  transition: background-color 0.2s linear;
+}
+
+.has-submenu:hover u, .has-submenu.is-open u {
+  background-color: #ddd;
+}
+
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
 .th {
   border-bottom: 2px solid #A9B8C2;
 }
