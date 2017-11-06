@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Legacy Tabmix Plus</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 60%;
+      margin: 20px auto;
+    }
+
+    h3 {
+      margin-top: 20px;
+    }
+
+    p {
+      margin: 5px 0;
+    }
+
+    ul {
+      margin-inline-start: 20px;
+    }
+
+    .warning {
+      text-decoration: underline;
+      color: #ff0000;
+    }
+  </style>
+</head>
+
+<body>
+  <h2 style="text-align: center;">The future of</h2>
+  <h1 style="text-align: center;">Tab Mix Plus</h1>
+  <div class="container" _style="margin: 0 10%;">
+    <p>
+      Firefox 57 drops support for all legacy add-ons, including
+      <strong>Tab Mix Plus</strong>. From Firefox 57 onwards, Firefox will not install
+      <strong>Tab Mix Plus</strong>.
+      <br/>
+      <a class="button" href="https://support.mozilla.org/en-US/kb/firefox-add-technology-modernizing" target="_blank" rel="noopener">Read More</a>
+    </p>
+    <h3>Tab Mix webExtension</h3>
+    <p>I am currently working on converting Tab Mix Plus code base to the new webExtension format.
+      <br/> Tab mix code base holds more than 35,000 line of code in 139 files.
+    </p>
+    <p>
+      It is currently unclear when Tab Mix Plus as a WebExtension will be ready, it will not be ready before Firefox 57 official
+      release. I am also not sure it will be possible to implement all Tab mix features in the new format.
+    </p>
+    <p>
+      Anyone who wants to contribute code or assist in any other way can contact me directly via tabmix.onemen@gmail.com.
+    </p>
+    <h3>Using legacy Tab mix plus with Firefox 57+</h3>
+    <p>
+      If you want to keep using Tab Mix Plus with Firefox 57, you need to install modified version of Firefox.<br/>
+      Currently this version is available only for windows users and in English.<br/>
+      Using the modified version will enables all legacy extensions.
+    </p>
+    <p>
+      To install Firefox by downloading the .zip file and installing manually, follow these steps:
+    </p>
+    <ul>
+      <li>
+        Click the
+        <a href="http://tabmixplus.org/firefox/releases/57.0b14/firefox-57.0b14.en-US.win32.zip">
+          firefox-57.0b14.en-US.win32.zip</a> link or the
+        <a href="http://tabmixplus.org/firefox/releases/57.0b14/firefox-57.0b14.en-US.win64.zip">
+          firefox-57.0b14.en-US.win64.zip</a> link to download the .zip file to your machine.
+        <br/>
+        <p>
+          <span class="warning">Important:</span>
+          You will need to install manually new modified version of Firefox when Firefox updates. I will update the links above to
+          the latest available version.
+        </p>
+      </li>
+      <li>
+        Extract the .zip file to a directory such as 'C:\Program Files (x86)\Mozilla Firefox' for 32-bit or 'C:\Program Files\Mozilla
+        Firefox' for 64-bit.
+      </li>
+      <li>
+        To start Firefox, navigate to the directory you extracted Firefox to and double click the firefox.exe icon.
+      </li>
+      <li>
+        Start Firefox and set the preference 'extensions.legacy.enabled' to true in about:config. Restart Firefox.
+      </li>
+    </ul>
+    <h3>Using legacy Tab mix plus with Firefox Nightly:</h3>
+    <p>
+      <ul>
+        <li>
+          Download and install Firefox Nightly from
+          <a href="https://www.mozilla.org/en-US/firefox/channel/desktop/">here</a>.
+        </li>
+        <li>
+          Start Firefox and set the preference 'extensions.legacy.enabled' to true in about:config. Restart Firefox.
+        </li>
+        <li>
+          Install latest development version of Tab mix plus from here
+          <a href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/versions/beta/">here</a>.
+        </li>
+      </ul>
+    </p>
+  </div>
+</body>
+
+</html>

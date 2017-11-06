@@ -6,6 +6,7 @@
   $target = 'target="tabmix-help-content"';
 echo <<<html
           <p><a href="$href=introduction" $target>Introduction</a></p>
+          <p><a href="./troubleshooting/data/legacy-tabmix.html">The future of Tab Mix Plus</a></p>
           <p><a href="$href=preferences-button" $target>Preferences - <span style="font-size: 0.9em;">Restore, Import &amp Export</span></a></p>
           <p><a href="$href=links" $target>Links</a></p>
           <p class="indent small"><a href="$href=links#file_type_editor" $target>Links - file type editor</a></p>

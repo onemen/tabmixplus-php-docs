@@ -5,6 +5,7 @@
   $href = "viewpage.php?t=2&p";
   $target = 'target="tabmix-troubleshooting-content"';
 echo <<<html
+        <p><a href="./troubleshooting/data/legacy-tabmix.html">The future of Tab Mix Plus</a></p>
         <p><a href="$href=tabmix-does-not-work" $target>Tab Mix Plus does not work properly</a></p>
         <p><a href="$href=how-to-post" $target>How to post about a problem</a></p>
         <p><a href="$href=posting-screen-shot" $target>How to create and post a screen shot</a></p>
