@@ -65,7 +65,7 @@ color: #FFFFFF;
 </h4>
 <br>
 <h4 align="center">
-  <a href="https://addons.mozilla.org/en-us/firefox/addon/tab-mix-plus/versions/beta">
+  <a href="https://bitbucket.org/onemen/tabmixplus/downloads">
     Latest development build
   </a> - (<?=$MINFRIEFOXVERSION?> - <?=$MAXFRIEFOXVERSION?>)
 </h4>
