@@ -2,6 +2,27 @@
 <div class="content-body evenbg">
 
   <div class="topic">
+    <h4>0.5.0.5pre.180526a1</h4>
+    <ul>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/6324528ca511">6324528</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1095406">bug 1095406</a> - Remove synchronous getBookmarksForURI and getMostRecentBookmarkForURI from PlacesUtils.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/1e8097c11a62">1e8097c</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1434819">bug 1434819</a> - part 7-8. Remove the SHOW_* and FILTER_* constants from nsIDOMNodeFilter.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/8e27bbfdffe9">8e27bbf</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1435910">bug 1435910</a> - Part 0.1: Move PlacesUIUtils.confirmOpenInTabs into new OpenInTabsUtils.jsm and add promiseConfirmOpenInTabs.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/41f273c52a8e">41f273c</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1435908">bug 1435908</a> - Part 2: Pass the triggering principal when opening an URI from new tab button and new window button drag and drop.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/1cb06d0468fe">1cb06d0</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1436361">bug 1436361</a> - Extract the async tab switcher from tabbrowser.js into its own JSM.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/844bdebe5a9d">844bdeb</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1392352">bug 1392352</a> - Part 2 - Translate the tabbrowser implementation into a JS class.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/821620d0d390">821620d</a> Calling TabmixSvc in content.js with Firefox 60 throw an error NS_ERROR_FILE_NOT_FOUND, as a workaround i created ContentSvc.jsm.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/0a1c28d71be8">0a1c28d</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1443849">bug 1443849</a> - Make gBrowser.init more predictable by calling it from gBrowserInit, prevent early access to gBrowser.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/6d2b912ec807">6d2b912</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1443833">bug 1443833</a> - Remove unused gBrowser.tabContextMenu property.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/605dbf6cc15f">605dbf6</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1402380">bug 1402380</a> - Unexpected Google search is performed with garbage words when drag & drop a bookmarks folder from Library window to tab bar.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/6a0f1b6d1ddc">6a0f1b6</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1436508">bug 1436508</a> - part 10. Remove use of nsIDOMKeyEvent in JS.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/9f41fb0867fa">9f41fb0</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1436559">bug 1436559</a> - stop doing busy-work in setOverLink and make textToSubURI available on Services.jsm.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/9bea125385de">9bea125</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1379338">bug 1379338</a> - scriptify preferences XBL (i.e. convert preferences XBL to JS) - incontent preferences.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/62e048a69b00">62e048a</a> Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1422934">bug 1422934</a> - Remove the "toolbarbutton-image" binding and migrate consumers of it to the "toolbarbutton" binding.</li>
+      <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/7ea8f6f4c0e2">7ea8f6f</a> TypeError: aEvent.originalTarget.getAttribute, when dragging 1st tab over the 2nd tab.</li>
+    </ul>
+  </div>
+
+  <div class="topic">
     <h4>0.5.0.5pre.171209a1</h4>
     <ul>
       <li>Fixed: <a href="https://bitbucket.org/onemen/tabmixplus/commits/e085a7e96790">e085a7e</a> When SessionStore open many tabs we can get wrong height from tabstripInnerbox.</li>
