@@ -2,81 +2,109 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
   <title>Contribute to Tab Mix Plus</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-    }
-
-    .container {
-      width: 60%;
-      margin: 20px auto;
-    }
-
-    h3 {
-      margin-top: 20px;
-    }
-
-    p {
-      margin: 5px 0;
-    }
-
-    ul {
-      margin-inline-start: 20px;
-    }
-
-    .warning {
-      text-decoration: underline;
-      color: #ff0000;
-    }
-
-  </style>
 </head>
 
 <body>
-  <h1 style="text-align: center;">Contribute to Tab Mix Plus</h1>
-  <div class="container" _style="margin: 0 10%;">
-    <p>
-      Firefox 57 drops support for all legacy add-ons, including
-      <strong>Tab Mix Plus</strong>. From Firefox 57 onwards, Firefox will not install
-      <strong>Tab Mix Plus</strong>.
-      <br/>
-      <a class="button" href="https://support.mozilla.org/en-US/kb/firefox-add-technology-modernizing" target="_blank" rel="noopener">Read More</a>
-    </p>
-    <h3>Tab Mix WebExtension</h3>
-    <p>I am currently working on converting Tab Mix Plus code base to the new WebExtension format.
-      <br/> Tab mix code base holds more than 35,000 line of code in 139 files.
-    </p>
-    <p>
-      <h4>
-        <u>Vote on Mozilla</u>
-      </h4>
-      Vote on Mozilla website for APIs/bug fixes needed by Tab Mix Plus WebExtension.
-      <br/> Read
-      <a href="http://tabmixplus.org/forum/viewtopic.php?p=73159#p73159">here</a>, about the bug list and how to vote.
-    </p>
-    <br/>
-    <h3>Contribute code</h3>
-    <p>
-      Anyone who wants to contribute code or assist in any other way can contact me directly via tabmix.onemen@gmail.com.
-    </p>
-    <h3>Donate</h3>
-    <p>
-      <form class="donate-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="BZWMH5PS56GAW">
-        <label>If you're interested in keeping TMP going beyond Firefox 57, please donate.</label>
-        <input class="donate-button" title="Donate to Tab Mix Plus" type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_74x21.png"
-          border="0" name="submit" alt="Donate">
-        <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110401-1/en_US/i/scr/pixel.gif" width="1" height="1">
-      </form>
-    </p>
+  <nav class="navbar is-link is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="http://tabmixplus.org/forum/">
+        <img class="navbar-logo" src="tabmix.png" alt="Tab mix logo">
+      </a>
+    </div>
+    <div class="navbar-title">
+      <h2>Tab Mix Plus - Enhances Firefox's capabilities</h2>
+    </div>
+    <div class="navbar-menu">
+      <a class="navbar-item" href="http://tabmixplus.org/forum/">Forum</a>
+      <a class="navbar-item" href="http://tabmixplus.org/forum/viewforum.php?f=8&sid=427627fe69fc1a4f74cb5bf5441881aa/">WebExtension</a>
+    </div>
+  </nav>
+  <img class="firefox-logo" src="mozilla-firefox.svg">
+
+  <div class="main">
+    <div class="main-left">
+      <section class="hero">
+        <h1 class="title">
+           Tab Mix WebExtension
+        </h1>
+        <p>I am currently working on converting Tab Mix Plus code base to the new WebExtension format.
+          <br/> Tab mix code base holds more than 35,000 line of code in 139 files.
+        </p>
+      </section>
+      <section>
+        <h4 class="subtitle">Published WebExtension</h4>
+        <p>My plan is to create collection of WebExtensions that will eventually replace the legacy Tab Mix Plus extension.
+           Each extension in the collection contains separate set of permission and focuses mainly on one feature.</p>
+        <ul class="extensions-list">
+          <li><p><span>Tab Mix - Links</span></br>
+            contain only <a href="http://tabmixplus.org/support/viewpage.php?t=3&p=links">"Links"</a>
+            features form legacy Tab mix plus.</p>
+            <a href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus-webextension/">install</a>
+            <a href="https://bitbucket.org/onemen/tabmixplus-web-ext/src/default/">source</a>
+          </li>
+          <li><p><span>Tab Mix - Rename Tab</span></br>
+            Provides a simple interface to change tab title and option to use bookmark name as tab title</p>
+            <a href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-rename-tab/">install</a>
+            <a href="https://bitbucket.org/onemen/tabmix-rename-tab/src/default/">source</a>
+          </li>
+        </ul>
+        <h5>Planed WebExtension</h5>
+        <ul class="extensions-list compact">
+          <li><p>Tab Mix - Session Manager</p></li>
+          <li><p>Tab Mix - Auto Reload Tabs</p></li>
+          <li><p>Tab Mix - Merge Windows</p></li>
+          <li><p>Tab Mix - Tab Manager</p></li>
+        </ul>
+      </section>
+    </div>
+    <div class="main-right">
+      <section>
+        <h2>Contribute to Tab Mix Plus</h2>
+      </section>
+      <section>
+        <h4>Donate</h4>
+        <form class="donate-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="BZWMH5PS56GAW">
+          <label>If you are interested in keeping Tab Mix Plus going as WebExtension, please donate.</label>
+          <input class="donate-button" title="Donate to Tab Mix Plus" type="submit" name="submit" value="Donate">
+          <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110401-1/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+      </section>
+      <section>
+        <h4>Contribute code</h4>
+        <p>
+          Anyone who wants to contribute code or assist in any other way can contact me directly via tabmix.onemen@gmail.com.
+        </p>
+      </section>
+      <section>
+        <h4>Translate Tab Mix</h4>
+        <p>Soon...</p>
+      </section>
+      <section>
+        <h4>Vote on Mozilla</h4>
+        <p>
+          Vote on Mozilla website for APIs/bug fixes needed by Tab Mix Plus WebExtension.
+          <br/> Read
+          <a href="http://tabmixplus.org/forum/viewtopic.php?p=73159#p73159">here</a>, about how to vote for a bug in the list.
+        </p>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="icon-credit">
+        <label>
+          Firefox icon made by
+          <a href="https://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a> from
+          <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+          <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </label>
+      </div>
+    </footer>
   </div>
 </body>
-
 </html>

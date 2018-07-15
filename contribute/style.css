@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
+
+:root {
+  --blue: #3273dc;
+  --blue_hover: #2366d1;
+  --green: #26cc96;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  min-height: 65px;
+  padding: 10px;
+}
+
+.navbar.is-link {
+  background-color: var(--blue);
+  color: #fff;
+}
+
+.navbar.is-fixed-top {
+  left: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 30;
+}
+
+.navbar-title {
+	justify-self: center;
+}
+
+.navbar-title {
+	justify-self: center;
+}
+
+.navbar-menu {
+  justify-self: end;
+}
+
+.navbar-logo {
+  width: 50px;
+  padding: 5px;
+}
+
+.navbar.is-link .navbar-menu .navbar-item {
+  line-height: 1.5em;
+  padding: 0.5rem 0.75rem;
+  color: #fff;
+}
+
+a, a.navbar-item {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar.is-link .navbar-menu  a.navbar-item:hover,
+.navbar.is-link .navbar-menu .navbar-item:hover {
+  background-color: var(--blue_hover);
+  color: #fff;
+}
+
+.firefox-logo {
+  position: fixed;
+  top: 85px;
+  left: 20px;
+  z-index: -1;
+  height: 80vh;
+}
+
+.main {
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 40px;
+  margin: 85px 5% 20px;
+  line-height: 1.5em;
+}
+
+.hero p {
+  padding: 20px 0;
+}
+
+.main-left {
+  /* height - main margin top & bottom - footer height*/
+  min-height: calc(100vh - 85px - 45px - 20px);
+}
+
+.main-right {
+  display: grid;
+  max-height: 80vh;
+}
+
+section, .subtitle {
+  margin-top: 20px;
+}
+
+section a {
+ color: var(--blue);
+}
+
+section a:hover {
+ color: #083781;
+}
+
+p {
+  margin: 5px 0;
+}
+
+p strong {
+  font-weight: 500;
+}
+
+.extensions-list {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.extensions-list.compact {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.extensions-list li {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-areas: "description description";
+  line-height: 1.5em;
+  border: 1px solid #d1d5da;
+  padding: 16px;
+  border-radius: 3px;
+}
+
+.extensions-list.compact li {
+  font-size: 0.8em;
+  padding: 10px;
+}
+
+.extensions-list li p {
+  grid-area: description;
+}
+
+.extensions-list li a {
+  align-self: end;
+}
+
+.extensions-list li span {
+  font-weight: 500;
+}
+
+.donate-button {
+  border: 2px solid var(--green);
+  border-radius: 2px;
+  color: var(--green);
+  font-size: 1em;
+  padding: 4px 20px;
+}
+
+.donate-button:hover {
+  background-color: var(--green);
+  color: #fff;
+}
+
+.footer {
+  font-size: .8em;
+  padding-top: 20px;
+  min-height: 45px;
+}
