@@ -32,7 +32,7 @@ color: #FFFFFF;
 <ul>
 <li><a href="forum/" title="Forum"><span>Forum</span></a></li>
 <li><a href="support/viewtopic.php?t=2" title="Troubleshooting"><span>Troubleshooting</span></a></li>
-<li><a href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/" title="TMP @ Mozilla Update"><span>TMP @ Mozilla Update</span></a></li>
+<li><a href="https://bitbucket.org/onemen/tabmixplus/downloads/" title="Downloads"><span>Downloads</span></a></li>
 <li><a href="support/viewtopic.php?t=3" title="Help"><span>Help</span></a></li>
 <li><a href="support/viewtopic.php?t=1" title="Change Log"><span>Change Log</span></a></li>
 </ul>
@@ -58,7 +58,7 @@ color: #FFFFFF;
 <h4>&nbsp;</h4>
 <p>Visit our forum for <a href="support/viewtopic.php?t=1">Complete List of Changes and Bugs Fixed</a>.</p><br>
 <h4 align="center">
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/">
+  <a href="https://bitbucket.org/onemen/tabmixplus/downloads">
     <img src="images/download.jpg" alt="download" height="33" width="120" /><br/>
     Current Version
   </a> - (<?=$MINFRIEFOXVERSION?> - <?=$MAXFRIEFOXVERSION?>)
