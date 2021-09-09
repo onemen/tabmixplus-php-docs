@@ -7,8 +7,8 @@
   $href = "viewpage.php?t=1&p";
   $target = 'target="tabmix-changelog-content"';
 echo <<<html
-        <p><a href="$href=0.5.7.0" $target>0.5.7.0 - <span style="font-size: 0.9em;">Development version</span></a></p>
-        <p><a href="$href=0.5.7.0" $target>0.5.7.0 - <span style="font-size: 0.9em;">Current version</span></a></p>
+        <p><a href="$href=0.5.8.1" $target>0.5.8.1 - <span style="font-size: 0.9em;">Current version</span></a></p>
+        <p><a href="$href=0.5.7.0" $target>0.5.7.0</a></p>
         <p><a href="$href=0.5.6.0" $target>0.5.6.0</a></p>
         <p><a href="$href=0.5.5.0" $target>0.5.5.0</a></p>
         <p><a href="$href=0.5.0.4" $target>0.5.0.4</a></p>
