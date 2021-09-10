@@ -4,45 +4,45 @@
         <div class="topic">
           <h4>0.4.1.8pre.150607a3</h4>
           <ul>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/77403abb6ddd>77403ab</a> Can't close Firefox and can't close additional window. State.scroll.scroll can be undefined, calling setLiteral with undefined value break Tabmix.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/554a2df13820>554a2df</a> Follow up <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1066531>bug 1066531</a> - [e10s] Switching tabs can result in old content being displayed for a split second after the tab bar is updated.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/aa0fb20c21df>aa0fb20</a> Follow up <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1143038>bug 1143038</a> - Use AppConstants in tabbrowser.xml.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/94b9a6a863d3>94b9a6a</a> Follow up <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1067042>bug 1067042</a> - [e10s] Bookmarking an e10s tab results in a blank name.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/74386e442316>74386e4</a> Don't collect our session manager data when the manager disabled.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/932fbc876dd9>932fbc8</a> TabmixSessionManager.onWindowClose notifyObservers "browser-window-change-state" before the window actualy closed by sessionStore. Regressed by changeset <a href=https://bitbucket.org/onemen/tabmixplus/commits/523c7dac0d5e>523c7da</a>.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/01559b125fdc>01559b1</a> Fix referenceError: reference to undefined property browser.tabmix_allowLoad.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/763e406914eb>763e406</a> Object.prototype.__noSuchMethod__ is obsolete since Firefox 39 - part 2.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/85e2ad410dc4>85e2ad4</a> Object.prototype.__noSuchMethod__ is obsolete since Firefox 39 - part 1.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/617ea322af2a>617ea32</a> Remove obsolete function.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/ebeda5e4d3c8>ebeda5e</a> Follow up <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1113431>bug 1113431</a> - Propagate referrer policy throughout the ui.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/a8368d3b">a8368d3b</a> Can't close Firefox and can't close additional window. State.scroll.scroll can be undefined, calling setLiteral with undefined value break Tabmix.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/08031289">08031289</a> Follow up <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1066531>bug 1066531</a> - [e10s] Switching tabs can result in old content being displayed for a split second after the tab bar is updated.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/3875fed8">3875fed8</a> Follow up <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1143038>bug 1143038</a> - Use AppConstants in tabbrowser.xml.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/bdf5cb91">bdf5cb91</a> Follow up <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1067042>bug 1067042</a> - [e10s] Bookmarking an e10s tab results in a blank name.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/6eedcd9e">6eedcd9e</a> Don't collect our session manager data when the manager disabled.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/e0e752b2">e0e752b2</a> TabmixSessionManager.onWindowClose notifyObservers "browser-window-change-state" before the window actualy closed by sessionStore. Regressed by changeset <a href="https://github.com/onemen/TabMixPlus/commit/a442aa0a">a442aa0a</a>.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/2675af95">2675af95</a> Fix referenceError: reference to undefined property browser.tabmix_allowLoad.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/81c8bb30">81c8bb30</a> Object.prototype.__noSuchMethod__ is obsolete since Firefox 39 - part 2.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/a26f26d5">a26f26d5</a> Object.prototype.__noSuchMethod__ is obsolete since Firefox 39 - part 1.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/7f1700e2">7f1700e2</a> Remove obsolete function.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/b57c5585">b57c5585</a> Follow up <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1113431>bug 1113431</a> - Propagate referrer policy throughout the ui.</li>
           </ul>
         </div>
 
         <div class="topic">
           <h4>0.4.1.8pre.150317a1</h4>
           <ul>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/91a058cc0b0f>91a058c</a> Browser.contentWindow is undefined in Firefox 31.5 ESR.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/6713798b0e76>6713798</a> Invisible tab bar using Firefox 36 on Linux. Call updateTabbarBottomPosition from our scrollbox.xml\toolbar binding to avoid timing issues in Linux Ubuntu.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/74b360e14495>74b360e</a> With Walnut theme we get wrong height from Tabmix.getButtonsHeight on Firefox 36.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/07a7dc597737>07a7dc5</a> CustomizableUI.getWidgetIdsInArea throw if called too early. Using Walnut theme on Linux Ubuntu throw onWindowOpen.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/9879d9fb29bc>9879d9f</a> ContentClick.jsm exist in Firefox only from version 38.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/c662c4fa4ad2>c662c4f</a> Middle-click to open in current tab not working from 0.4.1.7, regressed by changeset <a href=https://bitbucket.org/onemen/tabmixplus/commits/1059be3d672c>1059be3</a>.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/890fcf69c6d0>890fcf6</a> New tab (about:newtab) is closing for mistakenly consider to be a blank tab open for downloading. Regressed by changeset <a href=https://bitbucket.org/onemen/tabmixplus/commits/0457eae85877>0457eae</a>.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/876eab3d">876eab3d</a> Browser.contentWindow is undefined in Firefox 31.5 ESR.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/2854587c">2854587c</a> Invisible tab bar using Firefox 36 on Linux. Call updateTabbarBottomPosition from our scrollbox.xml\toolbar binding to avoid timing issues in Linux Ubuntu.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/4326ce07">4326ce07</a> With Walnut theme we get wrong height from Tabmix.getButtonsHeight on Firefox 36.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/68b833a4">68b833a4</a> CustomizableUI.getWidgetIdsInArea throw if called too early. Using Walnut theme on Linux Ubuntu throw onWindowOpen.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/fd93d43a">fd93d43a</a> ContentClick.jsm exist in Firefox only from version 38.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/3c5980e5">3c5980e5</a> Middle-click to open in current tab not working from 0.4.1.7, regressed by changeset <a href="https://github.com/onemen/TabMixPlus/commit/14af46fe">14af46fe</a>.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/df630970">df630970</a> New tab (about:newtab) is closing for mistakenly consider to be a blank tab open for downloading. Regressed by changeset <a href="https://github.com/onemen/TabMixPlus/commit/9345830b">9345830b</a>.</li>
           </ul>
         </div>
 
         <div class="topic">
           <h4>0.4.1.8pre.150303a1</h4>
           <ul>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/5404ef73fbdd>5404ef7</a> When loading tab from bookmark and "titlefrombookmark" preference is on set its label early.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/cf1901fea57c>cf1901f</a> Update maxVersion to 39.0a1.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/1da146b07f2c>1da146b</a> Follow up <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1031264>bug 1031264</a> - &lt;a rel="noreferrer"&gt; does not work if open in new tab and <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1133201>bug 1133201</a> - part 2 - don't send referrer information when opening new windows via context menu.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/e4520c9e736f>e4520c9</a> Timestamps hyperlinks in Youtube open in new tab when "force to open in new tab" links to other sites (or all sites) is on.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/7829177ba241>7829177</a> Use Tabmix drag & drop functions when dragging tabs between windows to allow positioning of the drag indicator in case the tabbar is not in the default location.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/09d69fd0">09d69fd0</a> When loading tab from bookmark and "titlefrombookmark" preference is on set its label early.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/5eafe682">5eafe682</a> Update maxVersion to 39.0a1.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/276bb61f">276bb61f</a> Follow up <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1031264>bug 1031264</a> - &lt;a rel="noreferrer"&gt; does not work if open in new tab and <a href=https://bugzilla.mozilla.org/show_bug.cgi?id=1133201>bug 1133201</a> - part 2 - don't send referrer information when opening new windows via context menu.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/e29ace0b">e29ace0b</a> Timestamps hyperlinks in Youtube open in new tab when "force to open in new tab" links to other sites (or all sites) is on.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/52505fbe">52505fbe</a> Use Tabmix drag & drop functions when dragging tabs between windows to allow positioning of the drag indicator in case the tabbar is not in the default location.</li>
             <li>Fixed: [e10s] Stop using unsafe CPOW's.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/57d7dbd0c0fc>57d7dbd</a> RecentWindow.jsm is no longer exist in resource://app/, this bug prevents a new private window from opening.</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/5e5aaeeb2557>5e5aaee</a> Calling setItem with value of undefined should remove the attribute if exist (regressed by changeset <a href=https://bitbucket.org/onemen/tabmixplus/commits/af7e71e7349d>af7e71e</a>).</li>
-            <li>Fixed: <a href=https://bitbucket.org/onemen/tabmixplus/commits/133f3f82c825>133f3f8</a> Typo in changeset <a href=https://bitbucket.org/onemen/tabmixplus/commits/683ebd10a20f>683ebd1</a> Prevents tabs from resizing properly after tab closed by clicking on it's close button.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/6389df7b">6389df7b</a> RecentWindow.jsm is no longer exist in resource://app/, this bug prevents a new private window from opening.</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/29e5c696">29e5c696</a> Calling setItem with value of undefined should remove the attribute if exist (regressed by changeset <a href="https://github.com/onemen/TabMixPlus/commit/a5ad781b">a5ad781b</a>).</li>
+            <li>Fixed: <a href="https://github.com/onemen/TabMixPlus/commit/460b26a3">460b26a3</a> Typo in changeset <a href="https://github.com/onemen/TabMixPlus/commit/0f99e95e">0f99e95e</a> Prevents tabs from resizing properly after tab closed by clicking on it's close button.</li>
           </ul>
         </div>
 
