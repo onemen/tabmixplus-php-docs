@@ -1,8 +1,8 @@
 <?php
-  $VERSION = "0.5.8.1";
-  $DEVBUILD = "tab_mix_plus-0.5.8.1.xpi";
-  $DEVBUILDPATH = "https://github.com/onemen/TabMixPlus/releases/tab_mix_plus-0.5.8.1-fx.xpi";
-  $LATEST = "0.5.8.1";
-  $MINFRIEFOXVERSION = "45.0";
-  $MAXFRIEFOXVERSION = "56.*";
+  $VERSION = "1.0.0-pre";
+  $DEVBUILD = "tab_mix_plus-dev-build.xpi";
+  $DEVBUILDPATH = "https://github.com/onemen/TabMixPlus/releases/download/v1.0.0-pre.1/tab_mix_plus-dev-build.xpi";
+  $LATEST = "1.0.0-pre";
+  $MINFRIEFOXVERSION = "78.0";
+  $MAXFRIEFOXVERSION = "94.*";
 ?>
