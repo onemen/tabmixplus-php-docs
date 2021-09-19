@@ -68,6 +68,10 @@ li > ul:not(.square) > li {
   background-color: rgb(200, 222, 234);
 }
 
+.comment.full-width {
+  width: 100%;
+}
+
 .comment.condense {
   margin-top: 0px;
   margin-bottom: 0px;
