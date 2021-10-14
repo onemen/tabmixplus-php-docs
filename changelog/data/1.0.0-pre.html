@@ -4,6 +4,37 @@
   <h2>Versions from 1.0.0+ are for Firefox 78+ and WaterFox G3 only.</h2>
 
   <div class="topic">
+    <h3><a href="https://github.com/onemen/TabMixPlus/compare/v1.0.0-pre.2...v1.0.0-pre.3">1.0.0-pre.3</a> (2021-10-14)</h3>
+    <h4>Features</h4>
+    <ul>
+    <li>New option - add &#39;Hide the tab bar&#39; to Toolbar context menu (<a href="https://github.com/onemen/TabMixPlus/commit/479aed547a2009304255a86c0e10e73dce0e032c">479aed5</a>)</li>
+    </ul>
+    <h4>Bug Fixes</h4>
+    <ul>
+    <li>Bookmark name does not match renamed tab title (closes <a href="https://github.com/onemen/TabMixPlus/issues/87">#87</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/1236217299b3661109fb2c5113b31c44c798bb00">1236217</a>)</li>
+    <li>Open ALL links in new tab is not working (closes <a href="https://github.com/onemen/TabMixPlus/issues/80">#80</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/936dbac49fd85ba5a2f695938509373526501d7a">936dbac</a>)</li>
+    <li>Open tabs from: Address bar fails (closes <a href="https://github.com/onemen/TabMixPlus/issues/89">#89</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/e670751fc4b85102807e720c196323917ef08d39">e670751</a>)</li>
+    <li>Regression from e670751 (closes <a href="https://github.com/onemen/TabMixPlus/issues/89">#89</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/29d71e6073006a28e75be5a376ea218932890598">29d71e6</a>)</li>
+    <li>Select tab pointed for isn&#39;t working (<a href="https://github.com/onemen/TabMixPlus/commit/574da08fea740f7a4d2d7683a45c561309322f3f">574da08</a>)</li>
+    <li>Shortcut fails for Reopen last closed tab (closes <a href="https://github.com/onemen/TabMixPlus/issues/79">#79</a> ) (<a href="https://github.com/onemen/TabMixPlus/commit/592173dd9b23c89a97de26ec5a3b3a37965ffe56">592173d</a>)</li>
+    <li>TMP setting window is not readable with dark UI theme (closes <a href="https://github.com/onemen/TabMixPlus/issues/85">#85</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/6c16d05ae81f5180ecfcb130679222d36f4196e3">6c16d05</a>)</li>
+    </ul>
+    <h4>Refactor</h4>
+    <ul>
+    <li>Create our buttons directly with CustomizableUI.createWidget instead of from Overlays.jsm (<a href="https://github.com/onemen/TabMixPlus/issues/82">#82</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/ce56669ac52aae29c765f47bb0bcc1fed212fb22">ce56669</a>)</li>
+    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1730953">bug 1730953</a> - Migrate strings from browser.dtd to Fluent and remove file (<a href="https://github.com/onemen/TabMixPlus/commit/20afb97ac754ab98408cc1a5faf80f49dfc6c5cc">20afb97</a>)</li>
+    </ul>
+    <h4>Maintenance</h4>
+    <ul>
+    <li>OS.File is deprecated. You should use IOUtils instead (<a href="https://github.com/onemen/TabMixPlus/commit/15c7dea7079a40d2176ba7135133d4fc2c8297ed">15c7dea</a>)</li>
+    <li>Unpublished release version 1.0.0-pre.3 (<a href="https://github.com/onemen/TabMixPlus/commit/df59d7c594adbfd3117b3e169ea3d28facf23d72">df59d7c</a>)</li>
+    <li>Update Japanese locale files (<a href="https://github.com/kiki-ja">@kiki-ja</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/137e6e02982349f0199824c3f936586fca03ec12">137e6e0</a>)</li>
+    <li>Update locales (closes <a href="https://github.com/onemen/TabMixPlus/issues/91">#91</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/1e637a88440df26cc63299ff13df491c634be0a2">1e637a8</a>)</li>
+    <li>Update regexp for debug mode (<a href="https://github.com/onemen/TabMixPlus/commit/919f6d6b96f3d0af3fe91c79a341f12ea9e23d44">919f6d6</a>)</li>
+    </ul>
+</div>
+
+<div class="topic">
     <h3><a href="https://github.com/onemen/TabMixPlus/compare/v1.0.0-pre.1...v1.0.0-pre.2">1.0.0-pre.2</a> (2021-09-24)</h3>
     <h4>Bug Fixes</h4>
     <ul>
