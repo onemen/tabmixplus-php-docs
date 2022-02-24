@@ -7,8 +7,8 @@
 
 ### This repository holds the contents for these pages:
 
-- [Help](http://tabmixplus.org/support/viewtopic.php?t=3)
+- [Help](https://tabmixplus.org/support/viewtopic.php?t=3)
 
-- [Troubleshooting](http://tabmixplus.org/support/viewtopic.php?t=2)
+- [Troubleshooting](https://tabmixplus.org/support/viewtopic.php?t=2)
 
-- [Change Log](http://tabmixplus.org/support/viewtopic.php?t=1)
+- [Change Log](https://tabmixplus.org/support/viewtopic.php?t=1)
