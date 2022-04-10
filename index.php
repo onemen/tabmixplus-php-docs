@@ -1,11 +1,16 @@
 <?php
-  include("support/common/version_data.php");
+  if (str_ends_with(getcwd(), "support")) {
+    include("common/version_data.php");
+  } else {
+    include("support/common/version_data.php");
+  }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Tab Mix Plus</title>
 
 <meta http-equiv="Content-Language" content="English" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<base href="https://tabmixplus.org/">
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 <link rel="stylesheet" href="dolphin.css" type="text/css" />
 <style type="text/css">
