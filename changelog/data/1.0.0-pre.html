@@ -4,6 +4,32 @@
   <h2>Versions from 1.0.0+ are for Firefox 78+ and WaterFox G3 only.</h2>
 
   <div class="topic">
+    <h3><a href="https://github.com/onemen/TabMixPlus/compare/v1.0.0-pre.10...v1.0.0">1.0.0</a> (2022-10-01)</h3>
+    <h3><a href="https://github.com/onemen/TabMixPlus/compare/v1.0.0-pre.9...v1.0.0-pre.10">1.0.0-pre.10</a> (2022-10-01)</h3>
+    <h4>Bug Fixes</h4>
+    <ul>
+    <li>Add missing blur event listener for gUrlbar (closes <a href="https://github.com/onemen/TabMixPlus/issues/157">#157</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/361252b7fb6b4522639bff2693e9cc31960314fe">361252b</a>)</li>
+    <li>GetModulesMap should be called only once (<a href="https://github.com/onemen/TabMixPlus/commit/ecbc8f74cf89bedc5500b0dccb360d53f3bc41cc">ecbc8f7</a>)</li>
+    </ul>
+    <h4>Maintenance</h4>
+    <ul>
+    <li>Add Eslint rule to alert on using ES modules (.sys.mjs) (<a href="https://github.com/onemen/TabMixPlus/commit/7b2cde83ea7e5393d43e9f1157aae4cfcb228d08">7b2cde8</a>)</li>
+    <li>Cleanup use-mjs-modules.js (<a href="https://github.com/onemen/TabMixPlus/commit/410d96b4b73614379d69cd245f3aed4b537b6097">410d96b</a>)</li>
+    <li>Eslint update (<a href="https://github.com/onemen/TabMixPlus/commit/c02b2da81e99f4afab38ef76f94850e84c5287a7">c02b2da</a>)</li>
+    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1667455">bug 1667455</a> - Expose a Services property on all privileged JS scopes (<a href="https://github.com/onemen/TabMixPlus/commit/2d6f96692ec74cb62fdf6d6c18d2ee0c86afc515">2d6f966</a>)</li>
+    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1771831">bug 1771831</a> - Make &quot;List all tabs&quot; item drag-reorder-able (<a href="https://github.com/onemen/TabMixPlus/commit/5e5edf0e1bf8a68750a8abe151b86f10e2486f77">5e5edf0</a>)</li>
+    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1777486">bug 1777486</a> - Migrate XPCOMUtils.jsm (<a href="https://github.com/onemen/TabMixPlus/commit/fb8448e86b18842430cdd6cfe7bc14f3e0aa5431">fb8448e</a>)</li>
+    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1779621">bug 1779621</a> - Migrate intl/locale from jsm to esm (<a href="https://github.com/onemen/TabMixPlus/commit/7d1645b4fec268da1760c2faec7c71be76000a94">7d1645b</a>)</li>
+    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1779982">bug 1779982</a> - Migrate places from ChromeUtils.import to ES6 Modules (<a href="https://github.com/onemen/TabMixPlus/commit/62325892f497ce97302b4f4770ad54c147513979">6232589</a>)</li>
+    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1780543">bug 1780543</a> - Audit eslint-env mozilla/frame-script consumer (<a href="https://github.com/onemen/TabMixPlus/commit/ea7b30c6589dffa8521f17bd041b10b962ec2f95">ea7b30c</a>)</li>
+    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1784882">bug 1784882</a> - Drop MozDialog help button (<a href="https://github.com/onemen/TabMixPlus/commit/c53a2d6ba55e41790376cc6c73f14b2c166497c9">c53a2d6</a>)</li>
+    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1784891">bug 1784891</a> - Consolidate document font-size set by common-shared.css (<a href="https://github.com/onemen/TabMixPlus/commit/3b604c6ffb8a4711465ae7c5ff8e5c302ba147be">3b604c6</a>)</li>
+    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1792365">bug 1792365</a> - Migrate some of toolkit/modules to ES Modules (<a href="https://github.com/onemen/TabMixPlus/commit/91f0d6d599988adccfd7a6a1fbc63bd25eaac1f0">91f0d6d</a>)</li>
+    <li>Report Eslint error on ChromeUtils.jsm when modulesMap is missing some .sys.mjs files (<a href="https://github.com/onemen/TabMixPlus/commit/d67ed262eb51c51deb02a6cf9bd83697495a4f18">d67ed26</a>)</li>
+    </ul>
+</div>
+
+<div class="topic">
     <h3><a href="https://github.com/onemen/TabMixPlus/compare/v1.0.0-pre.9...v1.0.0">1.0.0</a> (2022-07-17)</h3>
     <h3><a href="https://github.com/onemen/TabMixPlus/compare/v1.0.0-pre.8...v1.0.0-pre.9">1.0.0-pre.9</a> (2022-07-17)</h3>
     <h4>Bug Fixes</h4>
