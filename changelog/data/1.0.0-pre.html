@@ -8,56 +8,15 @@
     <h3><a href="https://github.com/onemen/TabMixPlus/compare/v1.0.0-pre.14...v1.0.0-pre.15">1.0.0-pre.15</a> (2023-05-11)</h3>
     <h4>Bug Fixes</h4>
     <ul>
-    <li>&quot;Share&quot; Tab Context Menu item displayed even when unchecked (closes # 220) (<a href="https://github.com/onemen/TabMixPlus/commit/519882349def3d09c7489cb6eaca74e0c72a447c">5198823</a>)</li>
+    <li>&quot;Share&quot; Tab Context Menu item displayed even when unchecked (closes <a href="https://github.com/onemen/TabMixPlus/issues/220">#220</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/519882349def3d09c7489cb6eaca74e0c72a447c">5198823</a>)</li>
     <li>Rapid flickering of tabs when using multiple rows (closes <a href="https://github.com/onemen/TabMixPlus/issues/217">#217</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/e8c5083918a5c1792b424f9bab9fbc62200a8a8a">e8c5083</a>)</li>
-    <li>Regression from commit 966bfbc, &#39;Customize Styles&#39; dialogs &#39;Hide RGB&#39; stop working (<a href="https://github.com/onemen/TabMixPlus/commit/46be8f05c77fc9b762b63fcccf05d3ed3fc2c830">46be8f0</a>)</li>
+    <li>Regression from commit <a href="https://github.com/onemen/TabMixPlus/commit/966bfbc3679f40fff4be37dd6440b7e8daeb36c4">966bfbc</a>, &#39;Customize Styles&#39; dialogs &#39;Hide RGB&#39; stop working (<a href="https://github.com/onemen/TabMixPlus/commit/46be8f05c77fc9b762b63fcccf05d3ed3fc2c830">46be8f0</a>)</li>
     <li>Tab width when &#39;tab width fits to tab width&#39; option is disabled (closes: <a href="https://github.com/onemen/TabMixPlus/issues/215">#215</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/9f6b91205c3f5f2c19516e283a3ab381c7f14088">9f6b912</a>)</li>
     </ul>
     <h4>Maintenance</h4>
     <ul>
     <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1690390">bug 1690390</a> - Add telemetry to track when a notification bar is shown (<a href="https://github.com/onemen/TabMixPlus/commit/1d416c3199266e1dc8763379c2c7fcb5d51bb03d">1d416c3</a>)</li>
     <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1820878">bug 1820878</a> - Convert toolkit/mozapps/downloads to ES modules (<a href="https://github.com/onemen/TabMixPlus/commit/898785aa08dce55ac9ac21f82d681ec993d91702">898785a</a>)</li>
-    </ul>
-</div>
-
-<div class="topic">
-    <h3><a href="https://github.com/onemen/TabMixPlus/compare/v1.0.0-pre.14...v1.0.0">1.0.0</a> (2023-03-14)</h3>
-    <h3><a href="https://github.com/onemen/TabMixPlus/compare/v1.0.0-pre.13...v1.0.0-pre.14">1.0.0-pre.14</a> (2023-03-14)</h3>
-    <h4>Features</h4>
-    <ul>
-    <li>Show item&#39;s uri in the status bar from our closed tabs and windows popup (<a href="https://github.com/onemen/TabMixPlus/commit/d5fe483b0f16e69ae255059d90ab6bf546290b43">d5fe483</a>)</li>
-    </ul>
-    <h4>Bug Fixes</h4>
-    <ul>
-    <li>Content cutoff for &#39;File Type Editor&#39; and &#39;Customize Styles&#39; dialogs (<a href="https://github.com/onemen/TabMixPlus/commit/966bfbc3679f40fff4be37dd6440b7e8daeb36c4">966bfbc</a>)</li>
-    <li>Missing selectedTabIndex preference for selected pane (<a href="https://github.com/onemen/TabMixPlus/commit/5fc01aff030a29dd733f1601d3ab38ec645a593b">5fc01af</a>)</li>
-    <li>Our scrollbox buttons &#39;on right side&#39; are missing when Firefox starts in overflow state (<a href="https://github.com/onemen/TabMixPlus/commit/78385a88ff020debf86254ebc8bbe8bb24e239f8">78385a8</a>)</li>
-    <li>Overflow indicator position when both scroll buttons are on the right side (<a href="https://github.com/onemen/TabMixPlus/commit/c8a0317955cfa26c7d5b8fb717c1439dd46cc9dc">c8a0317</a>)</li>
-    <li>Partly fix - pending tabs opened from bookmarks restores from cache (<a href="https://github.com/onemen/TabMixPlus/issues/184">#184</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/13a6dde86cbc740e8b3ebe5103e7efa1c3b3bf95">13a6dde</a>)</li>
-    <li>Preferences window content cutoff for some non-English languages (closes <a href="https://github.com/onemen/TabMixPlus/issues/213">#213</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/38cff0d53631eaa4fdff374eab48bf104a2a6fbf">38cff0d</a>)</li>
-    <li>Regression from commit f70e4b9, dropped link open new tab (<a href="https://github.com/onemen/TabMixPlus/commit/5a500225787ddb2e6fa0a91a9949e4ecbf58c98d">5a50022</a>)</li>
-    <li>Wrong tab title when we replace last tab with &#39;about:newtab&#39; (<a href="https://github.com/onemen/TabMixPlus/commit/301365fb545f652f359f740d62e72130fb586749">301365f</a>)</li>
-    </ul>
-    <h4>Refactor</h4>
-    <ul>
-    <li>Simplify our openLinkIn wrapper after <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1817443">bug 1817443</a> landed (<a href="https://github.com/onemen/TabMixPlus/commit/cfe3d2de128a5519eac99d31b89589f9d5016278">cfe3d2d</a>)</li>
-    <li>Update _notifyBackgroundTab function - light up right scroll button when new tab open out of view (closes <a href="https://github.com/onemen/TabMixPlus/issues/210">#210</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/4a82226146196b65f79a01358b85b21a4e355212">4a82226</a>)</li>
-    </ul>
-    <h4>Style</h4>
-    <ul>
-    <li>Replace up arrow in preferences button (<a href="https://github.com/onemen/TabMixPlus/commit/f1cbf80cf725d6e172293ec27eddb2f078b3d554">f1cbf80</a>)</li>
-    </ul>
-    <h4>Maintenance</h4>
-    <ul>
-    <li>Add lint-staged and commitlint (<a href="https://github.com/onemen/TabMixPlus/commit/c4752a5f46c4be78f1b3bcd0ef5ce5c14d224312">c4752a5</a>)</li>
-    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1805694">bug 1805694</a> - Simplify menulist popup layout (<a href="https://github.com/onemen/TabMixPlus/commit/0e82f0ce05801af4518eb6ff86cf5c79f487e8c4">0e82f0c</a>)</li>
-    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1808787">bug 1808787</a> - Optimize drag-and-drop into tabbar with lots of tabs (<a href="https://github.com/onemen/TabMixPlus/commit/f70e4b9f049a16a14531fc008ed33ec2697bb6af">f70e4b9</a>)</li>
-    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1810141">bug 1810141</a> - Loading URIs should be done with URI objects by default (<a href="https://github.com/onemen/TabMixPlus/commit/79e762564701c978e452449cbef19eeda301cdae">79e7625</a>)</li>
-    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1816472">bug 1816472</a> - Try to remove setters for individual window size / position properties (<a href="https://github.com/onemen/TabMixPlus/commit/4ed5ae0b1aee7ee8827f463263fea6fec5f0fcd1">4ed5ae0</a>)</li>
-    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1817071">bug 1817071</a> - Remove -moz-image-region (closes <a href="https://github.com/onemen/TabMixPlus/issues/211">#211</a>) (<a href="https://github.com/onemen/TabMixPlus/commit/b00dc5e7bad6152ec5530db0954ffd3cdc9cd419">b00dc5e</a>)</li>
-    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1817443">bug 1817443</a> - Move open<em>Link</em> and friends into a module instead of utilityOverlay.js (<a href="https://github.com/onemen/TabMixPlus/commit/cf512a795b7ec384fd40eff9e27ff541e62980e2">cf512a7</a>)</li>
-    <li>Follow up <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1820534">bug 1820534</a> - Move front-end to modern flexbox (<a href="https://github.com/onemen/TabMixPlus/commit/485b86ad5f21176bd3992dc80efed23d764a1163">485b86a</a>)</li>
-    <li>Update isVersion function to support LibreWolf (<a href="https://github.com/onemen/TabMixPlus/commit/70cd078104e3ae941128ac6b25d0c3af9fb29c1f">70cd078</a>)</li>
     </ul>
 </div>
 
